@@ -3,11 +3,13 @@ name: tests
 on:
   workflow_dispatch:
   push:
-    branches: [ "alpha" ]
+    branches:
+      - '*'
     tags:
       - '*'
   pull_request:
-    branches: [ "alpha" ]
+    branches:
+      - '*'
 
 jobs:
   tests:
