@@ -1,8 +1,8 @@
 # Eternal Sound Metadata Patcher
 
 ![license](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
-![build workflow](https://github.com/o-dey/net-test/actions/workflows/build.yml/badge.svg)
-![tests workflow](https://github.com/o-dey/net-test/actions/workflows/tests.yml/badge.svg)
+![build workflow](https://github.com/o-dey/EternalSoundMetadataPatcher/actions/workflows/build.yml/badge.svg)
+![tests workflow](https://github.com/o-dey/EternalSoundMetadataPatcher/actions/workflows/tests.yml/badge.svg)
 
 Eternal Sound Metadata Patcher is a small helper utility that makes it possible to have "unlimited", freely customizable
 sounds in your idStudio based DOOM Eternal mods.
@@ -17,7 +17,7 @@ for DOOM Eternal.
 
 ## Download
 
-You can [get the latest release here](https://github.com/o-dey/net-test/releases/latest).
+You can [get the latest release here](https://github.com/o-dey/EternalSoundMetadataPatcher/releases/latest).
 
 ## How to use
 
