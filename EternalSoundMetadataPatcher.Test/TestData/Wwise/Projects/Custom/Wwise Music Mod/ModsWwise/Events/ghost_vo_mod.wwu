@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{22E6D92B-69F1-42E6-958B-9BA899648253}" SchemaVersion="97" RootDocumentID="{E1C7CF01-7EBA-4BE9-84E4-9DE2649528A9}">
+	<Events>
+		<WorkUnit Name="ghost_vo_mod" ID="{22E6D92B-69F1-42E6-958B-9BA899648253}" OwnerID="{928C1F0B-AB6F-4935-B30B-1449113886BE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_vo_4TH_PRIEST__Look_who_it_is" ID="{0B3B1632-67B9-4D14-844C-FE9496F2F1A1}">
+					<ChildrenList>
+						<Action Name="" ID="{DB05BD73-599A-4F25-B4C7-536B509178C7}" ShortID="509414251">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_4TH_PRIEST__Look_who_it_is" ID="{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_vo_4TH_PRIEST__Look_who_it_is" ID="{937547C3-3AEC-44F1-BA63-E5C5296E0F7F}">
+					<ChildrenList>
+						<Action Name="" ID="{9E8BD2F6-7F5D-4E38-8D51-17761D2B8011}" ShortID="1052521758">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_4TH_PRIEST__Look_who_it_is" ID="{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_vo_4TH_PRIEST__Here_to_lecture_us" ID="{50056285-754A-437B-BC59-E30A874BE564}">
+					<ChildrenList>
+						<Action Name="" ID="{6BD800CE-B97B-445C-AA59-D5FDAB267CE7}" ShortID="886088059">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_4TH_PRIEST__Here_to_lecture_us" ID="{4C5071DC-8262-4EE1-A9EA-BC99AA5FD19A}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D296CB3F-AD96-447B-9176-1582196D4B77}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{D296CB3F-AD96-447B-9176-1582196D4B77}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{6CD68820-CFCD-425B-9351-D0D840F5BCEC}" WorkUnitID="{8599BB74-68F5-4B46-9040-99EEB67A9E16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="music" ID="{7FFBDF96-8860-4BDF-A9D7-822C3675DECB}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-11.5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="music_combat" ID="{09672D15-EDC0-43DA-8960-98EF0D92C6E5}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="sfx" ID="{41506F0D-6265-46E3-9CCA-330339F07039}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="music_ghost_states" ID="{EDB127C0-306F-41B2-9FF7-F310D82F189D}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="pvp_lobby_player_ready" ID="{FE6D2945-48FF-408E-9DC1-BE89F9AC23B2}"/>
+										<CustomState Name="" ID="{9EB7B6B9-EB20-4F9D-B209-ED57C19F3E2E}" ShortID="828391591"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="boss_phase1" ID="{C1ED8FEE-0ABC-421C-9FA8-32CF3430DB49}"/>
+										<CustomState Name="" ID="{A13FA181-5D75-4D7E-928D-F49D7868A560}" ShortID="978621308"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="tutorial" ID="{570502F7-D9C6-429D-AA14-1A95B8001070}"/>
+										<CustomState Name="" ID="{97C2A45B-6140-4972-A6E9-053A563BBC44}" ShortID="297130794"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="level_marscore_baron" ID="{AFE22F99-54B0-42B8-90BA-5E214ACC60C4}"/>
+										<CustomState Name="" ID="{97715DA5-CE76-4E63-9C49-48A5C5181D2B}" ShortID="265075935"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="escape_pod" ID="{B11D92E4-5E83-4321-A429-1848D05170FA}"/>
+										<CustomState Name="" ID="{37DA27F2-C59C-41A5-8DC9-78E26A820EB6}" ShortID="204894260"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="boss_phase2" ID="{78D16B9C-4CD0-43B4-ABB5-E955610B9A6D}"/>
+										<CustomState Name="" ID="{2D056E0C-76A9-44CE-9FE3-85C7088B817A}" ShortID="573174699"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cine_boss_intro" ID="{E965B221-C7A5-43E1-A922-AB9D58F97CA8}"/>
+										<CustomState Name="" ID="{D17B6EED-4335-4431-9C38-87EE20AADB09}" ShortID="669022989"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="additional_reveal" ID="{0D478D08-BDC2-440A-8436-1D7400A51F82}"/>
+										<CustomState Name="" ID="{3E38E0F3-271F-4A62-BC0D-2F220BC1092A}" ShortID="594987292"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="alt_ambient" ID="{96D0EA8C-230B-4411-9FC5-6AA1B880B8A6}"/>
+										<CustomState Name="" ID="{DFF2FDB1-5C42-44AF-A727-034F77B0FD7A}" ShortID="241575768"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="stinger" ID="{C9144960-6E90-4479-ABDE-EFF05CA94C37}"/>
+										<CustomState Name="" ID="{1D080E7E-FD8B-4B59-AEDE-59940210CC8F}" ShortID="986827516"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="boss_phase3" ID="{5D533A99-EDD0-44C0-96FD-BC942A25D3C5}"/>
+										<CustomState Name="" ID="{E41B7B0A-1CE2-4D17-BE71-2B24109AD7C2}" ShortID="710098040"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cine_4" ID="{54516C8C-A9C8-4547-9E7F-C6FE75FF4F77}"/>
+										<CustomState Name="" ID="{918518B7-55D7-4949-9E4C-2B41CA31F748}" ShortID="320530438"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="main_light" ID="{4AD015A1-3154-458A-B041-7309476B6AA3}"/>
+										<CustomState Name="" ID="{01AA7EAA-B863-47C2-887F-387DF945A489}" ShortID="446281811"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="credits_end" ID="{8BCCA1DF-2B03-459F-9440-B45E456C2F9E}"/>
+										<CustomState Name="" ID="{18E2B6DD-D98E-4E95-8A6A-19DA47E23615}" ShortID="722497519"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="eol" ID="{9810AACF-FD8D-45F2-9685-97E3CDF60AD9}"/>
+										<CustomState Name="" ID="{88030B8F-08FC-4346-A32A-1D2A4777F83D}" ShortID="655243223"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cine_1" ID="{F8FCD381-12D1-463A-9ED4-55B87E830349}"/>
+										<CustomState Name="" ID="{08A77C62-710B-4BD5-B2B5-DFB06C430BA3}" ShortID="1048489514"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="main_ambient" ID="{C0417E5B-68BC-47B3-87BC-DE3FBABB4BA2}"/>
+										<CustomState Name="" ID="{62020CD8-7C43-409F-A6BC-D6DF4A699BF7}" ShortID="158854202"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pvp_sudden_death" ID="{76029ED0-2CC4-47B6-B27B-1A53C3C19F42}"/>
+										<CustomState Name="" ID="{79E2D276-D28D-47B8-B733-9A1025F939F7}" ShortID="994326794"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cine_5" ID="{F0D37CA9-6235-4850-AB08-9A9463F3CA1D}"/>
+										<CustomState Name="" ID="{7C34B7D7-54E4-44EC-9456-0483C161DF2B}" ShortID="830168393"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cine_2" ID="{A62818AB-ACB9-4893-BE0F-D30DD85E7A64}"/>
+										<CustomState Name="" ID="{CD42A31D-4C10-4258-A768-E7490A778171}" ShortID="263557354"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pvp_lobby_end" ID="{D441BB3B-C9C2-48A2-8560-04B34565693E}"/>
+										<CustomState Name="" ID="{BE8BB9EB-F1F8-484F-8754-7D0C696F7422}" ShortID="778016477"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="level_marscore_obdeck_elevator" ID="{D93C856A-B0FD-48AC-AF11-92A60B6D3B89}"/>
+										<CustomState Name="" ID="{966C6F66-8132-4C89-85F2-00D8BF2415FA}" ShortID="359387526"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cine_3" ID="{F8C604E9-9FDB-48CD-932A-AD57F4C870B0}"/>
+										<CustomState Name="" ID="{D442445E-26B2-4D57-9FA3-962B2E4A3C88}" ShortID="172513609"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cine_boss_end" ID="{D1796ADA-FAA4-4A63-BCAE-0B74FAA1BFDA}"/>
+										<CustomState Name="" ID="{E9793204-07DE-4D5D-B751-D8D31983B33D}" ShortID="930548091"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="level_marscore_obdeck_start" ID="{AC2063CE-2790-4AE9-8401-7623AF1634D4}"/>
+										<CustomState Name="" ID="{3A33D9BD-1FEE-4CBF-B362-5167FBFE0FE4}" ShortID="194315371"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="boss_end" ID="{CE0946B9-70E3-4B45-92B5-283B6941B065}"/>
+										<CustomState Name="" ID="{B0D603E3-93CA-4F2C-AB27-D17A0336527C}" ShortID="428172980"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="credits_start" ID="{FA4DA76E-91F1-4C22-BD30-5AEEF955C4E1}"/>
+										<CustomState Name="" ID="{7EE9AA21-BCCA-45D2-9A99-DC4B7F06DE37}" ShortID="32032823"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="main_heavy" ID="{EFCF6C1A-D413-4C8E-9EE2-04B85A27A930}"/>
+										<CustomState Name="" ID="{683841A2-4D44-4BD4-8CC2-382440E7F077}" ShortID="689494595"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pvp_win" ID="{DFBDCAB8-F73F-4CC3-9ADF-817CD42D230C}"/>
+										<CustomState Name="" ID="{54771C41-5EBA-4676-8D07-5123689E4841}" ShortID="774894682">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="84"/>
+												<Property Name="Volume" Type="Real64" Value="-24"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pvp_lose_round" ID="{12D7D911-B064-4CE0-86AC-DDDA8D29699E}"/>
+										<CustomState Name="" ID="{EBDB3E50-59AE-4004-8DED-25AA95B1CDAE}" ShortID="917221036">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="52"/>
+												<Property Name="Volume" Type="Real64" Value="-11"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="additional_levelstart" ID="{498B8FDD-3D7B-4D4F-8A0B-FAC052E5EFEE}"/>
+										<CustomState Name="" ID="{F974ED26-EE2B-41AF-B73C-4ED3E0A65526}" ShortID="606013282"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="level_marscore_painelemental" ID="{96D342C7-1C73-4E08-943F-359FA80CEF3C}"/>
+										<CustomState Name="" ID="{6B7FCE8F-D3DB-42E9-80DF-C920F1FFD5F0}" ShortID="463843087"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="alt_light" ID="{2B9AA5E2-DCB0-4E2F-9152-BA9FD28CC38A}"/>
+										<CustomState Name="" ID="{4CB6FAC0-7A30-450E-8CA5-A13F46F6CFE5}" ShortID="1002515342"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="boss_vulnerable" ID="{8350FDF5-FDE5-4F32-807B-9223D1DC93F4}"/>
+										<CustomState Name="" ID="{6410B3F4-5125-4C46-959D-38CF7851833F}" ShortID="444154864"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cine_6" ID="{93CEB39A-86AF-4F36-81A3-3E3CCBC8741C}"/>
+										<CustomState Name="" ID="{E6E80A02-6158-447C-BE39-E55B1925CFEB}" ShortID="112723898"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pvp_lose" ID="{2EB99C1F-31D4-4F48-BE44-1E3FFF998721}"/>
+										<CustomState Name="" ID="{5C9704B9-67C8-4E4C-9A96-F8A9FA049B06}" ShortID="100939446">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="71"/>
+												<Property Name="Volume" Type="Real64" Value="-24"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="alt_heavy" ID="{35D7F771-E799-4F68-90C1-2A2DA51A9E8A}"/>
+										<CustomState Name="" ID="{41F25F34-275D-4100-881B-6770BEB0D032}" ShortID="421403598"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pvp_win_round" ID="{506E7FA5-C3CD-4FC1-B949-BF0C45D628CC}"/>
+										<CustomState Name="" ID="{64BA3999-0062-4CD3-9831-1EE2DD9DC7E3}" ShortID="379413884">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="62"/>
+												<Property Name="Volume" Type="Real64" Value="-11"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pvp_lobby" ID="{E51F7E7D-A67B-4FEE-856C-8444834B045D}"/>
+										<CustomState Name="" ID="{0D8EE890-A7AA-433A-B55A-C2F356CB0466}" ShortID="587792710"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="music_stinger" ID="{4E29795E-9C92-443A-A706-2053EDE6A078}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="BusVolume"/>
+							<Property Name="BypassEffect0"/>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="Pitch"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+					</StateInfo>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6B794A2-BF8E-4EBC-937E-A73A7A0C4095}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{C6B794A2-BF8E-4EBC-937E-A73A7A0C4095}" PersistMode="Standalone">
+			<Comment>music should be set to streamed and non-cachable across the board</Comment>
+			<ChildrenList>
+				<WorkUnit Name="music_ghost" ID="{38976B0E-8597-433F-90BE-3E71F1741B29}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

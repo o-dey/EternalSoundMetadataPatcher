@@ -1,0 +1,34 @@
+name: tests
+
+on:
+  push:
+    branches: [ "alpha" ]
+    tags:
+      - '*'
+  pull_request:
+    branches: [ "alpha" ]
+
+jobs:
+  tests:
+    runs-on: windows-2022
+
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Setup msbuild
+      uses: microsoft/setup-msbuild@v3
+      
+    - name: Setup nuget
+      uses: nuget/setup-nuget@v4
+
+    - name: Restore packages
+      run: nuget restore "EternalSoundMetadataPatcher.sln"
+
+    - name: Build tests
+      run: msbuild "EternalSoundMetadataPatcher.Test\EternalSoundMetadataPatcher.Test.csproj" -t:rebuild -verbosity:diag -property:Configuration=Release
+    
+    - name: Run tests
+      run: dotnet test -v n "EternalSoundMetadataPatcher.Test\bin\Release\EternalSoundMetadataPatcher.Test.dll"
+    
+    - name: Build app
+      run: msbuild "EternalSoundMetadataPatcher\EternalSoundMetadataPatcher.csproj" -t:rebuild -verbosity:diag -property:Configuration=Release

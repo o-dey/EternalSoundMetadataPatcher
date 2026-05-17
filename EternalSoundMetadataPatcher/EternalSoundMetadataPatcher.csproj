@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9EBB97B8-7FC4-4ABB-B2C0-DCB2EDE29446}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>EternalSoundMetadataPatcher</RootNamespace>
+    <AssemblyName>EternalSoundMetadataPatcher</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audio\Exceptions.cs" />
+    <Compile Include="Backups\RotateBackupStrategy.cs" />
+    <Compile Include="Backups\IBackupStrategy.cs" />
+    <Compile Include="Backups\LinearBackupStrategy.cs" />
+    <Compile Include="ConsoleIO\OutputLevel.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="ConsoleIO\Output.cs" />
+    <Compile Include="Metadata\Exceptions.cs" />
+    <Compile Include="Metadata\SoundEvent.cs" />
+    <Compile Include="Metadata\SoundMetadata.cs" />
+    <Compile Include="Audio\WavInfo.cs" />
+    <Compile Include="Patching\Patcher.cs" />
+    <Compile Include="Wwise\AudioFile.cs" />
+    <Compile Include="Wwise\Structure\Audio\AudioObject.cs" />
+    <Compile Include="Wwise\Structure\Audio\AudioSource.cs" />
+    <Compile Include="Wwise\Structure\Audio\EmbeddedAudioSource.cs" />
+    <Compile Include="Wwise\Structure\Audio\ExternalAudioSource.cs" />
+    <Compile Include="Wwise\Structure\Events\EventObject.cs" />
+    <Compile Include="Wwise\Structure\Events\EventType.cs" />
+    <Compile Include="Wwise\Generated\ExternalSource.cs" />
+    <Compile Include="Wwise\Generated\MediaFile.cs" />
+    <Compile Include="Wwise\Generated\SoundbanksInfo.cs" />
+    <Compile Include="Wwise\WwiseProject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

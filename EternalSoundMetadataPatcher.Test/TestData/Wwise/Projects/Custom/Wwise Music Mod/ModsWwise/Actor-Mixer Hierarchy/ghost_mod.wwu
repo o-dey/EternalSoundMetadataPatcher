@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}" SchemaVersion="97" RootDocumentID="{46BED060-196F-4A96-A1C1-FA6D56E476E0}">
+	<AudioObjects>
+		<WorkUnit Name="ghost_mod" ID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}" OwnerID="{46BED060-196F-4A96-A1C1-FA6D56E476E0}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="mod_generic" ID="{074234A4-0367-471E-89CF-D199FD5477F1}" ShortID="526550760">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+								<Conversion Name="Default Conversion Settings (Custom)" ID="{F5A0A696-CD0C-4FD0-975A-DAD2B2091965}">
+									<Comment>note: nothing should use this</Comment>
+									<PropertyList>
+										<Property Name="Channels" Type="int32">
+											<ValueList>
+												<Value Platform="Windows">4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="LRMix" Type="Real64">
+											<ValueList>
+												<Value Platform="Windows">0</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSampleRate" Type="int32">
+											<ValueList>
+												<Value Platform="Windows">48000</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MinSampleRate" Type="int32">
+											<ValueList>
+												<Value Platform="Windows">48000</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RemoveDCOffset" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="SRConversionQuality" Type="int32">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="SampleRate" Type="int32">
+											<ValueList>
+												<Value Platform="Windows">0</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ConversionPluginInfoList>
+										<ConversionPluginInfo Platform="Windows">
+											<ConversionPlugin Name="" ID="{B4C89F02-0E66-4816-92BD-DF34D1FD0108}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+										</ConversionPluginInfo>
+									</ConversionPluginInfoList>
+								</Conversion>
+							</Custom>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="sfx" ID="{41506F0D-6265-46E3-9CCA-330339F07039}" WorkUnitID="{D296CB3F-AD96-447B-9176-1582196D4B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="generic1" ID="{43BA1D2D-5DBD-4B73-B506-03C416E7F0CF}" ShortID="145167507">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+										<Conversion Name="Default Conversion Settings (Custom)" ID="{56ACA578-7BCD-4AB5-87EC-EF5DB62D3980}">
+											<Comment>note: nothing should use this</Comment>
+											<PropertyList>
+												<Property Name="Channels" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="LRMix" Type="Real64">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxSampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">48000</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MinSampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">48000</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RemoveDCOffset" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SRConversionQuality" Type="int32">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ConversionPluginInfoList>
+												<ConversionPluginInfo Platform="Windows">
+													<ConversionPlugin Name="" ID="{8A9A11B4-1058-400D-959F-9F0C81AF8E69}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+												</ConversionPluginInfo>
+											</ConversionPluginInfoList>
+										</Conversion>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="sfx" ID="{41506F0D-6265-46E3-9CCA-330339F07039}" WorkUnitID="{D296CB3F-AD96-447B-9176-1582196D4B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ExternalSource Name="generic1" ID="{32A8900D-BD90-4F55-9568-463D4EF18545}">
+									<Language>SFX</Language>
+								</ExternalSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="generic1" ID="{32A8900D-BD90-4F55-9568-463D4EF18545}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="generic2" ID="{F75B1E9A-7E0F-40B1-A6D3-901BF025B869}" ShortID="486397936">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="streamed_sfx_opus_normal_quality" ID="{90D64CCE-FEE4-4AF1-ACD5-243AE3234303}" WorkUnitID="{A88ED9FB-63CE-4F19-80AD-13C8850DE0C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="sfx" ID="{41506F0D-6265-46E3-9CCA-330339F07039}" WorkUnitID="{D296CB3F-AD96-447B-9176-1582196D4B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ExternalSource Name="generic2" ID="{B9572153-EAA0-4229-AB0E-6E86EA058916}">
+									<Language>SFX</Language>
+								</ExternalSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="generic2" ID="{B9572153-EAA0-4229-AB0E-6E86EA058916}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="generic3" ID="{35396071-50DA-45AE-9A2C-ACF5D36C2298}" ShortID="157773301">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="streamed_sfx_opus_normal_quality" ID="{90D64CCE-FEE4-4AF1-ACD5-243AE3234303}" WorkUnitID="{A88ED9FB-63CE-4F19-80AD-13C8850DE0C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="sfx" ID="{41506F0D-6265-46E3-9CCA-330339F07039}" WorkUnitID="{D296CB3F-AD96-447B-9176-1582196D4B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ExternalSource Name="generic3" ID="{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}">
+									<Language>SFX</Language>
+								</ExternalSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="generic3" ID="{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="vo" ID="{86ECA2AC-F9B1-45B7-A477-31F97C07A044}" ShortID="326505847">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="streamed_sfx_opus_normal_quality" ID="{90D64CCE-FEE4-4AF1-ACD5-243AE3234303}" WorkUnitID="{A88ED9FB-63CE-4F19-80AD-13C8850DE0C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="sfx" ID="{41506F0D-6265-46E3-9CCA-330339F07039}" WorkUnitID="{D296CB3F-AD96-447B-9176-1582196D4B77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="vo_4TH_PRIEST__Here_to_lecture_us" ID="{4C5071DC-8262-4EE1-A9EA-BC99AA5FD19A}" ShortID="752450456">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Custom Attenuation" ID="{878610B9-89DE-4B09-839D-D2BB685A642D}" WorkUnitID="{3E4A33F9-A62A-4542-BB2E-A2189219A171}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="streamed_sfx_opus_normal_quality" ID="{90D64CCE-FEE4-4AF1-ACD5-243AE3234303}" WorkUnitID="{A88ED9FB-63CE-4F19-80AD-13C8850DE0C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D296CB3F-AD96-447B-9176-1582196D4B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vo_4TH_PRIEST__Here_to_lecture_us" ID="{2A24A567-2BFC-4788-A787-11A48E45F75E}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>vo_4TH_PRIEST__Here_to_lecture_us.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1006448442"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vo_4TH_PRIEST__Here_to_lecture_us" ID="{2A24A567-2BFC-4788-A787-11A48E45F75E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vo_4TH_PRIEST__Look_who_it_is" ID="{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}" ShortID="1031892745">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="streamed_sfx_opus_normal_quality" ID="{90D64CCE-FEE4-4AF1-ACD5-243AE3234303}" WorkUnitID="{A88ED9FB-63CE-4F19-80AD-13C8850DE0C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D296CB3F-AD96-447B-9176-1582196D4B77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vo_4TH_PRIEST__Look_who_it_is" ID="{6800A916-A17E-4C4D-9B74-86E293B0E4AE}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.15"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.12345"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>vo_4TH_PRIEST__Look_who_it_is.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1045640917"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vo_4TH_PRIEST__Look_who_it_is" ID="{6800A916-A17E-4C4D-9B74-86E293B0E4AE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

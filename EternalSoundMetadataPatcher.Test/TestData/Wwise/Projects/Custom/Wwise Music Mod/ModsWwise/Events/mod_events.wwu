@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{928C1F0B-AB6F-4935-B30B-1449113886BE}" SchemaVersion="97" RootDocumentID="{E1C7CF01-7EBA-4BE9-84E4-9DE2649528A9}">
+	<Events>
+		<WorkUnit Name="mod_events" ID="{928C1F0B-AB6F-4935-B30B-1449113886BE}" OwnerID="{E1C7CF01-7EBA-4BE9-84E4-9DE2649528A9}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="ghost_generic_mod" ID="{FA8E32C8-1B66-42CE-ADFD-EC21871D8E02}" PersistMode="Reference"/>
+				<WorkUnit Name="ghost_vo_mod" ID="{22E6D92B-69F1-42E6-958B-9BA899648253}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

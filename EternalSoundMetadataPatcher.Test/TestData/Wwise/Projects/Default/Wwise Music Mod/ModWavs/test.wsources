@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalSourcesList SchemaVersion="1" Root=".">
+    <Source Path="..\ModWavs\weapons\modp1.wav"  Conversion="Default Conversion Settings" Destination="modp1.wav" />  
+    <Source Path="..\ModWavs\weapons\modp2.wav"  Conversion="Default Conversion Settings" Destination="modp2.wav" />  
+	<Source Path="..\ModWavs\weapons\modp3.wav"  Conversion="Default Conversion Settings" Destination="modp3.wav" />  
+	<Source Path="..\ModWavs\weapons\modp4.wav"  Conversion="Default Conversion Settings" Destination="modp4.wav" />  
+	<Source Path="..\ModWavs\weapons\modp5.wav"  Conversion="Default Conversion Settings" Destination="modp5.wav" />  
+	<Source Path="..\ModWavs\weapons\modp6.wav"  Conversion="Default Conversion Settings" Destination="modp6.wav" />  
+	<Source Path="..\ModWavs\weapons\modp7.wav"  Conversion="Default Conversion Settings" Destination="modp7.wav" />  
+	<Source Path="..\ModWavs\weapons\modp8.wav"  Conversion="Default Conversion Settings" Destination="modp8.wav" />  
+	<Source Path="..\ModWavs\weapons\modp9.wav"  Conversion="Default Conversion Settings" Destination="modp9.wav" />  
+	<Source Path="..\ModWavs\weapons\modp10.wav" Conversion="Default Conversion Settings" Destination="modp10.wav" />  
+	<Source Path="..\ModWavs\weapons\modp11.wav" Conversion="Default Conversion Settings" Destination="modp11.wav" />  
+	<Source Path="..\ModWavs\weapons\modp12.wav" Conversion="Default Conversion Settings" Destination="modp12.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p1.wav"  Conversion="Default Conversion Settings" Destination="mod2p1.wav" />  
+    <Source Path="..\ModWavs\weapons\mod2p2.wav"  Conversion="Default Conversion Settings" Destination="mod2p2.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p3.wav"  Conversion="Default Conversion Settings" Destination="mod2p3.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p4.wav"  Conversion="Default Conversion Settings" Destination="mod2p4.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p5.wav"  Conversion="Default Conversion Settings" Destination="mod2p5.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p6.wav"  Conversion="Default Conversion Settings" Destination="mod2p6.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p7.wav"  Conversion="Default Conversion Settings" Destination="mod2p7.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p8.wav"  Conversion="Default Conversion Settings" Destination="mod2p8.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p9.wav"  Conversion="Default Conversion Settings" Destination="mod2p9.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p10.wav" Conversion="Default Conversion Settings" Destination="mod2p10.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p11.wav" Conversion="Default Conversion Settings" Destination="mod2p11.wav" />  
+	<Source Path="..\ModWavs\weapons\mod2p12.wav" Conversion="Default Conversion Settings" Destination="mod2p12.wav" />  	
+	<Source Path="..\ModWavs\weapons\mod3p1.wav"  Conversion="Default Conversion Settings" Destination="mod3p1.wav" />  
+    <Source Path="..\ModWavs\weapons\mod3p2.wav"  Conversion="Default Conversion Settings" Destination="mod3p2.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p3.wav"  Conversion="Default Conversion Settings" Destination="mod3p3.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p4.wav"  Conversion="Default Conversion Settings" Destination="mod3p4.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p5.wav"  Conversion="Default Conversion Settings" Destination="mod3p5.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p6.wav"  Conversion="Default Conversion Settings" Destination="mod3p6.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p7.wav"  Conversion="Default Conversion Settings" Destination="mod3p7.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p8.wav"  Conversion="Default Conversion Settings" Destination="mod3p8.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p9.wav"  Conversion="Default Conversion Settings" Destination="mod3p9.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p10.wav" Conversion="Default Conversion Settings" Destination="mod3p10.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p11.wav" Conversion="Default Conversion Settings" Destination="mod3p11.wav" />  
+	<Source Path="..\ModWavs\weapons\mod3p12.wav" Conversion="Default Conversion Settings" Destination="mod3p12.wav" />
+	
+	<Source Path="..\ModWavs\fodder\fodderm1.wav" Conversion="Default Conversion Settings" Destination="fodderm1.wav" />
+	<Source Path="..\ModWavs\fodder\fodderm2.wav" Conversion="Default Conversion Settings" Destination="fodderm2.wav" />
+	<Source Path="..\ModWavs\fodder\fodderm3.wav" Conversion="Default Conversion Settings" Destination="fodderm3.wav" />
+	<Source Path="..\ModWavs\fodder\fodderm4.wav" Conversion="Default Conversion Settings" Destination="fodderm4.wav" />
+	<Source Path="..\ModWavs\fodder\fodderm5.wav" Conversion="Default Conversion Settings" Destination="fodderm5.wav" />
+	<Source Path="..\ModWavs\fodder\fodderm6.wav" Conversion="Default Conversion Settings" Destination="fodderm6.wav" />
+	<Source Path="..\ModWavs\fodder\fodderm7.wav" Conversion="Default Conversion Settings" Destination="fodderm7.wav" />
+	<Source Path="..\ModWavs\fodder\fodderm8.wav" Conversion="Default Conversion Settings" Destination="fodderm8.wav" />
+	<Source Path="..\ModWavs\fodder\fodderm9.wav" Conversion="Default Conversion Settings" Destination="fodderm9.wav" />
+	
+	<Source Path="..\ModWavs\fodder\fodder2m1.wav" Conversion="Default Conversion Settings" Destination="fodder2m1.wav" />
+	<Source Path="..\ModWavs\fodder\fodder2m2.wav" Conversion="Default Conversion Settings" Destination="fodder2m2.wav" />
+	<Source Path="..\ModWavs\fodder\fodder2m3.wav" Conversion="Default Conversion Settings" Destination="fodder2m3.wav" />
+	<Source Path="..\ModWavs\fodder\fodder2m4.wav" Conversion="Default Conversion Settings" Destination="fodder2m4.wav" />
+	<Source Path="..\ModWavs\fodder\fodder2m5.wav" Conversion="Default Conversion Settings" Destination="fodder2m5.wav" />
+	<Source Path="..\ModWavs\fodder\fodder2m6.wav" Conversion="Default Conversion Settings" Destination="fodder2m6.wav" />
+	<Source Path="..\ModWavs\fodder\fodder2m7.wav" Conversion="Default Conversion Settings" Destination="fodder2m7.wav" />
+	<Source Path="..\ModWavs\fodder\fodder2m8.wav" Conversion="Default Conversion Settings" Destination="fodder2m8.wav" />
+	<Source Path="..\ModWavs\fodder\fodder2m9.wav" Conversion="Default Conversion Settings" Destination="fodder2m9.wav" />
+	
+	<Source Path="..\ModWavs\fodder\fodder3m1.wav" Conversion="Default Conversion Settings" Destination="fodder3m1.wav" />
+	<Source Path="..\ModWavs\fodder\fodder3m2.wav" Conversion="Default Conversion Settings" Destination="fodder3m2.wav" />
+	<Source Path="..\ModWavs\fodder\fodder3m3.wav" Conversion="Default Conversion Settings" Destination="fodder3m3.wav" />
+	<Source Path="..\ModWavs\fodder\fodder3m4.wav" Conversion="Default Conversion Settings" Destination="fodder3m4.wav" />
+	<Source Path="..\ModWavs\fodder\fodder3m5.wav" Conversion="Default Conversion Settings" Destination="fodder3m5.wav" />
+	<Source Path="..\ModWavs\fodder\fodder3m6.wav" Conversion="Default Conversion Settings" Destination="fodder3m6.wav" />
+	<Source Path="..\ModWavs\fodder\fodder3m7.wav" Conversion="Default Conversion Settings" Destination="fodder3m7.wav" />
+	<Source Path="..\ModWavs\fodder\fodder3m8.wav" Conversion="Default Conversion Settings" Destination="fodder3m8.wav" />
+	<Source Path="..\ModWavs\fodder\fodder3m9.wav" Conversion="Default Conversion Settings" Destination="fodder3m9.wav" />
+	
+	<Source Path="..\ModWavs\ambience\ambience1.wav" Conversion="Default Conversion Settings"  Destination="ambience1.wav" />
+	<Source Path="..\ModWavs\ambience\ambience2.wav" Conversion="Default Conversion Settings"  Destination="ambience2.wav" />
+	<Source Path="..\ModWavs\ambience\ambience3.wav" Conversion="Default Conversion Settings"  Destination="ambience3.wav" />
+	<Source Path="..\ModWavs\ambience\ambience4.wav" Conversion="Default Conversion Settings"  Destination="ambience4.wav" />
+	<Source Path="..\ModWavs\ambience\ambience5.wav" Conversion="Default Conversion Settings"  Destination="ambience5.wav" />
+	<Source Path="..\ModWavs\ambience\ambience6.wav" Conversion="Default Conversion Settings"  Destination="ambience6.wav" />
+	<Source Path="..\ModWavs\ambience\ambience7.wav" Conversion="Default Conversion Settings"  Destination="ambience7.wav" />
+	<Source Path="..\ModWavs\ambience\ambience8.wav" Conversion="Default Conversion Settings"  Destination="ambience8.wav" />
+	<Source Path="..\ModWavs\ambience\ambience9.wav" Conversion="Default Conversion Settings"  Destination="ambience9.wav" />
+	<Source Path="..\ModWavs\ambience\ambience10.wav" Conversion="Default Conversion Settings" Destination="ambience10.wav"/>
+	<Source Path="..\ModWavs\ambience\ambience11.wav" Conversion="Default Conversion Settings" Destination="ambience11.wav" />
+	<Source Path="..\ModWavs\ambience\ambience12.wav" Conversion="Default Conversion Settings" Destination="ambience12.wav" />
+	<Source Path="..\ModWavs\ambience\ambience13.wav" Conversion="Default Conversion Settings" Destination="ambience13.wav" />
+	<Source Path="..\ModWavs\ambience\ambience14.wav" Conversion="Default Conversion Settings" Destination="ambience14.wav" />
+	<Source Path="..\ModWavs\ambience\ambience15.wav" Conversion="Default Conversion Settings" Destination="ambience15.wav" />
+	<Source Path="..\ModWavs\ambience\ambience16.wav" Conversion="Default Conversion Settings" Destination="ambience16.wav" />
+	<Source Path="..\ModWavs\ambience\ambience17.wav" Conversion="Default Conversion Settings" Destination="ambience17.wav" />
+	<Source Path="..\ModWavs\ambience\ambience18.wav" Conversion="Default Conversion Settings" Destination="ambience18.wav" />
+	<Source Path="..\ModWavs\ambience\ambience19.wav" Conversion="Default Conversion Settings" Destination="ambience19.wav" />
+	<Source Path="..\ModWavs\ambience\ambience20.wav" Conversion="Default Conversion Settings" Destination="ambience20.wav" />
+	
+	<Source Path="..\ModWavs\generic\generic1.wav" Conversion="Default Conversion Settings"  Destination="generic1.wav" />
+	<Source Path="..\ModWavs\generic\generic2.wav" Conversion="Default Conversion Settings"  Destination="generic2.wav" />
+	<Source Path="..\ModWavs\generic\generic3.wav" Conversion="Default Conversion Settings"  Destination="generic3.wav" />
+	<Source Path="..\ModWavs\generic\generic4.wav" Conversion="Default Conversion Settings"  Destination="generic4.wav" />
+	<Source Path="..\ModWavs\generic\generic5.wav" Conversion="Default Conversion Settings"  Destination="generic5.wav" />
+	<Source Path="..\ModWavs\generic\generic6.wav" Conversion="Default Conversion Settings"  Destination="generic6.wav" />
+	<Source Path="..\ModWavs\generic\generic7.wav" Conversion="Default Conversion Settings"  Destination="generic7.wav" />
+	<Source Path="..\ModWavs\generic\generic8.wav" Conversion="Default Conversion Settings"  Destination="generic8.wav" />
+	<Source Path="..\ModWavs\generic\generic9.wav" Conversion="Default Conversion Settings"  Destination="generic9.wav" />
+	<Source Path="..\ModWavs\generic\generic10.wav" Conversion="Default Conversion Settings" Destination="generic10.wav"/>
+	<Source Path="..\ModWavs\generic\generic11.wav" Conversion="Default Conversion Settings" Destination="generic11.wav" />
+	<Source Path="..\ModWavs\generic\generic12.wav" Conversion="Default Conversion Settings" Destination="generic12.wav" />
+	<Source Path="..\ModWavs\generic\generic13.wav" Conversion="Default Conversion Settings" Destination="generic13.wav" />
+	<Source Path="..\ModWavs\generic\generic14.wav" Conversion="Default Conversion Settings" Destination="generic14.wav" />
+	<Source Path="..\ModWavs\generic\generic15.wav" Conversion="Default Conversion Settings" Destination="generic15.wav" />
+	<Source Path="..\ModWavs\generic\generic16.wav" Conversion="Default Conversion Settings" Destination="generic16.wav" />
+	<Source Path="..\ModWavs\generic\generic17.wav" Conversion="Default Conversion Settings" Destination="generic17.wav" />
+	<Source Path="..\ModWavs\generic\generic18.wav" Conversion="Default Conversion Settings" Destination="generic18.wav" />
+	<Source Path="..\ModWavs\generic\generic19.wav" Conversion="Default Conversion Settings" Destination="generic19.wav" />
+	<Source Path="..\ModWavs\generic\generic20.wav" Conversion="Default Conversion Settings" Destination="generic20.wav" />
+	<Source Path="..\ModWavs\generic\generic21.wav" Conversion="Default Conversion Settings" Destination="generic21.wav" />
+	<Source Path="..\ModWavs\generic\generic22.wav" Conversion="Default Conversion Settings" Destination="generic22.wav" />
+	<Source Path="..\ModWavs\generic\generic23.wav" Conversion="Default Conversion Settings" Destination="generic23.wav" />
+	<Source Path="..\ModWavs\generic\generic24.wav" Conversion="Default Conversion Settings" Destination="generic24.wav" />
+	<Source Path="..\ModWavs\generic\generic25.wav" Conversion="Default Conversion Settings" Destination="generic25.wav" />
+	<Source Path="..\ModWavs\generic\generic26.wav" Conversion="Default Conversion Settings" Destination="generic26.wav" />
+	<Source Path="..\ModWavs\generic\generic27.wav" Conversion="Default Conversion Settings" Destination="generic27.wav" />
+	<Source Path="..\ModWavs\generic\generic28.wav" Conversion="Default Conversion Settings" Destination="generic28.wav" />
+	<Source Path="..\ModWavs\generic\generic29.wav" Conversion="Default Conversion Settings" Destination="generic29.wav" />
+	<Source Path="..\ModWavs\generic\generic30.wav" Conversion="Default Conversion Settings" Destination="generic30.wav"/>
+	
+</ExternalSourcesList>
+

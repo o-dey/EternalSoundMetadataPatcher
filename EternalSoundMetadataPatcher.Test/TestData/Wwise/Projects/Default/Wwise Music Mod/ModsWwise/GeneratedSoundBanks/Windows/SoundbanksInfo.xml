@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Visual Studio\Projects\EternalSoundMetadataPatcher\EternalSoundMetadataPatcher.Test\TestData\Wwise\Projects\Basic\Wwise Music Mod\ModsWwise\</ProjectRoot>
+		<SourceFilesRoot>D:\Visual Studio\Projects\EternalSoundMetadataPatcher\EternalSoundMetadataPatcher.Test\TestData\Wwise\Projects\Basic\Wwise Music Mod\ModsWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Visual Studio\Projects\EternalSoundMetadataPatcher\EternalSoundMetadataPatcher.Test\TestData\Wwise\Projects\Basic\Wwise Music Mod\ModsWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile>D:\Visual Studio\Projects\EternalSoundMetadataPatcher\EternalSoundMetadataPatcher.Test\TestData\Wwise\Projects\Basic\Wwise Music Mod\ModWavs\test.wsources</ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Visual Studio\Projects\EternalSoundMetadataPatcher\EternalSoundMetadataPatcher.Test\TestData\Wwise\Projects\Basic\Wwise Music Mod\ModsWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="24336132" Language="SFX">
+			<ShortName>mod2_ambient_general_02.wav</ShortName>
+			<Path>SFX\mod2_ambient_general_02_D76FE517.wem</Path>
+		</File>
+		<File Id="34144345" Language="SFX">
+			<ShortName>mod2_heavy_general_03.wav</ShortName>
+			<Path>SFX\mod2_heavy_general_03_D76FE517.wem</Path>
+		</File>
+		<File Id="89816089" Language="SFX">
+			<ShortName>mod2_light_general_01.wav</ShortName>
+			<Path>SFX\mod2_light_general_01_D76FE517.wem</Path>
+		</File>
+		<File Id="106421425" Language="SFX">
+			<ShortName>mod2_ambient_general_03.wav</ShortName>
+			<Path>SFX\mod2_ambient_general_03_D76FE517.wem</Path>
+		</File>
+		<File Id="455556304" Language="SFX">
+			<ShortName>mod2_heavy_general_01.wav</ShortName>
+			<Path>SFX\mod2_heavy_general_01_D76FE517.wem</Path>
+		</File>
+		<File Id="559194598" Language="SFX">
+			<ShortName>mod2_light_general_03.wav</ShortName>
+			<Path>SFX\mod2_light_general_03_D76FE517.wem</Path>
+		</File>
+		<File Id="649013362" Language="SFX">
+			<ShortName>mod2_ambient_general_01.wav</ShortName>
+			<Path>SFX\mod2_ambient_general_01_D76FE517.wem</Path>
+		</File>
+		<File Id="672375397" Language="SFX">
+			<ShortName>mod2_light_general_02.wav</ShortName>
+			<Path>SFX\mod2_light_general_02_D76FE517.wem</Path>
+		</File>
+		<File Id="774872206" Language="SFX">
+			<ShortName>mod2_heavy_general_02.wav</ShortName>
+			<Path>SFX\mod2_heavy_general_02_D76FE517.wem</Path>
+		</File>
+		<File Id="999843176" Language="SFX">
+			<ShortName>mod2_special_general_01.wav</ShortName>
+			<Path>SFX\mod2_special_general_01_D76FE517.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="1273845451" Name="music_ghost_states" ObjectPath="\States\Default Work Unit\music_ghost_states" GUID="{EDB127C0-306F-41B2-9FF7-F310D82F189D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\music_ghost_states\None" GUID="{93B77185-C0E9-48AD-B122-8BA6793BE009}"/>
+						<State Id="3609563711" Name="main_light" ObjectPath="\States\Default Work Unit\music_ghost_states\main_light" GUID="{4AD015A1-3154-458A-B041-7309476B6AA3}"/>
+						<State Id="2346688826" Name="main_heavy" ObjectPath="\States\Default Work Unit\music_ghost_states\main_heavy" GUID="{EFCF6C1A-D413-4C8E-9EE2-04B85A27A930}"/>
+						<State Id="2652561719" Name="main_ambient" ObjectPath="\States\Default Work Unit\music_ghost_states\main_ambient" GUID="{C0417E5B-68BC-47B3-87BC-DE3FBABB4BA2}"/>
+						<State Id="800821099" Name="additional_levelstart" ObjectPath="\States\Default Work Unit\music_ghost_states\additional_levelstart" GUID="{498B8FDD-3D7B-4D4F-8A0B-FAC052E5EFEE}"/>
+						<State Id="1324010434" Name="additional_reveal" ObjectPath="\States\Default Work Unit\music_ghost_states\additional_reveal" GUID="{0D478D08-BDC2-440A-8436-1D7400A51F82}"/>
+						<State Id="3596375921" Name="boss_vulnerable" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_vulnerable" GUID="{8350FDF5-FDE5-4F32-807B-9223D1DC93F4}"/>
+						<State Id="2626456411" Name="level_marscore_baron" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_baron" GUID="{AFE22F99-54B0-42B8-90BA-5E214ACC60C4}"/>
+						<State Id="80330432" Name="level_marscore_painelemental" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_painelemental" GUID="{96D342C7-1C73-4E08-943F-359FA80CEF3C}"/>
+						<State Id="63148780" Name="level_marscore_obdeck_start" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_obdeck_start" GUID="{AC2063CE-2790-4AE9-8401-7623AF1634D4}"/>
+						<State Id="274104046" Name="level_marscore_obdeck_elevator" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_obdeck_elevator" GUID="{D93C856A-B0FD-48AC-AF11-92A60B6D3B89}"/>
+						<State Id="3456390135" Name="boss_phase1" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase1" GUID="{C1ED8FEE-0ABC-421C-9FA8-32CF3430DB49}"/>
+						<State Id="3456390132" Name="boss_phase2" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase2" GUID="{78D16B9C-4CD0-43B4-ABB5-E955610B9A6D}"/>
+						<State Id="3456390133" Name="boss_phase3" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase3" GUID="{5D533A99-EDD0-44C0-96FD-BC942A25D3C5}"/>
+						<State Id="1765320760" Name="boss_end" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_end" GUID="{CE0946B9-70E3-4B45-92B5-283B6941B065}"/>
+						<State Id="1804753788" Name="escape_pod" ObjectPath="\States\Default Work Unit\music_ghost_states\escape_pod" GUID="{B11D92E4-5E83-4321-A429-1848D05170FA}"/>
+						<State Id="78360149" Name="stinger" ObjectPath="\States\Default Work Unit\music_ghost_states\stinger" GUID="{C9144960-6E90-4479-ABDE-EFF05CA94C37}"/>
+						<State Id="3762955427" Name="tutorial" ObjectPath="\States\Default Work Unit\music_ghost_states\tutorial" GUID="{570502F7-D9C6-429D-AA14-1A95B8001070}"/>
+						<State Id="2308199245" Name="cine_boss_intro" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_boss_intro" GUID="{E965B221-C7A5-43E1-A922-AB9D58F97CA8}"/>
+						<State Id="890273512" Name="cine_boss_end" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_boss_end" GUID="{D1796ADA-FAA4-4A63-BCAE-0B74FAA1BFDA}"/>
+						<State Id="3857925822" Name="cine_1" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_1" GUID="{F8FCD381-12D1-463A-9ED4-55B87E830349}"/>
+						<State Id="3857925821" Name="cine_2" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_2" GUID="{A62818AB-ACB9-4893-BE0F-D30DD85E7A64}"/>
+						<State Id="3857925820" Name="cine_3" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_3" GUID="{F8C604E9-9FDB-48CD-932A-AD57F4C870B0}"/>
+						<State Id="3857925819" Name="cine_4" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_4" GUID="{54516C8C-A9C8-4547-9E7F-C6FE75FF4F77}"/>
+						<State Id="3857925818" Name="cine_5" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_5" GUID="{F0D37CA9-6235-4850-AB08-9A9463F3CA1D}"/>
+						<State Id="3857925817" Name="cine_6" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_6" GUID="{93CEB39A-86AF-4F36-81A3-3E3CCBC8741C}"/>
+						<State Id="3748865102" Name="pvp_win" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_win" GUID="{DFBDCAB8-F73F-4CC3-9ADF-817CD42D230C}"/>
+						<State Id="1858909207" Name="pvp_lose" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lose" GUID="{2EB99C1F-31D4-4F48-BE44-1E3FFF998721}"/>
+						<State Id="2255119756" Name="pvp_lobby" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby" GUID="{E51F7E7D-A67B-4FEE-856C-8444834B045D}"/>
+						<State Id="2980185034" Name="pvp_sudden_death" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_sudden_death" GUID="{76029ED0-2CC4-47B6-B27B-1A53C3C19F42}"/>
+						<State Id="2185760400" Name="pvp_lobby_player_ready" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby_player_ready" GUID="{FE6D2945-48FF-408E-9DC1-BE89F9AC23B2}"/>
+						<State Id="1145356642" Name="pvp_lobby_end" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby_end" GUID="{D441BB3B-C9C2-48A2-8560-04B34565693E}"/>
+						<State Id="546504159" Name="eol" ObjectPath="\States\Default Work Unit\music_ghost_states\eol" GUID="{9810AACF-FD8D-45F2-9685-97E3CDF60AD9}"/>
+						<State Id="2311349595" Name="alt_ambient" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_ambient" GUID="{96D0EA8C-230B-4411-9FC5-6AA1B880B8A6}"/>
+						<State Id="3942430555" Name="alt_light" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_light" GUID="{2B9AA5E2-DCB0-4E2F-9152-BA9FD28CC38A}"/>
+						<State Id="1018230622" Name="alt_heavy" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_heavy" GUID="{35D7F771-E799-4F68-90C1-2A2DA51A9E8A}"/>
+						<State Id="3844965452" Name="credits_start" ObjectPath="\States\Default Work Unit\music_ghost_states\credits_start" GUID="{FA4DA76E-91F1-4C22-BD30-5AEEF955C4E1}"/>
+						<State Id="2798705391" Name="credits_end" ObjectPath="\States\Default Work Unit\music_ghost_states\credits_end" GUID="{8BCCA1DF-2B03-459F-9440-B45E456C2F9E}"/>
+						<State Id="944987071" Name="pvp_win_round" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_win_round" GUID="{506E7FA5-C3CD-4FC1-B949-BF0C45D628CC}"/>
+						<State Id="2988834850" Name="pvp_lose_round" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lose_round" GUID="{12D7D911-B064-4CE0-86AC-DDDA8D29699E}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1496058806" GUID="{3315A131-E59D-4653-ABB8-5762171CB54F}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\base\music_mods</ObjectPath>
+			<ShortName>music_mods</ShortName>
+			<Path>music_mods.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1699343283" Name="Play_music_menu" ObjectPath="\Events\Default Work Unit\music\music_ghost\Play_music_menu" GUID="{19591728-F84E-4C03-B84D-C455B075F44B}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="24336132" Language="SFX">
+							<ShortName>mod2_ambient_general_02.wav</ShortName>
+							<Path>SFX\mod2_ambient_general_02_D76FE517.wem</Path>
+						</File>
+						<File Id="34144345" Language="SFX">
+							<ShortName>mod2_heavy_general_03.wav</ShortName>
+							<Path>SFX\mod2_heavy_general_03_D76FE517.wem</Path>
+						</File>
+						<File Id="89816089" Language="SFX">
+							<ShortName>mod2_light_general_01.wav</ShortName>
+							<Path>SFX\mod2_light_general_01_D76FE517.wem</Path>
+						</File>
+						<File Id="106421425" Language="SFX">
+							<ShortName>mod2_ambient_general_03.wav</ShortName>
+							<Path>SFX\mod2_ambient_general_03_D76FE517.wem</Path>
+						</File>
+						<File Id="455556304" Language="SFX">
+							<ShortName>mod2_heavy_general_01.wav</ShortName>
+							<Path>SFX\mod2_heavy_general_01_D76FE517.wem</Path>
+						</File>
+						<File Id="559194598" Language="SFX">
+							<ShortName>mod2_light_general_03.wav</ShortName>
+							<Path>SFX\mod2_light_general_03_D76FE517.wem</Path>
+						</File>
+						<File Id="649013362" Language="SFX">
+							<ShortName>mod2_ambient_general_01.wav</ShortName>
+							<Path>SFX\mod2_ambient_general_01_D76FE517.wem</Path>
+						</File>
+						<File Id="672375397" Language="SFX">
+							<ShortName>mod2_light_general_02.wav</ShortName>
+							<Path>SFX\mod2_light_general_02_D76FE517.wem</Path>
+						</File>
+						<File Id="774872206" Language="SFX">
+							<ShortName>mod2_heavy_general_02.wav</ShortName>
+							<Path>SFX\mod2_heavy_general_02_D76FE517.wem</Path>
+						</File>
+						<File Id="999843176" Language="SFX">
+							<ShortName>mod2_special_general_01.wav</ShortName>
+							<Path>SFX\mod2_special_general_01_D76FE517.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="43323491" Language="SFX">
+							<ShortName>mod1_ambient_general_01.wav</ShortName>
+							<Path>SFX\mod1_ambient_general_01_D76FE517.wem</Path>
+						</File>
+						<File Id="94827698" Language="SFX">
+							<ShortName>mod1_light_general_01.wav</ShortName>
+							<Path>SFX\mod1_light_general_01_D76FE517.wem</Path>
+						</File>
+						<File Id="232972874" Language="SFX">
+							<ShortName>mod1_heavy_general_01.wav</ShortName>
+							<Path>SFX\mod1_heavy_general_01_D76FE517.wem</Path>
+						</File>
+						<File Id="363704375" Language="SFX">
+							<ShortName>mod1_light_general_03.wav</ShortName>
+							<Path>SFX\mod1_light_general_03_D76FE517.wem</Path>
+						</File>
+						<File Id="371437976" Language="SFX">
+							<ShortName>mod1_heavy_general_02.wav</ShortName>
+							<Path>SFX\mod1_heavy_general_02_D76FE517.wem</Path>
+						</File>
+						<File Id="572173485" Language="SFX">
+							<ShortName>mod1_heavy_general_03.wav</ShortName>
+							<Path>SFX\mod1_heavy_general_03_D76FE517.wem</Path>
+						</File>
+						<File Id="648233152" Language="SFX">
+							<ShortName>mod1_special_general_01.wav</ShortName>
+							<Path>SFX\mod1_special_general_01_D76FE517.wem</Path>
+						</File>
+						<File Id="679388699" Language="SFX">
+							<ShortName>mod1_ambient_general_02.wav</ShortName>
+							<Path>SFX\mod1_ambient_general_02_D76FE517.wem</Path>
+						</File>
+						<File Id="747126055" Language="SFX">
+							<ShortName>mod1_light_general_02.wav</ShortName>
+							<Path>SFX\mod1_light_general_02_D76FE517.wem</Path>
+						</File>
+						<File Id="1071678479" Language="SFX">
+							<ShortName>mod1_ambient_general_03.wav</ShortName>
+							<Path>SFX\mod1_ambient_general_03_D76FE517.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{4F29DF87-6929-4E75-85E7-AADD474740FD}">
+							<Children>
+								<SwitchContainer SwitchValue="{EFCF6C1A-D413-4C8E-9EE2-04B85A27A930}">
+									<Media>
+										<File Id="371437976"/>
+										<File Id="232972874"/>
+										<File Id="572173485"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{4AD015A1-3154-458A-B041-7309476B6AA3}">
+									<Media>
+										<File Id="94827698"/>
+										<File Id="747126055"/>
+										<File Id="363704375"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{C0417E5B-68BC-47B3-87BC-DE3FBABB4BA2}">
+									<Media>
+										<File Id="43323491"/>
+										<File Id="679388699"/>
+										<File Id="1071678479"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{C9144960-6E90-4479-ABDE-EFF05CA94C37}">
+									<Media>
+										<File Id="648233152"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{910F1D9C-47FD-4E15-9EC3-52247F1BB826}">
+							<Children>
+								<SwitchContainer SwitchValue="{EFCF6C1A-D413-4C8E-9EE2-04B85A27A930}">
+									<Media>
+										<File Id="455556304"/>
+										<File Id="774872206"/>
+										<File Id="34144345"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{C9144960-6E90-4479-ABDE-EFF05CA94C37}">
+									<Media>
+										<File Id="999843176"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{4AD015A1-3154-458A-B041-7309476B6AA3}">
+									<Media>
+										<File Id="89816089"/>
+										<File Id="672375397"/>
+										<File Id="559194598"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{C0417E5B-68BC-47B3-87BC-DE3FBABB4BA2}">
+									<Media>
+										<File Id="649013362"/>
+										<File Id="24336132"/>
+										<File Id="106421425"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1273845451" Name="music_ghost_states" ObjectPath="\States\Default Work Unit\music_ghost_states" GUID="{EDB127C0-306F-41B2-9FF7-F310D82F189D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\music_ghost_states\None" GUID="{93B77185-C0E9-48AD-B122-8BA6793BE009}"/>
+						<State Id="3609563711" Name="main_light" ObjectPath="\States\Default Work Unit\music_ghost_states\main_light" GUID="{4AD015A1-3154-458A-B041-7309476B6AA3}"/>
+						<State Id="2346688826" Name="main_heavy" ObjectPath="\States\Default Work Unit\music_ghost_states\main_heavy" GUID="{EFCF6C1A-D413-4C8E-9EE2-04B85A27A930}"/>
+						<State Id="2652561719" Name="main_ambient" ObjectPath="\States\Default Work Unit\music_ghost_states\main_ambient" GUID="{C0417E5B-68BC-47B3-87BC-DE3FBABB4BA2}"/>
+						<State Id="800821099" Name="additional_levelstart" ObjectPath="\States\Default Work Unit\music_ghost_states\additional_levelstart" GUID="{498B8FDD-3D7B-4D4F-8A0B-FAC052E5EFEE}"/>
+						<State Id="1324010434" Name="additional_reveal" ObjectPath="\States\Default Work Unit\music_ghost_states\additional_reveal" GUID="{0D478D08-BDC2-440A-8436-1D7400A51F82}"/>
+						<State Id="3596375921" Name="boss_vulnerable" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_vulnerable" GUID="{8350FDF5-FDE5-4F32-807B-9223D1DC93F4}"/>
+						<State Id="2626456411" Name="level_marscore_baron" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_baron" GUID="{AFE22F99-54B0-42B8-90BA-5E214ACC60C4}"/>
+						<State Id="80330432" Name="level_marscore_painelemental" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_painelemental" GUID="{96D342C7-1C73-4E08-943F-359FA80CEF3C}"/>
+						<State Id="63148780" Name="level_marscore_obdeck_start" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_obdeck_start" GUID="{AC2063CE-2790-4AE9-8401-7623AF1634D4}"/>
+						<State Id="274104046" Name="level_marscore_obdeck_elevator" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_obdeck_elevator" GUID="{D93C856A-B0FD-48AC-AF11-92A60B6D3B89}"/>
+						<State Id="3456390135" Name="boss_phase1" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase1" GUID="{C1ED8FEE-0ABC-421C-9FA8-32CF3430DB49}"/>
+						<State Id="3456390132" Name="boss_phase2" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase2" GUID="{78D16B9C-4CD0-43B4-ABB5-E955610B9A6D}"/>
+						<State Id="3456390133" Name="boss_phase3" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase3" GUID="{5D533A99-EDD0-44C0-96FD-BC942A25D3C5}"/>
+						<State Id="1765320760" Name="boss_end" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_end" GUID="{CE0946B9-70E3-4B45-92B5-283B6941B065}"/>
+						<State Id="1804753788" Name="escape_pod" ObjectPath="\States\Default Work Unit\music_ghost_states\escape_pod" GUID="{B11D92E4-5E83-4321-A429-1848D05170FA}"/>
+						<State Id="78360149" Name="stinger" ObjectPath="\States\Default Work Unit\music_ghost_states\stinger" GUID="{C9144960-6E90-4479-ABDE-EFF05CA94C37}"/>
+						<State Id="3762955427" Name="tutorial" ObjectPath="\States\Default Work Unit\music_ghost_states\tutorial" GUID="{570502F7-D9C6-429D-AA14-1A95B8001070}"/>
+						<State Id="2308199245" Name="cine_boss_intro" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_boss_intro" GUID="{E965B221-C7A5-43E1-A922-AB9D58F97CA8}"/>
+						<State Id="890273512" Name="cine_boss_end" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_boss_end" GUID="{D1796ADA-FAA4-4A63-BCAE-0B74FAA1BFDA}"/>
+						<State Id="3857925822" Name="cine_1" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_1" GUID="{F8FCD381-12D1-463A-9ED4-55B87E830349}"/>
+						<State Id="3857925821" Name="cine_2" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_2" GUID="{A62818AB-ACB9-4893-BE0F-D30DD85E7A64}"/>
+						<State Id="3857925820" Name="cine_3" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_3" GUID="{F8C604E9-9FDB-48CD-932A-AD57F4C870B0}"/>
+						<State Id="3857925819" Name="cine_4" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_4" GUID="{54516C8C-A9C8-4547-9E7F-C6FE75FF4F77}"/>
+						<State Id="3857925818" Name="cine_5" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_5" GUID="{F0D37CA9-6235-4850-AB08-9A9463F3CA1D}"/>
+						<State Id="3857925817" Name="cine_6" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_6" GUID="{93CEB39A-86AF-4F36-81A3-3E3CCBC8741C}"/>
+						<State Id="3748865102" Name="pvp_win" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_win" GUID="{DFBDCAB8-F73F-4CC3-9ADF-817CD42D230C}"/>
+						<State Id="1858909207" Name="pvp_lose" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lose" GUID="{2EB99C1F-31D4-4F48-BE44-1E3FFF998721}"/>
+						<State Id="2255119756" Name="pvp_lobby" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby" GUID="{E51F7E7D-A67B-4FEE-856C-8444834B045D}"/>
+						<State Id="2980185034" Name="pvp_sudden_death" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_sudden_death" GUID="{76029ED0-2CC4-47B6-B27B-1A53C3C19F42}"/>
+						<State Id="2185760400" Name="pvp_lobby_player_ready" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby_player_ready" GUID="{FE6D2945-48FF-408E-9DC1-BE89F9AC23B2}"/>
+						<State Id="1145356642" Name="pvp_lobby_end" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby_end" GUID="{D441BB3B-C9C2-48A2-8560-04B34565693E}"/>
+						<State Id="546504159" Name="eol" ObjectPath="\States\Default Work Unit\music_ghost_states\eol" GUID="{9810AACF-FD8D-45F2-9685-97E3CDF60AD9}"/>
+						<State Id="2311349595" Name="alt_ambient" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_ambient" GUID="{96D0EA8C-230B-4411-9FC5-6AA1B880B8A6}"/>
+						<State Id="3942430555" Name="alt_light" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_light" GUID="{2B9AA5E2-DCB0-4E2F-9152-BA9FD28CC38A}"/>
+						<State Id="1018230622" Name="alt_heavy" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_heavy" GUID="{35D7F771-E799-4F68-90C1-2A2DA51A9E8A}"/>
+						<State Id="3844965452" Name="credits_start" ObjectPath="\States\Default Work Unit\music_ghost_states\credits_start" GUID="{FA4DA76E-91F1-4C22-BD30-5AEEF955C4E1}"/>
+						<State Id="2798705391" Name="credits_end" ObjectPath="\States\Default Work Unit\music_ghost_states\credits_end" GUID="{8BCCA1DF-2B03-459F-9440-B45E456C2F9E}"/>
+						<State Id="944987071" Name="pvp_win_round" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_win_round" GUID="{506E7FA5-C3CD-4FC1-B949-BF0C45D628CC}"/>
+						<State Id="2988834850" Name="pvp_lose_round" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lose_round" GUID="{12D7D911-B064-4CE0-86AC-DDDA8D29699E}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1883588749" Name="music_ghost_switch" ObjectPath="\Switches\Default Work Unit\music_ghost_switch" GUID="{C6D52B87-FB33-4C0D-BD80-F6E33A3FF125}">
+					<Switches>
+						<Switch Id="2619209544" Name="mod1_music" ObjectPath="\Switches\Default Work Unit\music_ghost_switch\mod1_music" GUID="{4F29DF87-6929-4E75-85E7-AADD474740FD}"/>
+						<Switch Id="399455615" Name="mod2_music" ObjectPath="\Switches\Default Work Unit\music_ghost_switch\mod2_music" GUID="{910F1D9C-47FD-4E15-9EC3-52247F1BB826}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3313201758" GUID="{F9F44E61-5849-470A-82B9-3839EFC2B30C}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\base\mods</ObjectPath>
+			<ShortName>mods</ShortName>
+			<Path>mods.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1117071627" Name="Play_ambience1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience1" GUID="{68DB4304-C42F-4C81-8856-020F1F838D0E}" DurationType="Infinite"/>
+				<Event Id="3687816289" Name="Play_ambience10" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience10" GUID="{CC2E8203-7E0A-48BB-BA8D-F4163E25ED31}" DurationType="Infinite"/>
+				<Event Id="3687816288" Name="Play_ambience11" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience11" GUID="{C6E3CF7E-DCD0-48A0-8580-8CF9D06B4DDE}" DurationType="Infinite"/>
+				<Event Id="3687816291" Name="Play_ambience12" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience12" GUID="{10323D31-A4B9-4E9D-B9DB-76FE7BD9E93A}" DurationType="Infinite"/>
+				<Event Id="3687816290" Name="Play_ambience13" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience13" GUID="{0AAD0950-52CE-4055-9084-AD6BB03F2DCC}" DurationType="Infinite"/>
+				<Event Id="3687816293" Name="Play_ambience14" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience14" GUID="{B9BAC674-4B6A-4870-A19D-E1378BB3B910}" DurationType="Infinite"/>
+				<Event Id="3687816292" Name="Play_ambience15" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience15" GUID="{FD96436D-A1FD-4655-A8B5-33BEF2A47D53}" DurationType="Infinite"/>
+				<Event Id="3687816295" Name="Play_ambience16" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience16" GUID="{3EE722B3-958A-445D-9013-040E29B11FDC}" DurationType="Infinite"/>
+				<Event Id="3687816294" Name="Play_ambience17" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience17" GUID="{0F22144B-1B91-4DD6-A1A6-A89836A7908F}" DurationType="Infinite"/>
+				<Event Id="3687816297" Name="Play_ambience18" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience18" GUID="{3574CCFF-1124-4BB2-B905-8428C3EFF3AE}" DurationType="Infinite"/>
+				<Event Id="3687816296" Name="Play_ambience19" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience19" GUID="{C752A342-A20C-4663-8DD1-B897AB2BC2A1}" DurationType="Infinite"/>
+				<Event Id="1117071624" Name="Play_ambience2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience2" GUID="{961B8549-AF60-4DE7-BD26-FBD8B7E52314}" DurationType="Infinite"/>
+				<Event Id="3637483432" Name="Play_ambience20" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience20" GUID="{C7109D2C-D40F-406F-99A4-EC92885432A0}" DurationType="Infinite"/>
+				<Event Id="1117071625" Name="Play_ambience3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience3" GUID="{5B6A40F9-646D-4E65-B2CE-CC65E3B56AA4}" DurationType="Infinite"/>
+				<Event Id="1117071630" Name="Play_ambience4" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience4" GUID="{D6D79373-D057-4A04-9E72-85DFF2E92DDD}" DurationType="Infinite"/>
+				<Event Id="1117071631" Name="Play_ambience5" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience5" GUID="{3EBDB3D3-E235-4008-A08D-4F2F89E74A68}" DurationType="Infinite"/>
+				<Event Id="1117071628" Name="Play_ambience6" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience6" GUID="{CAB9B369-6B57-4E1A-99A8-29064D4AE09D}" DurationType="Infinite"/>
+				<Event Id="1117071629" Name="Play_ambience7" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience7" GUID="{53ADCAF1-54A4-4A7D-B54B-B1727CEE6614}" DurationType="Infinite"/>
+				<Event Id="1117071618" Name="Play_ambience8" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience8" GUID="{D9F393B2-B2F8-4A1A-AD2F-5939032DFD0F}" DurationType="Infinite"/>
+				<Event Id="1117071619" Name="Play_ambience9" ObjectPath="\Events\Default Work Unit\mod_events\ghost_ambience_mod\Play_ambience9" GUID="{9F84B1CF-2332-4447-9B84-50A3950FBBB6}" DurationType="Infinite"/>
+				<Event Id="2349622233" Name="Play_fodder2mod1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_fodder2mod1" GUID="{59014F0B-DE15-4D0B-9320-490B5554E249}" DurationType="Unknown"/>
+				<Event Id="2349622234" Name="Play_fodder2mod2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_fodder2mod2" GUID="{85070F0D-9AEC-4B6F-9348-A48ACCA37D42}" DurationType="Unknown"/>
+				<Event Id="2349622235" Name="Play_fodder2mod3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_fodder2mod3" GUID="{5AC80B69-61D9-40D9-9FFE-D199B5F57F78}" DurationType="Unknown"/>
+				<Event Id="145648052" Name="Play_fodder3mod1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_fodder3mod1" GUID="{955ED284-6AAB-4065-8D0B-0FA912BEDFA3}" DurationType="Unknown"/>
+				<Event Id="145648055" Name="Play_fodder3mod2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_fodder3mod2" GUID="{351CC730-4D5A-4179-965E-3DCA474CC0A4}" DurationType="Unknown"/>
+				<Event Id="145648054" Name="Play_fodder3mod3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_fodder3mod3" GUID="{9B8587B6-C701-4C23-A8D8-5D981C595A2A}" DurationType="Unknown"/>
+				<Event Id="4240430819" Name="Play_foddermod1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_foddermod1" GUID="{6BF56033-A559-4E40-AA4B-5D9C005B8B24}" DurationType="Unknown"/>
+				<Event Id="4240430816" Name="Play_foddermod2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_foddermod2" GUID="{69E3BBD0-8CB5-4271-9D2C-4535F734FD80}" DurationType="Unknown"/>
+				<Event Id="4240430817" Name="Play_foddermod3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_fodder_mod\Play_foddermod3" GUID="{64ECD5B7-9F81-4567-B820-7673195764EA}" DurationType="Unknown"/>
+				<Event Id="3332801302" Name="Play_generic1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic1" GUID="{2B494D31-3D02-4C39-BEF6-CB9889E9EE32}" DurationType="Unknown"/>
+				<Event Id="3458227090" Name="Play_generic10" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic10" GUID="{3F1095B9-05AA-4496-865C-94228E5BBBF7}" DurationType="Unknown"/>
+				<Event Id="3458227091" Name="Play_generic11" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic11" GUID="{806F6346-4E43-49BB-AA26-BE0503D69015}" DurationType="Unknown"/>
+				<Event Id="3458227088" Name="Play_generic12" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic12" GUID="{9F288D22-973B-410D-8388-F424B9D246B8}" DurationType="Unknown"/>
+				<Event Id="3458227089" Name="Play_generic13" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic13" GUID="{D179D006-3D03-42A1-B82B-A7F1CC9AFA71}" DurationType="Unknown"/>
+				<Event Id="3458227094" Name="Play_generic14" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic14" GUID="{910924ED-0942-43CC-921D-FBA3B27350CC}" DurationType="Unknown"/>
+				<Event Id="3458227095" Name="Play_generic15" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic15" GUID="{D5B961BB-50F5-4ED5-8685-E639D42FBAD6}" DurationType="Unknown"/>
+				<Event Id="3458227092" Name="Play_generic16" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic16" GUID="{9843DA77-E6AC-4BF0-B8F2-6D28F1809621}" DurationType="Unknown"/>
+				<Event Id="3458227093" Name="Play_generic17" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic17" GUID="{C288B28D-C08E-4420-8615-5424D7E7096C}" DurationType="Unknown"/>
+				<Event Id="3458227098" Name="Play_generic18" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic18" GUID="{92AE0785-17DD-4F89-9A44-C934AB8F930B}" DurationType="Unknown"/>
+				<Event Id="3458227099" Name="Play_generic19" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic19" GUID="{9FFFF9F5-1246-45C2-9272-575CC57BC252}" DurationType="Unknown"/>
+				<Event Id="3332801301" Name="Play_generic2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic2" GUID="{7DD32D72-1E1C-426C-9B6D-6E1BC2B3F52F}" DurationType="Unknown"/>
+				<Event Id="3441449535" Name="Play_generic20" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic20" GUID="{35159566-390F-40C1-BE2D-C57B8B2BFB7B}" DurationType="Unknown"/>
+				<Event Id="3441449534" Name="Play_generic21" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic21" GUID="{722777B2-A4A3-447B-8EB7-345EA9A5DE3C}" DurationType="Infinite"/>
+				<Event Id="3441449533" Name="Play_generic22" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic22" GUID="{BDD8A199-9CC1-420B-AC42-6BAD4BD9EFBA}" DurationType="Infinite"/>
+				<Event Id="3441449532" Name="Play_generic23" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic23" GUID="{9A4574AD-C895-47E3-844E-B69B679137E7}" DurationType="Infinite"/>
+				<Event Id="3441449531" Name="Play_generic24" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic24" GUID="{28D5335C-0148-4CE4-BB35-F2D6AE7F6499}" DurationType="Infinite"/>
+				<Event Id="3441449530" Name="Play_generic25" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic25" GUID="{52927450-E53C-4128-AC74-04B3D2385AF2}" DurationType="Infinite"/>
+				<Event Id="3441449529" Name="Play_generic26" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic26" GUID="{FB88B8AF-72F7-471F-A9AF-765AE83E5DBA}" DurationType="Infinite"/>
+				<Event Id="3441449528" Name="Play_generic27" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic27" GUID="{04D7175D-A142-4011-A19F-B1D52863F8D8}" DurationType="Infinite"/>
+				<Event Id="3441449527" Name="Play_generic28" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic28" GUID="{49AB1FF0-019C-4CD6-BD89-4B730BD294B3}" DurationType="Infinite"/>
+				<Event Id="3441449526" Name="Play_generic29" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic29" GUID="{67FE6E6A-DA9C-4E06-84D2-999C63CAA5E2}" DurationType="Infinite"/>
+				<Event Id="3332801300" Name="Play_generic3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic3" GUID="{CF839B38-A76D-4554-924E-F3B3F6812075}" DurationType="Unknown"/>
+				<Event Id="3424671820" Name="Play_generic30" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic30" GUID="{85F0947C-C9DA-4093-A841-DF290DD229D0}" DurationType="Infinite"/>
+				<Event Id="3332801299" Name="Play_generic4" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic4" GUID="{1D5C19A6-AFAD-484F-A909-5DC09F3202F1}" DurationType="Unknown"/>
+				<Event Id="3332801298" Name="Play_generic5" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic5" GUID="{B850E189-2113-4594-85C2-904F9D0CB03C}" DurationType="Unknown"/>
+				<Event Id="3332801297" Name="Play_generic6" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic6" GUID="{3B33FCD8-372B-40B2-BA4B-19736E19A3BD}" DurationType="Unknown"/>
+				<Event Id="3332801296" Name="Play_generic7" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic7" GUID="{7AF05991-C5CB-4B98-881F-E8A7C1807E0E}" DurationType="Unknown"/>
+				<Event Id="3332801311" Name="Play_generic8" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic8" GUID="{B4793DA5-1DA2-4797-B74A-12D10F17D104}" DurationType="Unknown"/>
+				<Event Id="3332801310" Name="Play_generic9" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic9" GUID="{D530E669-D243-449E-93CA-E9B1DFBFBB67}" DurationType="Unknown"/>
+				<Event Id="3137662008" Name="Play_mod2_fire1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod2_fire1" GUID="{26B591E7-76C3-4A77-872F-030688D91D2B}" DurationType="Unknown"/>
+				<Event Id="3137662011" Name="Play_mod2_fire2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod2_fire2" GUID="{4B810491-5F11-4E8F-BD89-CF3E5287A997}" DurationType="Unknown"/>
+				<Event Id="3137662010" Name="Play_mod2_fire3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod2_fire3" GUID="{B47A5E7F-8349-45A5-B2C0-90F3BBBE68A5}" DurationType="Unknown"/>
+				<Event Id="3137662013" Name="Play_mod2_fire4" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod2_fire4" GUID="{0FA52108-4A12-4303-B90D-EDAA5B265374}" DurationType="Unknown"/>
+				<Event Id="1038962001" Name="Play_mod3_fire1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod3_fire1" GUID="{DFB4FE84-7A79-45A8-AAC7-08FB76A43384}" DurationType="Unknown"/>
+				<Event Id="1038962002" Name="Play_mod3_fire2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod3_fire2" GUID="{71AD01EA-9132-43EA-A55F-6249B46E942C}" DurationType="Unknown"/>
+				<Event Id="1038962003" Name="Play_mod3_fire3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod3_fire3" GUID="{26221271-3AA1-4377-845E-8D569722B2CB}" DurationType="Unknown"/>
+				<Event Id="1038962004" Name="Play_mod3_fire4" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod3_fire4" GUID="{0E3C40E0-724B-4D9A-97D1-231F7532F88A}" DurationType="Unknown"/>
+				<Event Id="3692003658" Name="Play_mod_fire1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod_fire1" GUID="{0D0F0AC9-0C95-484D-A1DE-9EC82DF98202}" DurationType="Unknown"/>
+				<Event Id="3692003657" Name="Play_mod_fire2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod_fire2" GUID="{08EA2798-EAF7-4A63-BD28-248FCE9FEEEC}" DurationType="Unknown"/>
+				<Event Id="3692003656" Name="Play_mod_fire3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod_fire3" GUID="{A52A21CF-52C9-4786-B246-00A86EF3E180}" DurationType="Unknown"/>
+				<Event Id="3692003663" Name="Play_mod_fire4" ObjectPath="\Events\Default Work Unit\mod_events\ghost_weapon_mod\Play_mod_fire4" GUID="{101EDACF-5453-462F-AFE6-DCEF098B3253}" DurationType="Unknown"/>
+			</IncludedEvents>
+			<ExternalSources>
+				<Source Id="1017660554" Name="ambience1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience1\ambience1" GUID="{56C4532E-E5C2-4446-A803-FA624E250F71}"/>
+				<Source Id="115598606" Name="ambience10" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience10\ambience10" GUID="{3A9621D8-FBB2-4506-80BF-7F518E48F77B}"/>
+				<Source Id="115598607" Name="ambience11" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience11\ambience11" GUID="{049D7C23-90C2-47C5-9DF9-40F0F77403F6}"/>
+				<Source Id="115598604" Name="ambience12" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience12\ambience12" GUID="{3F5387E8-2FFF-44A2-907D-80906B1DD2D5}"/>
+				<Source Id="115598605" Name="ambience13" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience13\ambience13" GUID="{761CCEF5-8B82-4422-B916-D3103806AEAF}"/>
+				<Source Id="115598602" Name="ambience14" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience14\ambience14" GUID="{A293E540-FD2D-4F13-A16E-978727D9905D}"/>
+				<Source Id="115598603" Name="ambience15" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience15\ambience15" GUID="{755EDDFD-1A2A-468B-AFEA-554D3A07D47F}"/>
+				<Source Id="115598600" Name="ambience16" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience16\ambience16" GUID="{631DD463-516B-4617-BC32-CF66759251D4}"/>
+				<Source Id="115598601" Name="ambience17" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience17\ambience17" GUID="{6EE4B51D-E9F6-425C-9C03-02EF8EFB04CB}"/>
+				<Source Id="115598598" Name="ambience18" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience18\ambience18" GUID="{AE3D6AF1-1435-4E8A-81A4-2E71E218A95E}"/>
+				<Source Id="115598599" Name="ambience19" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience19\ambience19" GUID="{B547B684-772E-4C39-B4F3-DCA341C13C44}"/>
+				<Source Id="1017660553" Name="ambience2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience2\ambience2" GUID="{C48A4D6B-3348-461E-A69D-CFA0A27717DF}"/>
+				<Source Id="98821019" Name="ambience20" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience20\ambience20" GUID="{960A6ADD-6B2F-42A5-B44B-FF3B88A932C2}"/>
+				<Source Id="1017660552" Name="ambience3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience3\ambience3" GUID="{0F8C182B-D087-4173-8FEC-9F060BF8A45B}"/>
+				<Source Id="1017660559" Name="ambience4" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience4\ambience4" GUID="{33535D36-BFC9-4669-A817-FC982C760C0B}"/>
+				<Source Id="1017660558" Name="ambience5" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience5\ambience5" GUID="{F64346B7-89E8-49A7-90BD-4CF1160E00CA}"/>
+				<Source Id="1017660557" Name="ambience6" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience6\ambience6" GUID="{D2D6A80E-035B-4C1C-9354-0A845067D098}"/>
+				<Source Id="1017660556" Name="ambience7" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience7\ambience7" GUID="{D831B50D-62EB-40EB-BA8D-76CAB4F49AB9}"/>
+				<Source Id="1017660547" Name="ambience8" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience8\ambience8" GUID="{DA458C55-63F1-4EED-BDD3-1F2E17520BDB}"/>
+				<Source Id="1017660546" Name="ambience9" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_ambience\ambience9\ambience9" GUID="{980153F4-934D-4A0F-B03A-84A2B0AAFE45}"/>
+				<Source Id="155289867" Name="fodder2m1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod1\fodder2m1\fodder2m1" GUID="{D64D048F-3801-4911-86B3-AEFB45DF1413}"/>
+				<Source Id="155289864" Name="fodder2m2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod1\fodder2m2\fodder2m2" GUID="{CAEE4558-1BDE-4F70-BA30-37154B319BE6}"/>
+				<Source Id="155289865" Name="fodder2m3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod1\fodder2m3\fodder2m3" GUID="{118519D2-7545-4C25-8DB0-87D95BF2ACF6}"/>
+				<Source Id="155289870" Name="fodder2m4" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod2\fodder2m4\fodder2m4" GUID="{A85C7ED8-D63A-4418-8A0C-6DF24A58D9A7}"/>
+				<Source Id="155289871" Name="fodder2m5" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod2\fodder2m5\fodder2m5" GUID="{0B9B9D42-AF50-4DE3-8849-0D67513F9186}"/>
+				<Source Id="155289868" Name="fodder2m6" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod2\fodder2m6\fodder2m6" GUID="{C2EA3D03-BA47-4203-A505-D29972BE042C}"/>
+				<Source Id="155289869" Name="fodder2m7" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod3\fodder2m7\fodder2m7" GUID="{9CE56C9D-DAB4-4D2C-8F33-719EAD274C1D}"/>
+				<Source Id="155289858" Name="fodder2m8" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod3\fodder2m8\fodder2m8" GUID="{B29A7B7F-4D6F-4D08-9F89-D11758A1858E}"/>
+				<Source Id="155289859" Name="fodder2m9" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder2\foddermod3\fodder2m9\fodder2m9" GUID="{6D3A5490-FF74-4BE1-8F20-7B7517C3EC7F}"/>
+				<Source Id="3846115782" Name="fodder3m1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod1\fodder3m1\fodder3m1" GUID="{A1995BBA-87D1-4750-B225-FAFCE4EBE72E}"/>
+				<Source Id="3846115781" Name="fodder3m2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod1\fodder3m2\fodder3m2" GUID="{A06EBF03-D517-41AB-9F7E-76E561F9299F}"/>
+				<Source Id="3846115780" Name="fodder3m3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod1\fodder3m3\fodder3m3" GUID="{B9FA0C59-F766-496C-80C8-ABF9F491002B}"/>
+				<Source Id="3846115779" Name="fodder3m4" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod2\fodder3m4\fodder3m4" GUID="{1BB2863F-50A1-4819-BA40-E78034C6AF98}"/>
+				<Source Id="3846115778" Name="fodder3m5" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod2\fodder3m5\fodder3m5" GUID="{F16A96E4-4D3F-4EC3-9878-EBBCCFE5B0CF}"/>
+				<Source Id="3846115777" Name="fodder3m6" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod2\fodder3m6\fodder3m6" GUID="{37FE8C7F-7CE1-4833-B272-3CAC42B56549}"/>
+				<Source Id="3846115776" Name="fodder3m7" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod3\fodder3m7\fodder3m7" GUID="{2BFA70C7-7D83-44F4-9C4B-6B12A2605AB6}"/>
+				<Source Id="3846115791" Name="fodder3m8" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod3\fodder3m8\fodder3m8" GUID="{18F796DE-34D7-4853-B888-D03EAEC879CC}"/>
+				<Source Id="3846115790" Name="fodder3m9" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder3\foddermod3\fodder3m9\fodder3m9" GUID="{881521F0-FA51-4C57-B905-11DDCED0FE4E}"/>
+				<Source Id="24776939" Name="fodderm1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod1\fodderm1\fodderm1" GUID="{184344AB-50CC-4293-A494-4AF790DFC7BB}"/>
+				<Source Id="24776936" Name="fodderm2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod1\fodderm2\fodderm2" GUID="{CEB15D30-270D-4B3F-8ED4-D0DC0B5AAB17}"/>
+				<Source Id="24776937" Name="fodderm3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod1\fodderm3\fodderm3" GUID="{8B32CBCA-E4EF-437F-9310-4E6CB5F528C9}"/>
+				<Source Id="24776942" Name="fodderm4" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod2\fodderm4\fodderm4" GUID="{12F40C7E-97D2-4333-91EE-1150B130C4B6}"/>
+				<Source Id="24776943" Name="fodderm5" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod2\fodderm5\fodderm5" GUID="{F938D267-0BA3-43E7-9126-BD89011DBC3A}"/>
+				<Source Id="24776940" Name="fodderm6" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod2\fodderm6\fodderm6" GUID="{B6353B4D-0559-4315-8D2E-E64123F55B5A}"/>
+				<Source Id="24776941" Name="fodderm7" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod3\fodderm7\fodderm7" GUID="{E2B53262-0E73-4E80-A8BE-6F53B4A1F545}"/>
+				<Source Id="24776930" Name="fodderm8" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod3\fodderm8\fodderm8" GUID="{C81DA9CD-D946-4605-B7D7-91F6A56BE66A}"/>
+				<Source Id="24776931" Name="fodderm9" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\fodder\mod_fodder1\foddermod3\fodderm9\fodderm9" GUID="{6628831E-547B-41AA-9EF6-2CC3765C85B5}"/>
+				<Source Id="1377388561" Name="generic1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic1\generic1" GUID="{32A8900D-BD90-4F55-9568-463D4EF18545}"/>
+				<Source Id="1322021619" Name="generic10" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic10\generic10" GUID="{9A4A1D4F-120C-4402-8CBD-52802F251B8F}"/>
+				<Source Id="1322021618" Name="generic11" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic11\generic11" GUID="{83938EF0-4CDD-4DFA-AA97-A7536C7B4307}"/>
+				<Source Id="1322021617" Name="generic12" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic12\generic12" GUID="{43C11303-3992-4CB2-9AAE-02E7B1740A29}"/>
+				<Source Id="1322021616" Name="generic13" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic13\generic13" GUID="{7654E6F4-AA86-4AAB-8B80-D93A0CA9DF08}"/>
+				<Source Id="1322021623" Name="generic14" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic14\generic14" GUID="{B619A76F-C14D-4BD5-81B7-80DB37AEE86C}"/>
+				<Source Id="1322021622" Name="generic15" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic15\generic15" GUID="{A2D7EEE6-E987-48DE-8E18-FA49BB8B870E}"/>
+				<Source Id="1322021621" Name="generic16" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic16\generic16" GUID="{30D5BCA5-EF60-429A-A2EC-84CB27F4104E}"/>
+				<Source Id="1322021620" Name="generic17" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic17\generic17" GUID="{87F2F4B3-E7E9-44C2-AE21-49D63FB02F50}"/>
+				<Source Id="1322021627" Name="generic18" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic18\generic18" GUID="{EA12EBED-6C36-41B2-A6C7-10B536AF5F6D}"/>
+				<Source Id="1322021626" Name="generic19" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic19\generic19" GUID="{025BD208-930E-429A-9DDE-5FE7FB6AD3E4}"/>
+				<Source Id="1377388562" Name="generic2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic2\generic2" GUID="{B9572153-EAA0-4229-AB0E-6E86EA058916}"/>
+				<Source Id="1338799206" Name="generic20" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic20\generic20" GUID="{07CE5588-6B69-43B6-8462-AFA800290405}"/>
+				<Source Id="1338799207" Name="generic21" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic21\generic21" GUID="{1FC3481E-9983-477B-9E39-06E49C287B11}"/>
+				<Source Id="1338799204" Name="generic22" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic22\generic22" GUID="{D2623B4A-C939-4CAB-9085-B75FA266C1F4}"/>
+				<Source Id="1338799205" Name="generic23" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic23\generic23" GUID="{2E0A7312-1681-44EB-BF95-AB40F9F5BE1C}"/>
+				<Source Id="1338799202" Name="generic24" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic24\generic24" GUID="{62B9E7CF-363F-450A-9EFC-E98CD3CCC6BB}"/>
+				<Source Id="1338799203" Name="generic25" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic25\generic25" GUID="{BE90059C-BDAF-4C74-90E3-48B637B4F7DE}"/>
+				<Source Id="1338799200" Name="generic26" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic26\generic26" GUID="{6752EBB6-AEBC-4ED4-9194-CF0FBC81A536}"/>
+				<Source Id="1338799201" Name="generic27" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic27\generic27" GUID="{CBCB6060-AA39-4A1D-98EB-F600A64EEB42}"/>
+				<Source Id="1338799214" Name="generic28" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic28\generic28" GUID="{F6975323-DCB4-4989-A8C3-F060B5024387}"/>
+				<Source Id="1338799215" Name="generic29" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic29\generic29" GUID="{F6BF27D4-1151-4680-8DA5-3C80DB017B30}"/>
+				<Source Id="1377388563" Name="generic3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic3\generic3" GUID="{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}"/>
+				<Source Id="1355576793" Name="generic30" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic30\generic30" GUID="{0012249A-F4DE-4F0C-973A-A3DA16F17086}"/>
+				<Source Id="1377388564" Name="generic4" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic4\generic4" GUID="{0E21C2AC-6C76-47BF-81E6-1D01653F27AA}"/>
+				<Source Id="1377388565" Name="generic5" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic5\generic5" GUID="{E232C960-B221-4767-9B06-764A064ADD04}"/>
+				<Source Id="1377388566" Name="generic6" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic6\generic6" GUID="{93E8684D-85A8-4513-A8F2-965B85057D6F}"/>
+				<Source Id="1377388567" Name="generic7" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic7\generic7" GUID="{614DE6B6-09D2-449A-B1F3-D4E780BC6AD4}"/>
+				<Source Id="1377388568" Name="generic8" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic8\generic8" GUID="{B0DBF035-46E3-4E94-84C5-6D6F5E63A92C}"/>
+				<Source Id="1377388569" Name="generic9" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic9\generic9" GUID="{403FA3DF-5213-45C8-BDFA-5860C7D6E3EA}"/>
+				<Source Id="1111653302" Name="mod2p1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire1\mod2p1\mod2p1" GUID="{EE6BA4C8-D5FC-4FDC-A10F-93090F6BA004}"/>
+				<Source Id="78167986" Name="mod2p10" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire4\mod2p10\mod2p10" GUID="{1985C931-B651-43FF-BE71-09532F33FFA2}"/>
+				<Source Id="78167987" Name="mod2p11" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire4\mod2p11\mod2p11" GUID="{E7FEA2D0-3D77-4E4E-B546-59B8BB18D56A}"/>
+				<Source Id="78167984" Name="mod2p12" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire4\mod2p12\mod2p12" GUID="{2F2FF805-FB0F-4BE5-B7D4-03B8DB047253}"/>
+				<Source Id="1111653301" Name="mod2p2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire1\mod2p2\mod2p2" GUID="{872689BD-40FE-423E-A704-D38D428F8049}"/>
+				<Source Id="1111653300" Name="mod2p3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire1\mod2p3\mod2p3" GUID="{23F684F3-4C24-47D7-B989-8B091E2DE4F2}"/>
+				<Source Id="1111653299" Name="mod2p4" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire2\mod2p4\mod2p4" GUID="{D5259408-F2D2-4929-AD2C-22314DC8D9A0}"/>
+				<Source Id="1111653298" Name="mod2p5" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire2\mod2p5\mod2p5" GUID="{4E9114ED-E394-4551-B9B3-CE6B262BF322}"/>
+				<Source Id="1111653297" Name="mod2p6" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire2\mod2p6\mod2p6" GUID="{79DC8FB2-2531-4460-8B4F-9A0B439A1EBF}"/>
+				<Source Id="1111653296" Name="mod2p7" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire3\mod2p7\mod2p7" GUID="{CE820170-9121-4B35-9694-A35A13B48D07}"/>
+				<Source Id="1111653311" Name="mod2p8" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire3\mod2p8\mod2p8" GUID="{C287754B-0D23-4B45-BF81-847DB2733842}"/>
+				<Source Id="1111653310" Name="mod2p9" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon2\fire3\mod2p9\mod2p9" GUID="{4DDB5887-CBA4-4A11-8EAF-F37142DDB019}"/>
+				<Source Id="1010840399" Name="mod3p1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire1\mod3p1\mod3p1" GUID="{2A27D8C4-045D-4283-8841-5DFD037A5DB9}"/>
+				<Source Id="672187757" Name="mod3p10" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire4\mod3p10\mod3p10" GUID="{D0A344E6-D8F8-4DD3-83D4-128FB1CDF135}"/>
+				<Source Id="672187756" Name="mod3p11" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire4\mod3p11\mod3p11" GUID="{348530B5-B7E3-4F62-A0E0-92A8E864156C}"/>
+				<Source Id="672187759" Name="mod3p12" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire4\mod3p12\mod3p12" GUID="{55D84D74-DCB7-4A1D-A4FC-5163DF0667D8}"/>
+				<Source Id="1010840396" Name="mod3p2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire1\mod3p2\mod3p2" GUID="{60B0B5D0-E7FF-43F6-85F2-FE034525B4DC}"/>
+				<Source Id="1010840397" Name="mod3p3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire1\mod3p3\mod3p3" GUID="{07AD9482-2ABD-4155-A1C1-66537B32D079}"/>
+				<Source Id="1010840394" Name="mod3p4" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire2\mod3p4\mod3p4" GUID="{7211A809-9453-466F-AC05-AB27555486DA}"/>
+				<Source Id="1010840395" Name="mod3p5" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire2\mod3p5\mod3p5" GUID="{FA0B9253-7A39-4F3D-8E75-5E12AFBE4F7F}"/>
+				<Source Id="1010840392" Name="mod3p6" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire2\mod3p6\mod3p6" GUID="{F9321BAE-E722-4AD5-B4EA-C57F03147711}"/>
+				<Source Id="1010840393" Name="mod3p7" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire3\mod3p7\mod3p7" GUID="{C8F46ED3-B933-450F-9290-7E4D6210BC58}"/>
+				<Source Id="1010840390" Name="mod3p8" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire3\mod3p8\mod3p8" GUID="{D5725F4B-F33E-4E83-BB2F-C8638FFDF313}"/>
+				<Source Id="1010840391" Name="mod3p9" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon3\fire3\mod3p9\mod3p9" GUID="{7715ADB7-82D6-4577-B560-8C7D66F376DD}"/>
+				<Source Id="1045760086" Name="modp1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire1\modp1\modp1" GUID="{9ACB0901-9610-43F8-BAE4-6D70541EF885}"/>
+				<Source Id="1977360210" Name="modp10" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire4\modp10\modp10" GUID="{4B55E75A-C456-4D11-A838-9FD73B386A6C}"/>
+				<Source Id="1977360211" Name="modp11" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire4\modp11\modp11" GUID="{36E35240-E47D-4F08-9FF8-5BD2213BA348}"/>
+				<Source Id="1977360208" Name="modp12" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire4\modp12\modp12" GUID="{8D82F5C8-7108-473E-92AB-BA609464F9D0}"/>
+				<Source Id="1045760085" Name="modp2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire1\modp2\modp2" GUID="{7F6BA82A-23B0-4E14-8071-FCD29CE34376}"/>
+				<Source Id="1045760084" Name="modp3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire1\modp3\modp3" GUID="{0CA484D9-5D00-4E05-A978-3F3132F6F7E4}"/>
+				<Source Id="1045760083" Name="modp4" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire2\modp4\modp4" GUID="{9438A84E-BCEA-4EEE-B688-EEBB8E9CC6B8}"/>
+				<Source Id="1045760082" Name="modp5" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire2\modp5\modp5" GUID="{3ED771FC-9575-4BFE-A302-37FC80992B2D}"/>
+				<Source Id="1045760081" Name="modp6" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire2\modp6\modp6" GUID="{DFF71A0B-AB50-44FB-BB00-1CCE19E1E87D}"/>
+				<Source Id="1045760080" Name="modp7" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire3\modp7\modp7" GUID="{40F18D31-697D-4796-8E60-241C745FE532}"/>
+				<Source Id="1045760095" Name="modp8" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire3\modp8\modp8" GUID="{C552DB60-3AB7-4ECD-83B6-798266CA0283}"/>
+				<Source Id="1045760094" Name="modp9" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\weapons_mods\mod_weapon1\fire3\modp9\modp9" GUID="{017EA037-13BB-46D3-AE93-EBB036040322}"/>
+			</ExternalSources>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E3F4869F-DF9F-4A3A-AFA5-4E62D36C5657}" SchemaVersion="97" RootDocumentID="{E1C7CF01-7EBA-4BE9-84E4-9DE2649528A9}">
+	<Events>
+		<WorkUnit Name="music_ghost" ID="{E3F4869F-DF9F-4A3A-AFA5-4E62D36C5657}" OwnerID="{3D36169D-286F-4505-9EA7-7A677ADE4C1C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_music_menu" ID="{19591728-F84E-4C03-B84D-C455B075F44B}">
+					<ChildrenList>
+						<Action Name="" ID="{B1F9EE07-B1DD-45BB-802D-1AAB9D2A8041}" ShortID="178021616">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_ghost_switch" ID="{A2AFBE10-7D39-42EF-9C2B-EB4A2AF0C568}" WorkUnitID="{38976B0E-8597-433F-90BE-3E71F1741B29}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

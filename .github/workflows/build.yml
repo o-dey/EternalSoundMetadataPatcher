@@ -1,0 +1,32 @@
+name: build
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Setup msbuild
+      uses: microsoft/setup-msbuild@v3
+      
+    - name: Setup nuget
+      uses: nuget/setup-nuget@v4
+
+    - name: Restore Packages
+      run: nuget restore "EternalSoundMetadataPatcher.sln"
+
+    - name: Build app
+      run: msbuild "EternalSoundMetadataPatcher\EternalSoundMetadataPatcher.csproj" -t:rebuild -verbosity:diag -property:Configuration=Release
+
+    - name: Upload app
+      run: gh release upload ${{github.event.release.tag_name}} "EternalSoundMetadataPatcher/bin/Release/EternalSoundMetadataPatcher.exe" 
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1313A0C-24A0-482A-8AD3-0EFEE18564DF}" SchemaVersion="97" RootDocumentID="{E1C7CF01-7EBA-4BE9-84E4-9DE2649528A9}">
+	<Events>
+		<WorkUnit Name="ghost_ambience_mod" ID="{B1313A0C-24A0-482A-8AD3-0EFEE18564DF}" OwnerID="{928C1F0B-AB6F-4935-B30B-1449113886BE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_ambience2" ID="{961B8549-AF60-4DE7-BD26-FBD8B7E52314}">
+					<ChildrenList>
+						<Action Name="" ID="{AE4E7B76-F741-4403-B6A5-1DADB99DE51A}" ShortID="135546764">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience2" ID="{872EF768-F10F-40A5-A5E0-2463591A2C55}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience3" ID="{5B6A40F9-646D-4E65-B2CE-CC65E3B56AA4}">
+					<ChildrenList>
+						<Action Name="" ID="{9493C2D8-8DCC-4BBE-90EB-81773D68D586}" ShortID="31822991">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience3" ID="{47813330-76BA-48FA-9653-4D8A05D3FA9F}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience4" ID="{D6D79373-D057-4A04-9E72-85DFF2E92DDD}">
+					<ChildrenList>
+						<Action Name="" ID="{FEBD13A7-5EA6-404A-B1A0-2E73D152DAB1}" ShortID="90357368">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience4" ID="{4FD006AD-C456-46C7-BAD9-61A0C27A2BF4}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience1" ID="{68DB4304-C42F-4C81-8856-020F1F838D0E}">
+					<ChildrenList>
+						<Action Name="" ID="{16A816E5-AAA0-4FE8-A548-C6843131844C}" ShortID="693423245">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience1" ID="{809A4F2E-D0F6-4372-A361-A1AC943C5377}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience16" ID="{3EE722B3-958A-445D-9013-040E29B11FDC}">
+					<ChildrenList>
+						<Action Name="" ID="{A27E8D77-491C-4A66-A796-035F466E4065}" ShortID="266821939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience16" ID="{2029ECD4-39E2-4204-81AB-94F48894540A}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience20" ID="{C7109D2C-D40F-406F-99A4-EC92885432A0}">
+					<ChildrenList>
+						<Action Name="" ID="{398678B9-D4CB-4245-906E-499CE13B2A3F}" ShortID="290940434">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience20" ID="{D86087A2-9776-4654-8575-FE55D69E2A06}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience18" ID="{3574CCFF-1124-4BB2-B905-8428C3EFF3AE}">
+					<ChildrenList>
+						<Action Name="" ID="{B29F216A-B6FD-48BD-ABCB-3AAD8B5FFD23}" ShortID="266149667">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience18" ID="{8AEBA098-DC0F-4117-9A50-F23B2304010E}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience19" ID="{C752A342-A20C-4663-8DD1-B897AB2BC2A1}">
+					<ChildrenList>
+						<Action Name="" ID="{5EAD038F-A2F5-4420-9083-F53A6E91AE71}" ShortID="400100575">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience19" ID="{BA251F81-95B9-4505-83D1-9B7D938EE1AC}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience15" ID="{FD96436D-A1FD-4655-A8B5-33BEF2A47D53}">
+					<ChildrenList>
+						<Action Name="" ID="{D79AE9A0-D1E7-4EB7-8864-EF71918386FA}" ShortID="338824609">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience15" ID="{539CF1CF-2434-4992-9C0B-6E01F85D8EB0}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience17" ID="{0F22144B-1B91-4DD6-A1A6-A89836A7908F}">
+					<ChildrenList>
+						<Action Name="" ID="{58928238-2DF0-4068-8269-57618666EC07}" ShortID="499620558">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience17" ID="{9690234F-09A3-46DB-A4F6-D48E1EC0C672}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience11" ID="{C6E3CF7E-DCD0-48A0-8580-8CF9D06B4DDE}">
+					<ChildrenList>
+						<Action Name="" ID="{93EFCE7B-35D8-4A3B-8296-4659BD71173E}" ShortID="361336057">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience11" ID="{989EBC2A-BEE7-43EC-AAFA-79B671092A04}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience8" ID="{D9F393B2-B2F8-4A1A-AD2F-5939032DFD0F}">
+					<ChildrenList>
+						<Action Name="" ID="{988830D3-416D-4065-A04F-C2553EABD034}" ShortID="778443125">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience8" ID="{EC9CC857-D149-42F7-A094-C79457EE3115}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience12" ID="{10323D31-A4B9-4E9D-B9DB-76FE7BD9E93A}">
+					<ChildrenList>
+						<Action Name="" ID="{A7D8F981-53DB-44C2-B908-8107C2129016}" ShortID="743286359">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience12" ID="{10C4C2C3-2E29-47DE-A617-9C7CE1956058}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience6" ID="{CAB9B369-6B57-4E1A-99A8-29064D4AE09D}">
+					<ChildrenList>
+						<Action Name="" ID="{F20ED674-7DED-4E67-B992-9539D973F10F}" ShortID="924655230">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience6" ID="{246C8992-C9AA-4474-9537-F4FA7A168F2E}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience5" ID="{3EBDB3D3-E235-4008-A08D-4F2F89E74A68}">
+					<ChildrenList>
+						<Action Name="" ID="{EE8F835E-5042-4662-A79E-3CD991A4B9DF}" ShortID="868410458">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience5" ID="{25F8E3B8-74EB-4507-8EDA-3C87547BFF9C}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience9" ID="{9F84B1CF-2332-4447-9B84-50A3950FBBB6}">
+					<ChildrenList>
+						<Action Name="" ID="{68283C8D-1BE2-4A52-A994-1F7065075692}" ShortID="15219117">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience9" ID="{D36102A0-F2FF-4D49-8D4E-C77C4C7FF310}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience13" ID="{0AAD0950-52CE-4055-9084-AD6BB03F2DCC}">
+					<ChildrenList>
+						<Action Name="" ID="{C002FC6A-2A8C-4471-B541-A2DF176EF968}" ShortID="261589970">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience13" ID="{6FD54439-EB70-4703-9722-39BFD3DBDAB9}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience7" ID="{53ADCAF1-54A4-4A7D-B54B-B1727CEE6614}">
+					<ChildrenList>
+						<Action Name="" ID="{4070A74F-C92F-4352-BC07-D4429F00F233}" ShortID="509258300">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience7" ID="{65AE4802-218F-4577-B30A-322EA173CD6F}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience10" ID="{CC2E8203-7E0A-48BB-BA8D-F4163E25ED31}">
+					<ChildrenList>
+						<Action Name="" ID="{650BBD7B-31ED-49A3-A1F4-897CFF6A9380}" ShortID="756676488">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience10" ID="{4AC66483-186E-48B1-86F2-9BCCF69538F0}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambience14" ID="{B9BAC674-4B6A-4870-A19D-E1378BB3B910}">
+					<ChildrenList>
+						<Action Name="" ID="{05DAC814-1DA4-4A3F-A5FE-BA42A2682131}" ShortID="681701940">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience14" ID="{520D7745-E295-4128-A2AE-074C7D10D8CD}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

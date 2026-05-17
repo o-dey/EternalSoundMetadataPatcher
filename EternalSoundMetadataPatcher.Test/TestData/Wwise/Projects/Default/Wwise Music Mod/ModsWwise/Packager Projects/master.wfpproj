@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Version="7" InfoFilePath="$(INFO_FILE_PATH)" OutputDirectory="$(OUTPUT_DIRECTORY)">
+  <ManualPackagingInfo BlockSize="1" UnassignedBanksPackageId="00000000-0000-0000-0000-000000000000" UnassignedStreamsPackageId="00000000-0000-0000-0000-000000000000" UnassignedExternalsPackageId="00000000-0000-0000-0000-000000000000" UnassignedLooseMediaPackageId="00000000-0000-0000-0000-000000000000">
+    <Packages>
+      <Package Id="3987e949-0b74-447e-bd76-14feb5247a99" Name="mods.pck">
+        <Items>
+          <PackageContentItem Id="3313201758" Language="SFX" FileName="mods" InclusionMode="BankAndStreamsAndLooseMedia" />
+        </Items>
+        <LayoutItems>
+          <ContentItemBase Id="0" Language="" FileName="" />
+        </LayoutItems>
+      </Package>
+      <Package Id="e491d2e0-ba69-416e-b9c8-7c7e845638ca" Name="music_mods.pck">
+        <Items>
+          <PackageContentItem Id="1496058806" Language="SFX" FileName="music_mods" InclusionMode="BankAndLooseMedia" />
+        </Items>
+        <LayoutItems>
+          <ContentItemBase Id="0" Language="" FileName="" />
+        </LayoutItems>
+      </Package>
+    </Packages>
+    <DefaultLanguagePackageIds />
+  </ManualPackagingInfo>
+</Project>

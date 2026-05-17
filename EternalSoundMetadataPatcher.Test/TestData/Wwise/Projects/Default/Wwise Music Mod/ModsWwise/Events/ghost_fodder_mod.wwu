@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B097B8DE-4C1D-44B5-908A-4CB698CD00DF}" SchemaVersion="97" RootDocumentID="{E1C7CF01-7EBA-4BE9-84E4-9DE2649528A9}">
+	<Events>
+		<WorkUnit Name="ghost_fodder_mod" ID="{B097B8DE-4C1D-44B5-908A-4CB698CD00DF}" OwnerID="{928C1F0B-AB6F-4935-B30B-1449113886BE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_foddermod2" ID="{69E3BBD0-8CB5-4271-9D2C-4535F734FD80}">
+					<ChildrenList>
+						<Action Name="" ID="{40BD442B-CE5D-4CC2-96ED-116DB9A086F1}" ShortID="146716706">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod2" ID="{F37066BE-2C32-4D61-B9F4-72F19C872642}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_foddermod3" ID="{64ECD5B7-9F81-4567-B820-7673195764EA}">
+					<ChildrenList>
+						<Action Name="" ID="{919E0A44-2CFE-472B-9D45-E98885C8C592}" ShortID="291970343">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod3" ID="{F945305F-A316-4B73-BB7C-D09D5C008641}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_foddermod1" ID="{6BF56033-A559-4E40-AA4B-5D9C005B8B24}">
+					<ChildrenList>
+						<Action Name="" ID="{C7F784C1-357C-48A6-BB6F-DFC1ACBF9001}" ShortID="19219955">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod1" ID="{055AEAFC-5F08-433E-A91F-C8A75690171D}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fodder2mod3" ID="{5AC80B69-61D9-40D9-9FFE-D199B5F57F78}">
+					<ChildrenList>
+						<Action Name="" ID="{1F8133C4-EA71-4351-BE23-61E2D7731391}" ShortID="573983823">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod3" ID="{5323B1A3-6798-4FC7-B035-EA197EFBA8E3}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fodder3mod1" ID="{955ED284-6AAB-4065-8D0B-0FA912BEDFA3}">
+					<ChildrenList>
+						<Action Name="" ID="{AC09907D-E1F1-4043-BF3C-7F3F9A53E048}" ShortID="425180511">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod1" ID="{685FEF7C-B766-4E79-8FF1-6F611477E8E3}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fodder2mod1" ID="{59014F0B-DE15-4D0B-9320-490B5554E249}">
+					<ChildrenList>
+						<Action Name="" ID="{ECFD82BA-46BD-44F1-853F-8737BF1C99BF}" ShortID="293140162">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod1" ID="{01DE5343-5CC4-44AD-9135-91D6E45E9F42}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fodder3mod3" ID="{9B8587B6-C701-4C23-A8D8-5D981C595A2A}">
+					<ChildrenList>
+						<Action Name="" ID="{14C7ECA6-5E76-4B95-B679-405F8121D94A}" ShortID="39151910">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod3" ID="{557D522D-A017-4E16-8452-0CE7E64D2879}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fodder3mod2" ID="{351CC730-4D5A-4179-965E-3DCA474CC0A4}">
+					<ChildrenList>
+						<Action Name="" ID="{05353198-9A81-4B3C-A068-E588ED4AC23A}" ShortID="408615819">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod2" ID="{B0FE20C5-6A56-4B06-B263-66DEA559620E}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fodder2mod2" ID="{85070F0D-9AEC-4B6F-9348-A48ACCA37D42}">
+					<ChildrenList>
+						<Action Name="" ID="{627E2826-E27F-411C-9EF5-4A93D0AF78AA}" ShortID="772518618">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foddermod2" ID="{C819AEEF-7F48-4B64-BB71-E9987049E4E9}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

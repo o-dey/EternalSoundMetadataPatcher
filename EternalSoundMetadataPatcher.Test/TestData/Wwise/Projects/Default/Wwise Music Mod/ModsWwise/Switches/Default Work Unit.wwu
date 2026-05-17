@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{89B85A6C-7F4A-470F-97E4-39BECCAD565A}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{89B85A6C-7F4A-470F-97E4-39BECCAD565A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="music_ghost_switch" ID="{C6D52B87-FB33-4C0D-BD80-F6E33A3FF125}">
+					<ChildrenList>
+						<Switch Name="mod1_music" ID="{4F29DF87-6929-4E75-85E7-AADD474740FD}"/>
+						<Switch Name="mod2_music" ID="{910F1D9C-47FD-4E15-9EC3-52247F1BB826}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

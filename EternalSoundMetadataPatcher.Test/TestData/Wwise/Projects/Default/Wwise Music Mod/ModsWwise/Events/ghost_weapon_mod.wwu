@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D865C73F-3B7C-48FA-BDCE-699EEE73B026}" SchemaVersion="97" RootDocumentID="{E1C7CF01-7EBA-4BE9-84E4-9DE2649528A9}">
+	<Events>
+		<WorkUnit Name="ghost_weapon_mod" ID="{D865C73F-3B7C-48FA-BDCE-699EEE73B026}" OwnerID="{928C1F0B-AB6F-4935-B30B-1449113886BE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_mod_fire1" ID="{0D0F0AC9-0C95-484D-A1DE-9EC82DF98202}">
+					<ChildrenList>
+						<Action Name="" ID="{7594F37C-76A5-426D-8ACA-EB6C268832DC}" ShortID="362536353">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire1" ID="{782E1B4B-671A-4B1B-9920-D1AF59610BC1}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod_fire2" ID="{08EA2798-EAF7-4A63-BD28-248FCE9FEEEC}">
+					<ChildrenList>
+						<Action Name="" ID="{19790CCE-1B22-4B5E-A841-D6E743529437}" ShortID="344228986">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire2" ID="{06F6E323-8328-44AE-9F95-93E22D31364A}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod_fire4" ID="{101EDACF-5453-462F-AFE6-DCEF098B3253}">
+					<ChildrenList>
+						<Action Name="" ID="{214156B6-51E3-4466-8B22-5B1EE8929249}" ShortID="733270213">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire4" ID="{6C11DB9B-5328-457F-8F08-2C5062AB76F8}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod_fire3" ID="{A52A21CF-52C9-4786-B246-00A86EF3E180}">
+					<ChildrenList>
+						<Action Name="" ID="{45EE83BE-B3C6-4D40-AE95-2D9431B28807}" ShortID="689319305">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire3" ID="{61AEC246-C738-4A18-9F07-5A3A9A2AEB6C}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod2_fire2" ID="{4B810491-5F11-4E8F-BD89-CF3E5287A997}">
+					<ChildrenList>
+						<Action Name="" ID="{5E95D99A-E5B7-456E-A597-3E620FF88580}" ShortID="369233161">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire2" ID="{6052D026-C4E4-4CC6-9826-A3A1BCAEA58A}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod2_fire1" ID="{26B591E7-76C3-4A77-872F-030688D91D2B}">
+					<ChildrenList>
+						<Action Name="" ID="{E024A621-2B16-46B1-8EF8-9290E158B045}" ShortID="43988995">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire1" ID="{FEA62007-CD2E-4FA0-AAAE-51A23B521AE1}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod2_fire4" ID="{0FA52108-4A12-4303-B90D-EDAA5B265374}">
+					<ChildrenList>
+						<Action Name="" ID="{6C87AD6B-82AB-4708-BF5D-25ED20B88B23}" ShortID="883298704">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire4" ID="{A96B711D-C1EB-47AD-B165-0DA81D73B796}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod2_fire3" ID="{B47A5E7F-8349-45A5-B2C0-90F3BBBE68A5}">
+					<ChildrenList>
+						<Action Name="" ID="{F65F4B39-CF94-4AED-BF70-7895B6030849}" ShortID="114062769">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire3" ID="{0D96DC52-2C5D-486B-9466-E9767B270BDC}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod3_fire4" ID="{0E3C40E0-724B-4D9A-97D1-231F7532F88A}">
+					<ChildrenList>
+						<Action Name="" ID="{5A3FB199-3B93-47B2-A5BA-884695004E60}" ShortID="1036891050">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire4" ID="{F457EDD0-57AA-42E0-801C-A74E2244B078}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod3_fire1" ID="{DFB4FE84-7A79-45A8-AAC7-08FB76A43384}">
+					<ChildrenList>
+						<Action Name="" ID="{FB630EB5-FE5E-4376-AF98-A8AE7B5CF53A}" ShortID="469496903">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire1" ID="{E2EAE69D-8D3D-4B11-B84B-C001AD78C27B}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod3_fire2" ID="{71AD01EA-9132-43EA-A55F-6249B46E942C}">
+					<ChildrenList>
+						<Action Name="" ID="{74DD46AE-3943-46EF-A8E6-3B4E64876AE5}" ShortID="807225667">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire2" ID="{075ADF81-446C-46EA-AEA1-7B1B97C27F44}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_mod3_fire3" ID="{26221271-3AA1-4377-845E-8D569722B2CB}">
+					<ChildrenList>
+						<Action Name="" ID="{D9992565-CB45-4003-A1C9-3AFA228C85CA}" ShortID="456846738">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire3" ID="{96F7111C-E3CC-456D-81AB-1938A6E2D4D1}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

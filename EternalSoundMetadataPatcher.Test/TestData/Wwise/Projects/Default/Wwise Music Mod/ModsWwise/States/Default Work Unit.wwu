@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9813C88B-FA3F-4B6D-93E5-0CA48F93898A}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{9813C88B-FA3F-4B6D-93E5-0CA48F93898A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="music_ghost_states" ID="{EDB127C0-306F-41B2-9FF7-F310D82F189D}">
+					<ChildrenList>
+						<State Name="None" ID="{93B77185-C0E9-48AD-B122-8BA6793BE009}"/>
+						<State Name="main_light" ID="{4AD015A1-3154-458A-B041-7309476B6AA3}"/>
+						<State Name="main_heavy" ID="{EFCF6C1A-D413-4C8E-9EE2-04B85A27A930}"/>
+						<State Name="main_ambient" ID="{C0417E5B-68BC-47B3-87BC-DE3FBABB4BA2}"/>
+						<State Name="additional_levelstart" ID="{498B8FDD-3D7B-4D4F-8A0B-FAC052E5EFEE}"/>
+						<State Name="additional_reveal" ID="{0D478D08-BDC2-440A-8436-1D7400A51F82}"/>
+						<State Name="boss_vulnerable" ID="{8350FDF5-FDE5-4F32-807B-9223D1DC93F4}"/>
+						<State Name="level_marscore_baron" ID="{AFE22F99-54B0-42B8-90BA-5E214ACC60C4}"/>
+						<State Name="level_marscore_painelemental" ID="{96D342C7-1C73-4E08-943F-359FA80CEF3C}"/>
+						<State Name="level_marscore_obdeck_start" ID="{AC2063CE-2790-4AE9-8401-7623AF1634D4}"/>
+						<State Name="level_marscore_obdeck_elevator" ID="{D93C856A-B0FD-48AC-AF11-92A60B6D3B89}"/>
+						<State Name="boss_phase1" ID="{C1ED8FEE-0ABC-421C-9FA8-32CF3430DB49}"/>
+						<State Name="boss_phase2" ID="{78D16B9C-4CD0-43B4-ABB5-E955610B9A6D}"/>
+						<State Name="boss_phase3" ID="{5D533A99-EDD0-44C0-96FD-BC942A25D3C5}"/>
+						<State Name="boss_end" ID="{CE0946B9-70E3-4B45-92B5-283B6941B065}"/>
+						<State Name="escape_pod" ID="{B11D92E4-5E83-4321-A429-1848D05170FA}"/>
+						<State Name="stinger" ID="{C9144960-6E90-4479-ABDE-EFF05CA94C37}"/>
+						<State Name="tutorial" ID="{570502F7-D9C6-429D-AA14-1A95B8001070}"/>
+						<State Name="cine_boss_intro" ID="{E965B221-C7A5-43E1-A922-AB9D58F97CA8}"/>
+						<State Name="cine_boss_end" ID="{D1796ADA-FAA4-4A63-BCAE-0B74FAA1BFDA}"/>
+						<State Name="cine_1" ID="{F8FCD381-12D1-463A-9ED4-55B87E830349}"/>
+						<State Name="cine_2" ID="{A62818AB-ACB9-4893-BE0F-D30DD85E7A64}"/>
+						<State Name="cine_3" ID="{F8C604E9-9FDB-48CD-932A-AD57F4C870B0}"/>
+						<State Name="cine_4" ID="{54516C8C-A9C8-4547-9E7F-C6FE75FF4F77}"/>
+						<State Name="cine_5" ID="{F0D37CA9-6235-4850-AB08-9A9463F3CA1D}"/>
+						<State Name="cine_6" ID="{93CEB39A-86AF-4F36-81A3-3E3CCBC8741C}"/>
+						<State Name="pvp_win" ID="{DFBDCAB8-F73F-4CC3-9ADF-817CD42D230C}"/>
+						<State Name="pvp_lose" ID="{2EB99C1F-31D4-4F48-BE44-1E3FFF998721}"/>
+						<State Name="pvp_lobby" ID="{E51F7E7D-A67B-4FEE-856C-8444834B045D}"/>
+						<State Name="pvp_sudden_death" ID="{76029ED0-2CC4-47B6-B27B-1A53C3C19F42}"/>
+						<State Name="pvp_lobby_player_ready" ID="{FE6D2945-48FF-408E-9DC1-BE89F9AC23B2}"/>
+						<State Name="pvp_lobby_end" ID="{D441BB3B-C9C2-48A2-8560-04B34565693E}"/>
+						<State Name="eol" ID="{9810AACF-FD8D-45F2-9685-97E3CDF60AD9}"/>
+						<State Name="alt_ambient" ID="{96D0EA8C-230B-4411-9FC5-6AA1B880B8A6}"/>
+						<State Name="alt_light" ID="{2B9AA5E2-DCB0-4E2F-9152-BA9FD28CC38A}"/>
+						<State Name="alt_heavy" ID="{35D7F771-E799-4F68-90C1-2A2DA51A9E8A}"/>
+						<State Name="credits_start" ID="{FA4DA76E-91F1-4C22-BD30-5AEEF955C4E1}"/>
+						<State Name="credits_end" ID="{8BCCA1DF-2B03-459F-9440-B45E456C2F9E}"/>
+						<State Name="pvp_win_round" ID="{506E7FA5-C3CD-4FC1-B949-BF0C45D628CC}"/>
+						<State Name="pvp_lose_round" ID="{12D7D911-B064-4CE0-86AC-DDDA8D29699E}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

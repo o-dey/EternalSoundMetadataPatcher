@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA8E32C8-1B66-42CE-ADFD-EC21871D8E02}" SchemaVersion="97" RootDocumentID="{E1C7CF01-7EBA-4BE9-84E4-9DE2649528A9}">
+	<Events>
+		<WorkUnit Name="ghost_generic_mod" ID="{FA8E32C8-1B66-42CE-ADFD-EC21871D8E02}" OwnerID="{928C1F0B-AB6F-4935-B30B-1449113886BE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_generic3" ID="{CF839B38-A76D-4554-924E-F3B3F6812075}">
+					<ChildrenList>
+						<Action Name="" ID="{8DBE2896-E8BB-4437-B8B7-9E080713A693}" ShortID="740540026">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="generic3" ID="{35396071-50DA-45AE-9A2C-ACF5D36C2298}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_generic1" ID="{2B494D31-3D02-4C39-BEF6-CB9889E9EE32}">
+					<ChildrenList>
+						<Action Name="" ID="{1AF5AAD0-7B7B-4757-8832-3CB536134DDC}" ShortID="970882106">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="generic1" ID="{43BA1D2D-5DBD-4B73-B506-03C416E7F0CF}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_generic2" ID="{7DD32D72-1E1C-426C-9B6D-6E1BC2B3F52F}">
+					<ChildrenList>
+						<Action Name="" ID="{F25F5EBD-67B4-49E0-B5BE-9BA3F4FB77CD}" ShortID="975510197">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="generic2" ID="{F75B1E9A-7E0F-40B1-A6D3-901BF025B869}" WorkUnitID="{B7E5B674-6287-4CF9-A03B-86ACB55E65CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

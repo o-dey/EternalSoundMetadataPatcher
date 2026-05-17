@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot></ProjectRoot>
+		<SourceFilesRoot></SourceFilesRoot>
+		<SoundBanksRoot></SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot></ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="1273845451" Name="music_ghost_states" ObjectPath="\States\Default Work Unit\music_ghost_states" GUID="{EDB127C0-306F-41B2-9FF7-F310D82F189D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\music_ghost_states\None" GUID="{93B77185-C0E9-48AD-B122-8BA6793BE009}"/>
+						<State Id="3609563711" Name="main_light" ObjectPath="\States\Default Work Unit\music_ghost_states\main_light" GUID="{4AD015A1-3154-458A-B041-7309476B6AA3}"/>
+						<State Id="2346688826" Name="main_heavy" ObjectPath="\States\Default Work Unit\music_ghost_states\main_heavy" GUID="{EFCF6C1A-D413-4C8E-9EE2-04B85A27A930}"/>
+						<State Id="2652561719" Name="main_ambient" ObjectPath="\States\Default Work Unit\music_ghost_states\main_ambient" GUID="{C0417E5B-68BC-47B3-87BC-DE3FBABB4BA2}"/>
+						<State Id="800821099" Name="additional_levelstart" ObjectPath="\States\Default Work Unit\music_ghost_states\additional_levelstart" GUID="{498B8FDD-3D7B-4D4F-8A0B-FAC052E5EFEE}"/>
+						<State Id="1324010434" Name="additional_reveal" ObjectPath="\States\Default Work Unit\music_ghost_states\additional_reveal" GUID="{0D478D08-BDC2-440A-8436-1D7400A51F82}"/>
+						<State Id="3596375921" Name="boss_vulnerable" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_vulnerable" GUID="{8350FDF5-FDE5-4F32-807B-9223D1DC93F4}"/>
+						<State Id="2626456411" Name="level_marscore_baron" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_baron" GUID="{AFE22F99-54B0-42B8-90BA-5E214ACC60C4}"/>
+						<State Id="80330432" Name="level_marscore_painelemental" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_painelemental" GUID="{96D342C7-1C73-4E08-943F-359FA80CEF3C}"/>
+						<State Id="63148780" Name="level_marscore_obdeck_start" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_obdeck_start" GUID="{AC2063CE-2790-4AE9-8401-7623AF1634D4}"/>
+						<State Id="274104046" Name="level_marscore_obdeck_elevator" ObjectPath="\States\Default Work Unit\music_ghost_states\level_marscore_obdeck_elevator" GUID="{D93C856A-B0FD-48AC-AF11-92A60B6D3B89}"/>
+						<State Id="3456390135" Name="boss_phase1" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase1" GUID="{C1ED8FEE-0ABC-421C-9FA8-32CF3430DB49}"/>
+						<State Id="3456390132" Name="boss_phase2" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase2" GUID="{78D16B9C-4CD0-43B4-ABB5-E955610B9A6D}"/>
+						<State Id="3456390133" Name="boss_phase3" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_phase3" GUID="{5D533A99-EDD0-44C0-96FD-BC942A25D3C5}"/>
+						<State Id="1765320760" Name="boss_end" ObjectPath="\States\Default Work Unit\music_ghost_states\boss_end" GUID="{CE0946B9-70E3-4B45-92B5-283B6941B065}"/>
+						<State Id="1804753788" Name="escape_pod" ObjectPath="\States\Default Work Unit\music_ghost_states\escape_pod" GUID="{B11D92E4-5E83-4321-A429-1848D05170FA}"/>
+						<State Id="78360149" Name="stinger" ObjectPath="\States\Default Work Unit\music_ghost_states\stinger" GUID="{C9144960-6E90-4479-ABDE-EFF05CA94C37}"/>
+						<State Id="3762955427" Name="tutorial" ObjectPath="\States\Default Work Unit\music_ghost_states\tutorial" GUID="{570502F7-D9C6-429D-AA14-1A95B8001070}"/>
+						<State Id="2308199245" Name="cine_boss_intro" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_boss_intro" GUID="{E965B221-C7A5-43E1-A922-AB9D58F97CA8}"/>
+						<State Id="890273512" Name="cine_boss_end" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_boss_end" GUID="{D1796ADA-FAA4-4A63-BCAE-0B74FAA1BFDA}"/>
+						<State Id="3857925822" Name="cine_1" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_1" GUID="{F8FCD381-12D1-463A-9ED4-55B87E830349}"/>
+						<State Id="3857925821" Name="cine_2" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_2" GUID="{A62818AB-ACB9-4893-BE0F-D30DD85E7A64}"/>
+						<State Id="3857925820" Name="cine_3" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_3" GUID="{F8C604E9-9FDB-48CD-932A-AD57F4C870B0}"/>
+						<State Id="3857925819" Name="cine_4" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_4" GUID="{54516C8C-A9C8-4547-9E7F-C6FE75FF4F77}"/>
+						<State Id="3857925818" Name="cine_5" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_5" GUID="{F0D37CA9-6235-4850-AB08-9A9463F3CA1D}"/>
+						<State Id="3857925817" Name="cine_6" ObjectPath="\States\Default Work Unit\music_ghost_states\cine_6" GUID="{93CEB39A-86AF-4F36-81A3-3E3CCBC8741C}"/>
+						<State Id="3748865102" Name="pvp_win" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_win" GUID="{DFBDCAB8-F73F-4CC3-9ADF-817CD42D230C}"/>
+						<State Id="1858909207" Name="pvp_lose" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lose" GUID="{2EB99C1F-31D4-4F48-BE44-1E3FFF998721}"/>
+						<State Id="2255119756" Name="pvp_lobby" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby" GUID="{E51F7E7D-A67B-4FEE-856C-8444834B045D}"/>
+						<State Id="2980185034" Name="pvp_sudden_death" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_sudden_death" GUID="{76029ED0-2CC4-47B6-B27B-1A53C3C19F42}"/>
+						<State Id="2185760400" Name="pvp_lobby_player_ready" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby_player_ready" GUID="{FE6D2945-48FF-408E-9DC1-BE89F9AC23B2}"/>
+						<State Id="1145356642" Name="pvp_lobby_end" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lobby_end" GUID="{D441BB3B-C9C2-48A2-8560-04B34565693E}"/>
+						<State Id="546504159" Name="eol" ObjectPath="\States\Default Work Unit\music_ghost_states\eol" GUID="{9810AACF-FD8D-45F2-9685-97E3CDF60AD9}"/>
+						<State Id="2311349595" Name="alt_ambient" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_ambient" GUID="{96D0EA8C-230B-4411-9FC5-6AA1B880B8A6}"/>
+						<State Id="3942430555" Name="alt_light" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_light" GUID="{2B9AA5E2-DCB0-4E2F-9152-BA9FD28CC38A}"/>
+						<State Id="1018230622" Name="alt_heavy" ObjectPath="\States\Default Work Unit\music_ghost_states\alt_heavy" GUID="{35D7F771-E799-4F68-90C1-2A2DA51A9E8A}"/>
+						<State Id="3844965452" Name="credits_start" ObjectPath="\States\Default Work Unit\music_ghost_states\credits_start" GUID="{FA4DA76E-91F1-4C22-BD30-5AEEF955C4E1}"/>
+						<State Id="2798705391" Name="credits_end" ObjectPath="\States\Default Work Unit\music_ghost_states\credits_end" GUID="{8BCCA1DF-2B03-459F-9440-B45E456C2F9E}"/>
+						<State Id="944987071" Name="pvp_win_round" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_win_round" GUID="{506E7FA5-C3CD-4FC1-B949-BF0C45D628CC}"/>
+						<State Id="2988834850" Name="pvp_lose_round" ObjectPath="\States\Default Work Unit\music_ghost_states\pvp_lose_round" GUID="{12D7D911-B064-4CE0-86AC-DDDA8D29699E}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1496058806" GUID="{3315A131-E59D-4653-ABB8-5762171CB54F}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\base\music_mods</ObjectPath>
+			<ShortName>music_mods</ShortName>
+			<Path>music_mods.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1699343283" Name="Play_music_menu" ObjectPath="\Events\Default Work Unit\music\music_ghost\Play_music_menu" GUID="{19591728-F84E-4C03-B84D-C455B075F44B}" DurationType="Infinite"/>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="1883588749" Name="music_ghost_switch" ObjectPath="\Switches\Default Work Unit\music_ghost_switch" GUID="{C6D52B87-FB33-4C0D-BD80-F6E33A3FF125}">
+					<Switches>
+						<Switch Id="3548438739" Name="oof_music" ObjectPath="\Switches\Default Work Unit\music_ghost_switch\oof_music" GUID="{61D58020-D34E-4E88-A9BF-FFEC4A7F713A}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3313201758" GUID="{F9F44E61-5849-470A-82B9-3839EFC2B30C}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\base\mods</ObjectPath>
+			<ShortName>mods</ShortName>
+			<Path>mods.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3332801302" Name="Play_generic1" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic1" GUID="{2B494D31-3D02-4C39-BEF6-CB9889E9EE32}" DurationType="Unknown"/>
+				<Event Id="3332801301" Name="Play_generic2" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic2" GUID="{7DD32D72-1E1C-426C-9B6D-6E1BC2B3F52F}" DurationType="Unknown"/>
+				<Event Id="3332801300" Name="Play_generic3" ObjectPath="\Events\Default Work Unit\mod_events\ghost_generic_mod\Play_generic3" GUID="{CF839B38-A76D-4554-924E-F3B3F6812075}" DurationType="Unknown"/>
+				<Event Id="2891876526" Name="Play_vo_4TH_PRIEST__Here_to_lecture_us" ObjectPath="\Events\Default Work Unit\mod_events\ghost_vo_mod\Play_vo_4TH_PRIEST__Here_to_lecture_us" GUID="{50056285-754A-437B-BC59-E30A874BE564}" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="15.669000" DurationMax="15.669000">
+					<IncludedMemoryFiles>
+						<File Id="1006448442" Language="SFX">
+							<ShortName>vo_4TH_PRIEST__Here_to_lecture_us.wav</ShortName>
+							<Path>SFX\vo_4TH_PRIEST__Here_to_lecture_us_20F14839.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2344951565" Name="Play_vo_4TH_PRIEST__Look_who_it_is" ObjectPath="\Events\Default Work Unit\mod_events\ghost_vo_mod\Play_vo_4TH_PRIEST__Look_who_it_is" GUID="{0B3B1632-67B9-4D14-844C-FE9496F2F1A1}" DurationType="OneShot" DurationMin="10.424396" DurationMax="10.424396">
+					<IncludedMemoryFiles>
+						<File Id="1045640917" Language="SFX">
+							<ShortName>vo_4TH_PRIEST__Look_who_it_is.wav</ShortName>
+							<Path>SFX\vo_4TH_PRIEST__Look_who_it_is_20F14839.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="484130019" Name="Stop_vo_4TH_PRIEST__Look_who_it_is" ObjectPath="\Events\Default Work Unit\mod_events\ghost_vo_mod\Stop_vo_4TH_PRIEST__Look_who_it_is" GUID="{937547C3-3AEC-44F1-BA63-E5C5296E0F7F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<ExternalSources>
+				<Source Id="1377388561" Name="generic1" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic1\generic1" GUID="{32A8900D-BD90-4F55-9568-463D4EF18545}"/>
+				<Source Id="1377388562" Name="generic2" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic2\generic2" GUID="{B9572153-EAA0-4229-AB0E-6E86EA058916}"/>
+				<Source Id="1377388563" Name="generic3" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\ghost_mod\mod_generic\generic3\generic3" GUID="{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}"/>
+			</ExternalSources>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
