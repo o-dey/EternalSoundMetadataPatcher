@@ -1,0 +1,68 @@
+﻿Running EternalSoundMetadataPatcher v0.1.0.0 on
+	idStudio mod directory: {TestDeploymentDir}\verbose_output\mod
+	Wwise project directory: {TestDeploymentDir}\verbose_output\wwise\ModsWwise
+Processing soundbanks info file `{TestDeploymentDir}\verbose_output\mod\base\sound\soundbanks\SoundbanksInfo.xml`
+Processing `<SoundBank Name='sfx_base' Id='1152880790'>`
+Processing `<SoundBank Name='Init' Id='1355168291'>`
+Processing `<SoundBank Name='music_base' Id='1361677454'>`
+Discarding `<SoundBank Name='music_mods' Id='1496058806'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='vo_base' Id='1882068892'>`
+Processing `<SoundBank Name='sfx_prefetch_base' Id='2648098576'>`
+Discarding `<SoundBank Name='mods' Id='3313201758'>`
+Extracted `5` soundbank IDs
+Extracted `5824` event IDs
+Extracted `0` external sources
+Extracted `18086` media files
+Extracted `456` object path parts
+Processing soundmetadata file `{TestDeploymentDir}\verbose_output\mod\base\sound\soundbanks\pc\soundmetadata.bin`
+Skipping PCK section at `4`
+Skipping sound container section at `303`
+Skipping BNK section at `745`
+Skipping Aux Bus section at `893`
+Skipping RTPC section at `1831`
+Skipping switch group section at `3500`
+Skipping state section at `4388`
+Processing object path parts section at `7470`
+Extracted `461` object path parts
+Processing events section at `12970`
+Expecting `5897` events
+Extracted `5897` events
+Skipping event prefetch section at `620616`
+Processing Wwise project at `{TestDeploymentDir}\verbose_output\wwise\ModsWwise`
+Processing soundbanks info file `{TestDeploymentDir}\verbose_output\wwise\ModsWwise\GeneratedSoundBanks\Windows\SoundbanksInfo.xml`
+Discarding `<SoundBank Name='Init' Id='1355168291'>`
+Discarding `<SoundBank Name='music_mods' Id='1496058806'>`
+Processing `<SoundBank Name='mods' Id='3313201758'>`
+Extracted `1` soundbank IDs
+Extracted `6` event IDs
+Extracted `3` external sources
+Extracted `2` media files
+Extracted `4` object path parts
+Extracting external sources from `{TestDeploymentDir}\verbose_output\wwise\ModsWwise\..\ModWavs\test.wsources`
+Extracted `3` external sources
+Gathering media files from `{TestDeploymentDir}\verbose_output\wwise\ModsWwise\originals\SFX`
+Found `4` media files
+Extracting audio objects from `{TestDeploymentDir}\verbose_output\wwise\ModsWwise\Actor-Mixer Hierarchy\ghost_mod.wwu`
+Extracted `7` audio objects
+Extracting event objects from `{TestDeploymentDir}\verbose_output\wwise\ModsWwise\Events\mod_events.wwu`
+Processing `<WorkUnit Name='ghost_generic_mod' ID='{FA8E32C8-1B66-42CE-ADFD-EC21871D8E02}'>`
+Processing `<WorkUnit Name='ghost_vo_mod' ID='{22E6D92B-69F1-42E6-958B-9BA899648253}'>`
+Extracted `6` event objects
+Patching sound metadata
+Creating backup `{TestDeploymentDir}\verbose_output\mod\base\sound\soundbanks\pc\soundmetadata.bin.bak1`
+Writing soundmetadata file `{TestDeploymentDir}\verbose_output\mod\base\sound\soundbanks\pc\soundmetadata.bin`
+Writing `7470` bytes of preceding data
+Writing `459` object path parts
+Writing `5832` sound events
+Writing `2920` bytes of trailing data
+Wrote `618879` bytes
+Patching complete

@@ -20,6 +20,8 @@ namespace EternalSoundMetadataPatcher
             bool showHelp = false;
             int backupsValue = 10;
 
+            Output.Level = OutputLevel.Normal;
+
             List<string> positionalArgs = new List<string>();
             for (int i = 0; i < args.Length; i++)
             {
@@ -72,8 +74,8 @@ namespace EternalSoundMetadataPatcher
                 Output.Information("Options:");
                 Output.Information("\t-h\tDisplay this help.");
                 Output.Information(
-                    "\t-b\tBackup mode/limit (defaults to 10). -1 for \"unlimited\" backup files. 0 to disable backups." +
-                    "\r\n\t\t>= 1 to define the maximum number of backups (when the limit is reached, backup names will rotate)."
+                    "\t-b\tBackup mode/limit (defaults to 10). -1 for \"unlimited\" backup files. 0 to disable backups.\r\n" +
+                    "\t\t>= 1 to define the maximum number of backups (when the limit is reached, backup names will rotate)."
                 );
                 Output.Information("\t-v\tShow verbose output.");
                 Output.Information("\t-d\tShow debug level output.");

@@ -1,4 +1,6 @@
-﻿namespace EternalSoundMetadataPatcher.Wwise.Structure.Audio
+﻿using System;
+
+namespace EternalSoundMetadataPatcher.Wwise.Structure.Audio
 {
     public abstract class AudioSource
     {

@@ -48,7 +48,6 @@
       <HintPath>..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SoundMetadataTests.cs" />
@@ -56,11 +55,24 @@
     <Compile Include="TestTools\UnitTesting\ExpectedExceptionAndMessage.cs" />
     <Compile Include="SoundbanksInfoTest.cs" />
     <Compile Include="BackupStrategyTest.cs" />
+    <Compile Include="AppTests.cs" />
     <Compile Include="WwiseProjectTests.cs" />
     <Compile Include="WavInfoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TestData\Comparisons\AppTests\TestDebugOutput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestDefaultOutput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestHelp.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestVerboseOutput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="TestData\Wwise\Projects\Custom\**">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -137,9 +149,6 @@
       <Project>{9ebb97b8-7fc4-4abb-b2c0-dcb2ede29446}</Project>
       <Name>EternalSoundMetadataPatcher</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="TestData\Wwise\Projects\Custom\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
