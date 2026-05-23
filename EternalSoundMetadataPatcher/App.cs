@@ -87,12 +87,14 @@ namespace EternalSoundMetadataPatcher
             IBackupStrategy strategy = null;
             switch (backupsValue)
             {
+                case 0: break;
+
                 case -1:
                     strategy = new LinearBackupStrategy();
                     break;
 
                 default:
-                    strategy = new RotateBackupStrategy();
+                    strategy = new RotateBackupStrategy(backupsValue);
                     break;
             }
 
