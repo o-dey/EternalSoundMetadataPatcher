@@ -1,27 +1,17 @@
 ﻿using EternalSoundMetadataPatcher.Metadata;
+using EternalSoundMetadataPatcher.Test.TestTools.Hashing;
+using EternalSoundMetadataPatcher.Test.TestTools.Serialization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Security.Cryptography;
 
 namespace EternalSoundMetadataPatcher.Test
 {
     [TestClass]
     public class SoundMetadataTests
     {
-        private string GetFileHash(string path)
-        {
-            using (var md5 = MD5.Create())
-            {
-                using (var stream = File.OpenRead(path))
-                {
-                    return BitConverter.ToString(md5.ComputeHash(stream)).Replace("-", "");
-                }
-            }
-        }
-
         [TestMethod]
         [DeploymentItem("TestData/Metadata/soundmetadata_unsupported_version.bin")]
         public void TestUnsupportedVersion()
@@ -33,12 +23,16 @@ namespace EternalSoundMetadataPatcher.Test
 
         [TestMethod]
         [DeploymentItem("TestData/Metadata/soundmetadata_orig.bin")]
+        [DeploymentItem("TestData/Comparisons/SoundMetadataTests/TestReadOriginal.json", "Comparisons/SoundMetadataTests")]
         public void TestReadOriginal()
         {
             var metadata = SoundMetadata.FromFile("soundmetadata_orig.bin");
 
             Assert.AreEqual(461, metadata.PathParts.Count);
             Assert.AreEqual(5897, metadata.SoundEvents.Count);
+
+            string json = Json.SerializeObject(metadata);
+            Assert.AreEqual(File.ReadAllText(@"Comparisons\SoundMetadataTests\TestReadOriginal.json"), json);
         }
 
         [TestMethod]
@@ -48,14 +42,15 @@ namespace EternalSoundMetadataPatcher.Test
             var metadata = SoundMetadata.FromFile("soundmetadata_orig.bin");
             metadata.WriteTo("soundmetadata_new.bin");
 
-            var origHash = GetFileHash("soundmetadata_orig.bin");
-            var newHash = GetFileHash("soundmetadata_new.bin");
+            var origHash = MD5.GetFileHash("soundmetadata_orig.bin");
+            var newHash = MD5.GetFileHash("soundmetadata_new.bin");
             Assert.AreEqual(origHash, newHash);
         }
 
         [TestMethod]
         [DeploymentItem("TestData/Metadata/soundmetadata_orig.bin")]
-        public void TestWrite()
+        [DeploymentItem("TestData/Comparisons/SoundMetadataTests/TestWriteWithChanges.json", "Comparisons/SoundMetadataTests")]
+        public void TestWriteWithChanges()
         {
             var metadata = SoundMetadata.FromFile("soundmetadata_orig.bin");
 
@@ -80,9 +75,15 @@ namespace EternalSoundMetadataPatcher.Test
             Assert.AreEqual(461 + 3, metadata.PathParts.Count);
             Assert.AreEqual(5897 + 1, metadata.SoundEvents.Count);
 
+            string json = Json.SerializeObject(metadata);
+            Assert.AreEqual(File.ReadAllText(@"Comparisons\SoundMetadataTests\TestWriteWithChanges.json"), json);
+
             metadata.WriteTo("soundmetadata_new.bin");
 
-            Assert.AreEqual("7B55B50C832686C47761B73D95FFDC4E", GetFileHash("soundmetadata_new.bin"));
+            var writtenMetadata = SoundMetadata.FromFile("soundmetadata_new.bin");
+
+            json = Json.SerializeObject(writtenMetadata);
+            Assert.AreEqual(File.ReadAllText(@"Comparisons\SoundMetadataTests\TestWriteWithChanges.json"), json);
         }
     }
 }

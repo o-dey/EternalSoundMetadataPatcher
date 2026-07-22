@@ -1,0 +1,472 @@
+{
+  "$type": "EternalSoundMetadataPatcher.Wwise.WwiseProject, EternalSoundMetadataPatcher",
+  "AudioFiles": [
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.AudioFile, EternalSoundMetadataPatcher",
+      "Path": "..\\ModWavs\\generic\\generic1.wav",
+      "Name": "generic1"
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.AudioFile, EternalSoundMetadataPatcher",
+      "Path": "..\\ModWavs\\generic\\generic2.wav",
+      "Name": "generic2"
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.AudioFile, EternalSoundMetadataPatcher",
+      "Path": "..\\ModWavs\\generic\\generic3.wav",
+      "Name": "generic3"
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.AudioFile, EternalSoundMetadataPatcher",
+      "Path": "Custom\\ModsWwise\\originals\\SFX\\ambient_01.wav",
+      "Name": "ambient_01"
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.AudioFile, EternalSoundMetadataPatcher",
+      "Path": "Custom\\ModsWwise\\originals\\SFX\\ambient_02.wav",
+      "Name": "ambient_02"
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.AudioFile, EternalSoundMetadataPatcher",
+      "Path": "Custom\\ModsWwise\\originals\\SFX\\vo_4TH_PRIEST__Here_to_lecture_us.wav",
+      "Name": "vo_4TH_PRIEST__Here_to_lecture_us"
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.AudioFile, EternalSoundMetadataPatcher",
+      "Path": "Custom\\ModsWwise\\originals\\SFX\\vo_4TH_PRIEST__Look_who_it_is.wav",
+      "Name": "vo_4TH_PRIEST__Look_who_it_is"
+    }
+  ],
+  "AudioObjects": [
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+      "Guid": "{074234A4-0367-471E-89CF-D199FD5477F1}",
+      "Name": "mod_generic",
+      "Attenuation": 0.0,
+      "Is2D": false,
+      "IsLooping": false,
+      "Source": null
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+      "Guid": "{43BA1D2D-5DBD-4B73-B506-03C416E7F0CF}",
+      "Name": "generic1",
+      "Attenuation": 0.0,
+      "Is2D": false,
+      "IsLooping": false,
+      "Source": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+        "Guid": "{32A8900D-BD90-4F55-9568-463D4EF18545}",
+        "Id": 1377388561,
+        "Path": "..\\ModWavs\\generic\\generic1.wav"
+      }
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+      "Guid": "{F75B1E9A-7E0F-40B1-A6D3-901BF025B869}",
+      "Name": "generic2",
+      "Attenuation": 0.0,
+      "Is2D": false,
+      "IsLooping": false,
+      "Source": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+        "Guid": "{B9572153-EAA0-4229-AB0E-6E86EA058916}",
+        "Id": 1377388562,
+        "Path": "..\\ModWavs\\generic\\generic2.wav"
+      }
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+      "Guid": "{35396071-50DA-45AE-9A2C-ACF5D36C2298}",
+      "Name": "generic3",
+      "Attenuation": 0.0,
+      "Is2D": false,
+      "IsLooping": false,
+      "Source": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+        "Guid": "{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}",
+        "Id": 1377388563,
+        "Path": "..\\ModWavs\\generic\\generic3.wav"
+      }
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+      "Guid": "{86ECA2AC-F9B1-45B7-A477-31F97C07A044}",
+      "Name": "vo",
+      "Attenuation": 0.0,
+      "Is2D": true,
+      "IsLooping": false,
+      "Source": null
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+      "Guid": "{4C5071DC-8262-4EE1-A9EA-BC99AA5FD19A}",
+      "Name": "vo_4TH_PRIEST__Here_to_lecture_us",
+      "Attenuation": 25.0,
+      "Is2D": false,
+      "IsLooping": false,
+      "Source": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.EmbeddedAudioSource, EternalSoundMetadataPatcher",
+        "TrimBegin": -0.001,
+        "TrimEnd": -0.001,
+        "Duration": 15.669,
+        "Id": 1006448442,
+        "Path": "originals\\SFX\\vo_4TH_PRIEST__Here_to_lecture_us.wav"
+      }
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+      "Guid": "{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}",
+      "Name": "vo_4TH_PRIEST__Look_who_it_is",
+      "Attenuation": 0.0,
+      "Is2D": true,
+      "IsLooping": false,
+      "Source": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.EmbeddedAudioSource, EternalSoundMetadataPatcher",
+        "TrimBegin": 1.15,
+        "TrimEnd": 8.12345,
+        "Duration": 10.4243956,
+        "Id": 1045640917,
+        "Path": "originals\\SFX\\vo_4TH_PRIEST__Look_who_it_is.wav"
+      }
+    }
+  ],
+  "EventObjects": [
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Events.EventObject, EternalSoundMetadataPatcher",
+      "Type": 0,
+      "Id": 3332801300,
+      "Guid": "{CF839B38-A76D-4554-924E-F3B3F6812075}",
+      "TargetGuid": "{35396071-50DA-45AE-9A2C-ACF5D36C2298}",
+      "Name": "Play_generic3",
+      "PathParts": [
+        "Default Work Unit",
+        "mod_events",
+        "ghost_generic_mod"
+      ],
+      "TargetAudioObject": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+        "Guid": "{35396071-50DA-45AE-9A2C-ACF5D36C2298}",
+        "Name": "generic3",
+        "Attenuation": 0.0,
+        "Is2D": false,
+        "IsLooping": false,
+        "Source": {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+          "Guid": "{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}",
+          "Id": 1377388563,
+          "Path": "..\\ModWavs\\generic\\generic3.wav"
+        }
+      },
+      "AudioObjects": [
+        {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+          "Guid": "{35396071-50DA-45AE-9A2C-ACF5D36C2298}",
+          "Name": "generic3",
+          "Attenuation": 0.0,
+          "Is2D": false,
+          "IsLooping": false,
+          "Source": {
+            "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+            "Guid": "{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}",
+            "Id": 1377388563,
+            "Path": "..\\ModWavs\\generic\\generic3.wav"
+          }
+        }
+      ],
+      "SoundbankId": 3313201758
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Events.EventObject, EternalSoundMetadataPatcher",
+      "Type": 0,
+      "Id": 3332801302,
+      "Guid": "{2B494D31-3D02-4C39-BEF6-CB9889E9EE32}",
+      "TargetGuid": "{43BA1D2D-5DBD-4B73-B506-03C416E7F0CF}",
+      "Name": "Play_generic1",
+      "PathParts": [
+        "Default Work Unit",
+        "mod_events",
+        "ghost_generic_mod"
+      ],
+      "TargetAudioObject": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+        "Guid": "{43BA1D2D-5DBD-4B73-B506-03C416E7F0CF}",
+        "Name": "generic1",
+        "Attenuation": 0.0,
+        "Is2D": false,
+        "IsLooping": false,
+        "Source": {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+          "Guid": "{32A8900D-BD90-4F55-9568-463D4EF18545}",
+          "Id": 1377388561,
+          "Path": "..\\ModWavs\\generic\\generic1.wav"
+        }
+      },
+      "AudioObjects": [
+        {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+          "Guid": "{43BA1D2D-5DBD-4B73-B506-03C416E7F0CF}",
+          "Name": "generic1",
+          "Attenuation": 0.0,
+          "Is2D": false,
+          "IsLooping": false,
+          "Source": {
+            "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+            "Guid": "{32A8900D-BD90-4F55-9568-463D4EF18545}",
+            "Id": 1377388561,
+            "Path": "..\\ModWavs\\generic\\generic1.wav"
+          }
+        }
+      ],
+      "SoundbankId": 3313201758
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Events.EventObject, EternalSoundMetadataPatcher",
+      "Type": 0,
+      "Id": 3332801301,
+      "Guid": "{7DD32D72-1E1C-426C-9B6D-6E1BC2B3F52F}",
+      "TargetGuid": "{F75B1E9A-7E0F-40B1-A6D3-901BF025B869}",
+      "Name": "Play_generic2",
+      "PathParts": [
+        "Default Work Unit",
+        "mod_events",
+        "ghost_generic_mod"
+      ],
+      "TargetAudioObject": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+        "Guid": "{F75B1E9A-7E0F-40B1-A6D3-901BF025B869}",
+        "Name": "generic2",
+        "Attenuation": 0.0,
+        "Is2D": false,
+        "IsLooping": false,
+        "Source": {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+          "Guid": "{B9572153-EAA0-4229-AB0E-6E86EA058916}",
+          "Id": 1377388562,
+          "Path": "..\\ModWavs\\generic\\generic2.wav"
+        }
+      },
+      "AudioObjects": [
+        {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+          "Guid": "{F75B1E9A-7E0F-40B1-A6D3-901BF025B869}",
+          "Name": "generic2",
+          "Attenuation": 0.0,
+          "Is2D": false,
+          "IsLooping": false,
+          "Source": {
+            "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.ExternalAudioSource, EternalSoundMetadataPatcher",
+            "Guid": "{B9572153-EAA0-4229-AB0E-6E86EA058916}",
+            "Id": 1377388562,
+            "Path": "..\\ModWavs\\generic\\generic2.wav"
+          }
+        }
+      ],
+      "SoundbankId": 3313201758
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Events.EventObject, EternalSoundMetadataPatcher",
+      "Type": 0,
+      "Id": 2344951565,
+      "Guid": "{0B3B1632-67B9-4D14-844C-FE9496F2F1A1}",
+      "TargetGuid": "{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}",
+      "Name": "Play_vo_4TH_PRIEST__Look_who_it_is",
+      "PathParts": [
+        "Default Work Unit",
+        "mod_events",
+        "ghost_vo_mod"
+      ],
+      "TargetAudioObject": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+        "Guid": "{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}",
+        "Name": "vo_4TH_PRIEST__Look_who_it_is",
+        "Attenuation": 0.0,
+        "Is2D": true,
+        "IsLooping": false,
+        "Source": {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.EmbeddedAudioSource, EternalSoundMetadataPatcher",
+          "TrimBegin": 1.15,
+          "TrimEnd": 8.12345,
+          "Duration": 10.4243956,
+          "Id": 1045640917,
+          "Path": "originals\\SFX\\vo_4TH_PRIEST__Look_who_it_is.wav"
+        }
+      },
+      "AudioObjects": [
+        {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+          "Guid": "{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}",
+          "Name": "vo_4TH_PRIEST__Look_who_it_is",
+          "Attenuation": 0.0,
+          "Is2D": true,
+          "IsLooping": false,
+          "Source": {
+            "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.EmbeddedAudioSource, EternalSoundMetadataPatcher",
+            "TrimBegin": 1.15,
+            "TrimEnd": 8.12345,
+            "Duration": 10.4243956,
+            "Id": 1045640917,
+            "Path": "originals\\SFX\\vo_4TH_PRIEST__Look_who_it_is.wav"
+          }
+        }
+      ],
+      "SoundbankId": 3313201758
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Events.EventObject, EternalSoundMetadataPatcher",
+      "Type": 1,
+      "Id": 484130019,
+      "Guid": "{937547C3-3AEC-44F1-BA63-E5C5296E0F7F}",
+      "TargetGuid": "{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}",
+      "Name": "Stop_vo_4TH_PRIEST__Look_who_it_is",
+      "PathParts": [
+        "Default Work Unit",
+        "mod_events",
+        "ghost_vo_mod"
+      ],
+      "TargetAudioObject": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+        "Guid": "{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}",
+        "Name": "vo_4TH_PRIEST__Look_who_it_is",
+        "Attenuation": 0.0,
+        "Is2D": true,
+        "IsLooping": false,
+        "Source": {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.EmbeddedAudioSource, EternalSoundMetadataPatcher",
+          "TrimBegin": 1.15,
+          "TrimEnd": 8.12345,
+          "Duration": 10.4243956,
+          "Id": 1045640917,
+          "Path": "originals\\SFX\\vo_4TH_PRIEST__Look_who_it_is.wav"
+        }
+      },
+      "AudioObjects": [
+        {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+          "Guid": "{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}",
+          "Name": "vo_4TH_PRIEST__Look_who_it_is",
+          "Attenuation": 0.0,
+          "Is2D": true,
+          "IsLooping": false,
+          "Source": {
+            "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.EmbeddedAudioSource, EternalSoundMetadataPatcher",
+            "TrimBegin": 1.15,
+            "TrimEnd": 8.12345,
+            "Duration": 10.4243956,
+            "Id": 1045640917,
+            "Path": "originals\\SFX\\vo_4TH_PRIEST__Look_who_it_is.wav"
+          }
+        }
+      ],
+      "SoundbankId": 3313201758
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Events.EventObject, EternalSoundMetadataPatcher",
+      "Type": 0,
+      "Id": 2891876526,
+      "Guid": "{50056285-754A-437B-BC59-E30A874BE564}",
+      "TargetGuid": "{4C5071DC-8262-4EE1-A9EA-BC99AA5FD19A}",
+      "Name": "Play_vo_4TH_PRIEST__Here_to_lecture_us",
+      "PathParts": [
+        "Default Work Unit",
+        "mod_events",
+        "ghost_vo_mod"
+      ],
+      "TargetAudioObject": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+        "Guid": "{4C5071DC-8262-4EE1-A9EA-BC99AA5FD19A}",
+        "Name": "vo_4TH_PRIEST__Here_to_lecture_us",
+        "Attenuation": 25.0,
+        "Is2D": false,
+        "IsLooping": false,
+        "Source": {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.EmbeddedAudioSource, EternalSoundMetadataPatcher",
+          "TrimBegin": -0.001,
+          "TrimEnd": -0.001,
+          "Duration": 15.669,
+          "Id": 1006448442,
+          "Path": "originals\\SFX\\vo_4TH_PRIEST__Here_to_lecture_us.wav"
+        }
+      },
+      "AudioObjects": [
+        {
+          "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.AudioObject, EternalSoundMetadataPatcher",
+          "Guid": "{4C5071DC-8262-4EE1-A9EA-BC99AA5FD19A}",
+          "Name": "vo_4TH_PRIEST__Here_to_lecture_us",
+          "Attenuation": 25.0,
+          "Is2D": false,
+          "IsLooping": false,
+          "Source": {
+            "$type": "EternalSoundMetadataPatcher.Wwise.Structure.Audio.EmbeddedAudioSource, EternalSoundMetadataPatcher",
+            "TrimBegin": -0.001,
+            "TrimEnd": -0.001,
+            "Duration": 15.669,
+            "Id": 1006448442,
+            "Path": "originals\\SFX\\vo_4TH_PRIEST__Here_to_lecture_us.wav"
+          }
+        }
+      ],
+      "SoundbankId": 3313201758
+    }
+  ],
+  "SoundbanksInfo": {
+    "$type": "EternalSoundMetadataPatcher.Wwise.Generated.SoundbanksInfo, EternalSoundMetadataPatcher",
+    "SoundbankIds": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.UInt32, mscorlib]], mscorlib",
+      "mods": 3313201758
+    },
+    "EventIds": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.UInt32, mscorlib]], mscorlib",
+      "{2B494D31-3D02-4C39-BEF6-CB9889E9EE32}": 3332801302,
+      "{7DD32D72-1E1C-426C-9B6D-6E1BC2B3F52F}": 3332801301,
+      "{CF839B38-A76D-4554-924E-F3B3F6812075}": 3332801300,
+      "{50056285-754A-437B-BC59-E30A874BE564}": 2891876526,
+      "{0B3B1632-67B9-4D14-844C-FE9496F2F1A1}": 2344951565,
+      "{937547C3-3AEC-44F1-BA63-E5C5296E0F7F}": 484130019
+    },
+    "ExternalSources": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher]], mscorlib",
+      "{32A8900D-BD90-4F55-9568-463D4EF18545}": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher",
+        "Id": 1377388561,
+        "Guid": "{32A8900D-BD90-4F55-9568-463D4EF18545}",
+        "Name": "generic1"
+      },
+      "{B9572153-EAA0-4229-AB0E-6E86EA058916}": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher",
+        "Id": 1377388562,
+        "Guid": "{B9572153-EAA0-4229-AB0E-6E86EA058916}",
+        "Name": "generic2"
+      },
+      "{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher",
+        "Id": 1377388563,
+        "Guid": "{AD29341A-3F85-4A79-BD14-BEDF0B022D4D}",
+        "Name": "generic3"
+      }
+    },
+    "MediaFiles": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher]], mscorlib",
+      "1006448442": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+        "Id": 1006448442,
+        "Path": "SFX\\vo_4TH_PRIEST__Here_to_lecture_us_20F14839.wem",
+        "Name": "vo_4TH_PRIEST__Here_to_lecture_us.wav",
+        "Duration": 15.669
+      },
+      "1045640917": {
+        "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+        "Id": 1045640917,
+        "Path": "SFX\\vo_4TH_PRIEST__Look_who_it_is_20F14839.wem",
+        "Name": "vo_4TH_PRIEST__Look_who_it_is.wav",
+        "Duration": 10.4243956
+      }
+    },
+    "ObjectPathParts": [
+      "Default Work Unit",
+      "mod_events",
+      "ghost_generic_mod",
+      "ghost_vo_mod"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "$type": "EternalSoundMetadataPatcher.Wwise.Generated.SoundbanksInfo, EternalSoundMetadataPatcher",
+  "SoundbankIds": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.UInt32, mscorlib]], mscorlib",
+    "Init": 1355168291,
+    "music_mods": 1496058806,
+    "mods": 3313201758
+  },
+  "EventIds": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.UInt32, mscorlib]], mscorlib",
+    "{78DF57BC-E766-41DF-B11B-27DA085A1E42}": 4014598269,
+    "{4520C652-D1CC-4717-AFE9-C75B355B1E57}": 2959155612,
+    "{D56C0259-76D2-45C3-8E92-D8E604A0C197}": 3526675238,
+    "{212F4E57-A776-44F2-A28A-1B96166528D9}": 4277344982,
+    "{0C2622C2-E37F-4CF1-AA3C-5F747187AF38}": 1820508892,
+    "{B4D476D7-5C58-4AF8-B176-75FA2A2E865C}": 2891876526,
+    "{6D4721F8-B2ED-4B55-9BC4-B9BD86057668}": 3371774567,
+    "{B39FEB0B-045C-41D3-AEA1-FD2FBF39EBB5}": 2344951565,
+    "{CF2D4E34-3C38-46F1-AE58-A3FDC9F8E69B}": 169229175,
+    "{461CF590-AB6E-4409-AD3F-D4513333DA51}": 4100612773,
+    "{0CCECFE5-59B8-4748-BFE4-1400CB436654}": 2531831226,
+    "{CE99AFB7-E85B-4105-A1EF-5B86C9CC1B43}": 3897309864,
+    "{AC8F8A59-EEB8-4F32-9D63-BEBCFF6CE964}": 4032774133,
+    "{0A098062-D775-4112-9DC7-04DA004F2D1C}": 484130019,
+    "{69FCE72B-2175-4027-B48B-464DFA5FF850}": 1317538369
+  },
+  "ExternalSources": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher]], mscorlib",
+    "{8D966E2A-858A-42E1-AE0E-0D973EC07014}": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher",
+      "Id": 562596973,
+      "Guid": "{8D966E2A-858A-42E1-AE0E-0D973EC07014}",
+      "Name": "vo_4TH_PRIEST__But_not_today_slayer"
+    },
+    "{2140B9BF-CB8C-4B17-B280-066F05EC2B3D}": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher",
+      "Id": 1166661867,
+      "Guid": "{2140B9BF-CB8C-4B17-B280-066F05EC2B3D}",
+      "Name": "vo_4TH_PRIEST__Here_to_lecture_us"
+    },
+    "{0B90C94B-2D8A-4FE2-BEC0-3B437395C462}": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher",
+      "Id": 894425330,
+      "Guid": "{0B90C94B-2D8A-4FE2-BEC0-3B437395C462}",
+      "Name": "vo_4TH_PRIEST__Laughing"
+    },
+    "{AA17FFBF-3895-4C3D-A6E3-DAA7C7B9C2F7}": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher",
+      "Id": 1138763052,
+      "Guid": "{AA17FFBF-3895-4C3D-A6E3-DAA7C7B9C2F7}",
+      "Name": "vo_4TH_PRIEST__Look_who_it_is"
+    },
+    "{F6933417-A619-4AEA-B507-E7AC80C7F018}": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher",
+      "Id": 806203358,
+      "Guid": "{F6933417-A619-4AEA-B507-E7AC80C7F018}",
+      "Name": "vo_4TH_PRIEST__Pure_hypocrisy"
+    }
+  },
+  "MediaFiles": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher]], mscorlib",
+    "272034594": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 272034594,
+      "Path": "SFX\\foo\\Euro - Euro_20F14839.wem",
+      "Name": "foo\\Euro - Euro.wav",
+      "Duration": 0.817256
+    },
+    "218721744": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 218721744,
+      "Path": "SFX\\triple_kill_1_reto_id#640304072_20F14839.wem",
+      "Name": "triple_kill_1_reto_id#640304072.wav",
+      "Duration": 1.508562
+    },
+    "493386493": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 493386493,
+      "Path": "SFX\\tyrant_pain_1_id#962098091_20F14839.wem",
+      "Name": "tyrant_pain_1_id#962098091.wav",
+      "Duration": 1.508562
+    },
+    "775281376": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 775281376,
+      "Path": "SFX\\swinging_axe_2_id#885263800_20F14839.wem",
+      "Name": "swinging_axe_2_id#885263800.wav",
+      "Duration": 1.508562
+    },
+    "779221417": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 779221417,
+      "Path": "SFX\\tyrant_rpg_fire_1_id#295428124_20F14839.wem",
+      "Name": "tyrant_rpg_fire_1_id#295428124.wav",
+      "Duration": 1.508562
+    },
+    "194317951": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 194317951,
+      "Path": "SFX\\ui_demonability_notready_id#374511629_20F14839.wem",
+      "Name": "ui_demonability_notready_id#374511629.wav",
+      "Duration": 1.013333
+    },
+    "546649051": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 546649051,
+      "Path": "SFX\\ui_equipent_refresh_s_id#964715153_20F14839.wem",
+      "Name": "ui_equipent_refresh_s_id#964715153.wav",
+      "Duration": 1.013333
+    },
+    "602519988": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 602519988,
+      "Path": "SFX\\ui_checkpoint_reched_id#467991805_20F14839.wem",
+      "Name": "ui_checkpoint_reched_id#467991805.wav",
+      "Duration": 1.013333
+    },
+    "868203424": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 868203424,
+      "Path": "SFX\\ui_cell_purchased_1_id#533366807_20F14839.wem",
+      "Name": "ui_cell_purchased_1_id#533366807.wav",
+      "Duration": 1.013333
+    },
+    "575376833": {
+      "$type": "EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher",
+      "Id": 575376833,
+      "Path": "SFX\\vo_4TH_PRIEST__Spell__Manus_Ignea_Imporum_715A0247.wem",
+      "Name": "vo_4TH_PRIEST__Spell__Manus_Ignea_Imporum.wav",
+      "Duration": 8.108614
+    }
+  },
+  "ObjectPathParts": [
+    "Default Work Unit",
+    "mod_events",
+    "ghost_vo_mod",
+    "ghost_containers_mod"
+  ]
+}

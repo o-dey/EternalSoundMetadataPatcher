@@ -26,35 +26,5 @@ namespace EternalSoundMetadataPatcher.Wwise.Generated
         /// The duration in seconds, as defined on the parent `<Event>` node.
         /// </summary>
         public float Duration;
-
-        public bool Equals(MediaFile other)
-        {
-            return
-                other != null &&
-                other.Id == Id &&
-                other.Path == Path &&
-                other.Name == Name &&
-                other.Duration == Duration;
-        }
-
-        public override bool Equals(Object obj)
-        {
-            var other = obj as MediaFile;
-            if (other == null)
-            {
-                return false;
-            }
-
-            return Equals(other);
-        }
-
-        public override int GetHashCode()
-        {
-            return
-                Id.GetHashCode() ^
-                Path.GetHashCode() ^
-                Name.GetHashCode() ^
-                Duration.GetHashCode();
-        }
     }
 }

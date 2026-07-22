@@ -1,0 +1,16 @@
+{
+  "$type": "EternalSoundMetadataPatcher.Wwise.Generated.SoundbanksInfo, EternalSoundMetadataPatcher",
+  "SoundbankIds": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.UInt32, mscorlib]], mscorlib"
+  },
+  "EventIds": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.UInt32, mscorlib]], mscorlib"
+  },
+  "ExternalSources": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EternalSoundMetadataPatcher.Wwise.Generated.ExternalSource, EternalSoundMetadataPatcher]], mscorlib"
+  },
+  "MediaFiles": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EternalSoundMetadataPatcher.Wwise.Generated.MediaFile, EternalSoundMetadataPatcher]], mscorlib"
+  },
+  "ObjectPathParts": []
+}

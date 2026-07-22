@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using EternalSoundMetadataPatcher.Test.TestTools.Assertion;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.IO;
 
@@ -8,19 +9,6 @@ namespace EternalSoundMetadataPatcher.Test
     public class AppTests
     {
         public TestContext TestContext { get; set; }
-
-        private void StringsEqualNormalized(string a, string b)
-        {
-            Assert.AreEqual(
-                NormalizeEOL(a),
-                NormalizeEOL(b)
-            );
-        }
-
-        private string NormalizeEOL(string text)
-        {
-            return text.Replace("\r\n", "\n").Replace("\r", "\n");
-        }
 
         [TestMethod]
         [DeploymentItem("TestData/Comparisons/AppTests/TestHelp.txt", "Comparisons/AppTests")]
@@ -32,7 +20,7 @@ namespace EternalSoundMetadataPatcher.Test
             int result = App.Main(new string[] { });
 
             Assert.AreEqual(0, result);
-            StringsEqualNormalized(File.ReadAllText(@"Comparisons\AppTests\TestHelp.txt"), writer.ToString());
+            StringAssertion.AreEqualNormalized(File.ReadAllText(@"Comparisons\AppTests\TestHelp.txt"), writer.ToString());
         }
 
         [TestMethod]
@@ -45,7 +33,7 @@ namespace EternalSoundMetadataPatcher.Test
             int result = App.Main(new string[] { "-h" });
 
             Assert.AreEqual(0, result);
-            StringsEqualNormalized(File.ReadAllText(@"Comparisons\AppTests\TestHelp.txt"), writer.ToString());
+            StringAssertion.AreEqualNormalized(File.ReadAllText(@"Comparisons\AppTests\TestHelp.txt"), writer.ToString());
         }
 
         [TestMethod]
@@ -85,23 +73,13 @@ namespace EternalSoundMetadataPatcher.Test
         }
 
         [TestMethod]
-        [DeploymentItem("TestData/Metadata/soundmetadata_orig.bin", "no_backups/mod/base/sound/soundbanks/pc")]
-        [DeploymentItem("TestData/Wwise/Generated/SoundbanksInfo_orig.xml", "no_backups/mod/base/sound/soundbanks")]
-        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "no_backups/wwise")]
+        [DeploymentItem("TestData/Mod/Default", "AppTests/NoBackups/Mod/Default")]
+        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "AppTests/NoBackups/Wwise/Custom")]
         public void TestBackupArgumentNoBackups()
         {
-            var modPath = @"no_backups\mod";
+            var modPath = @"AppTests\NoBackups\Mod\Default";
             var bnksPath = Path.Combine(modPath, @"base\sound\soundbanks");
-            var wwisePath = @"no_backups\wwise\ModsWwise";
-
-            File.Move(
-                Path.Combine(bnksPath, @"pc\soundmetadata_orig.bin"),
-                Path.Combine(bnksPath, @"pc\soundmetadata.bin")
-            );
-            File.Move(
-                Path.Combine(bnksPath, "SoundbanksInfo_orig.xml"),
-                Path.Combine(bnksPath, "SoundbanksInfo.xml")
-            );
+            var wwisePath = @"AppTests\NoBackups\Wwise\Custom\ModsWwise";
 
             Assert.IsFalse(File.Exists(Path.Combine(bnksPath, @"pc\soundmetadata.bin.bak1")));
 
@@ -112,23 +90,13 @@ namespace EternalSoundMetadataPatcher.Test
         }
 
         [TestMethod]
-        [DeploymentItem("TestData/Metadata/soundmetadata_orig.bin", "linear_backups/mod/base/sound/soundbanks/pc")]
-        [DeploymentItem("TestData/Wwise/Generated/SoundbanksInfo_orig.xml", "linear_backups/mod/base/sound/soundbanks")]
-        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "linear_backups/wwise")]
+        [DeploymentItem("TestData/Mod/Default", "AppTests/LinearBackups/Mod/Default")]
+        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "AppTests/LinearBackups/Wwise/Custom")]
         public void TestBackupArgumentLinearBackups()
         {
-            var modPath = @"linear_backups\mod";
+            var modPath = @"AppTests\LinearBackups\Mod\Default";
             var bnksPath = Path.Combine(modPath, @"base\sound\soundbanks");
-            var wwisePath = @"linear_backups\wwise\ModsWwise";
-
-            File.Move(
-                Path.Combine(bnksPath, @"pc\soundmetadata_orig.bin"),
-                Path.Combine(bnksPath, @"pc\soundmetadata.bin")
-            );
-            File.Move(
-                Path.Combine(bnksPath, "SoundbanksInfo_orig.xml"),
-                Path.Combine(bnksPath, "SoundbanksInfo.xml")
-            );
+            var wwisePath = @"AppTests\LinearBackups\Wwise\Custom\ModsWwise";
 
             Assert.IsFalse(File.Exists(Path.Combine(bnksPath, @"pc\soundmetadata.bin.bak1")));
             Assert.IsFalse(File.Exists(Path.Combine(bnksPath, @"pc\soundmetadata.bin.bak2")));
@@ -154,23 +122,13 @@ namespace EternalSoundMetadataPatcher.Test
         }
 
         [TestMethod]
-        [DeploymentItem("TestData/Metadata/soundmetadata_orig.bin", "rotate_backups/mod/base/sound/soundbanks/pc")]
-        [DeploymentItem("TestData/Wwise/Generated/SoundbanksInfo_orig.xml", "rotate_backups/mod/base/sound/soundbanks")]
-        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "rotate_backups/wwise")]
+        [DeploymentItem("TestData/Mod/Default", "AppTests/RotateBackups/Mod/Default")]
+        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "AppTests/RotateBackups/Wwise/Custom")]
         public void TestBackupArgumentRotateBackups()
         {
-            var modPath = @"rotate_backups\mod";
+            var modPath = @"AppTests\RotateBackups\Mod\Default";
             var bnksPath = Path.Combine(modPath, @"base\sound\soundbanks");
-            var wwisePath = @"rotate_backups\wwise\ModsWwise";
-
-            File.Move(
-                Path.Combine(bnksPath, @"pc\soundmetadata_orig.bin"),
-                Path.Combine(bnksPath, @"pc\soundmetadata.bin")
-            );
-            File.Move(
-                Path.Combine(bnksPath, "SoundbanksInfo_orig.xml"),
-                Path.Combine(bnksPath, "SoundbanksInfo.xml")
-            );
+            var wwisePath = @"AppTests\RotateBackups\Wwise\Custom\ModsWwise";
 
             Assert.IsFalse(File.Exists(Path.Combine(bnksPath, @"pc\soundmetadata.bin.bak1")));
             Assert.IsFalse(File.Exists(Path.Combine(bnksPath, @"pc\soundmetadata.bin.bak2")));
@@ -203,27 +161,16 @@ namespace EternalSoundMetadataPatcher.Test
         }
 
         [TestMethod]
-        [DeploymentItem("TestData/Metadata/soundmetadata_orig.bin", "default_output/mod/base/sound/soundbanks/pc")]
-        [DeploymentItem("TestData/Wwise/Generated/SoundbanksInfo_orig.xml", "default_output/mod/base/sound/soundbanks")]
-        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "default_output/wwise")]
+        [DeploymentItem("TestData/Mod/Default", "AppTests/TestDefaultOutput/Mod/Default")]
+        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "AppTests/TestDefaultOutput/Wwise/Custom")]
         [DeploymentItem("TestData/Comparisons/AppTests/TestDefaultOutput.txt", "Comparisons/AppTests")]
         public void TestDefaultOutput()
         {
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            var modPath = @"default_output\mod";
-            var bnksPath = Path.Combine(modPath, @"base\sound\soundbanks");
-            var wwisePath = @"default_output\wwise\ModsWwise";
-
-            File.Move(
-                Path.Combine(bnksPath, @"pc\soundmetadata_orig.bin"),
-                Path.Combine(bnksPath, @"pc\soundmetadata.bin")
-            );
-            File.Move(
-                Path.Combine(bnksPath, "SoundbanksInfo_orig.xml"),
-                Path.Combine(bnksPath, "SoundbanksInfo.xml")
-            );
+            var modPath = @"AppTests\TestDefaultOutput\Mod\Default";
+            var wwisePath = @"AppTests\TestDefaultOutput\Wwise\Custom\ModsWwise";
 
             int result = App.Main(new string[] { modPath, wwisePath });
 
@@ -234,31 +181,21 @@ namespace EternalSoundMetadataPatcher.Test
                 .ReadAllText(@"Comparisons\AppTests\TestDefaultOutput.txt")
                 .Replace("{TestDeploymentDir}", TestContext.TestDeploymentDir);
 
-            StringsEqualNormalized(expected, writer.ToString());
+            StringAssertion.AreEqualNormalized(expected, writer.ToString());
         }
 
         [TestMethod]
-        [DeploymentItem("TestData/Metadata/soundmetadata_orig.bin", "verbose_output/mod/base/sound/soundbanks/pc")]
-        [DeploymentItem("TestData/Wwise/Generated/SoundbanksInfo_orig.xml", "verbose_output/mod/base/sound/soundbanks")]
-        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "verbose_output/wwise")]
+        [DeploymentItem("TestData/Mod/Default", "AppTests/TestVerboseOutput/Mod/Default")]
+        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "AppTests/TestVerboseOutput/Wwise/Custom")]
+        [DeploymentItem("TestData/Comparisons/AppTests/TestVerboseOutput.txt", "Comparisons/AppTests")]
         [DeploymentItem("TestData/Comparisons/AppTests/TestVerboseOutput.txt", "Comparisons/AppTests")]
         public void TestVerboseOutput()
         {
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            var modPath = @"verbose_output\mod";
-            var bnksPath = Path.Combine(modPath, @"base\sound\soundbanks");
-            var wwisePath = @"verbose_output\wwise\ModsWwise";
-
-            File.Move(
-                Path.Combine(bnksPath, @"pc\soundmetadata_orig.bin"),
-                Path.Combine(bnksPath, @"pc\soundmetadata.bin")
-            );
-            File.Move(
-                Path.Combine(bnksPath, "SoundbanksInfo_orig.xml"),
-                Path.Combine(bnksPath, "SoundbanksInfo.xml")
-            );
+            var modPath = @"AppTests\TestVerboseOutput\Mod\Default";
+            var wwisePath = @"AppTests\TestVerboseOutput\Wwise\Custom\ModsWwise";
 
             int result = App.Main(new string[] { "-v", modPath, wwisePath });
 
@@ -269,31 +206,21 @@ namespace EternalSoundMetadataPatcher.Test
                 .ReadAllText(@"Comparisons\AppTests\TestVerboseOutput.txt")
                 .Replace("{TestDeploymentDir}", TestContext.TestDeploymentDir);
 
-            StringsEqualNormalized(expected, writer.ToString());
+            StringAssertion.AreEqualNormalized(expected, writer.ToString());
         }
 
         [TestMethod]
-        [DeploymentItem("TestData/Metadata/soundmetadata_orig.bin", "debug_output/mod/base/sound/soundbanks/pc")]
-        [DeploymentItem("TestData/Wwise/Generated/SoundbanksInfo_orig.xml", "debug_output/mod/base/sound/soundbanks")]
-        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "debug_output/wwise")]
+        [DeploymentItem("TestData/Mod/Default", "AppTests/TestDebugOutput/Mod/Default")]
+        [DeploymentItem("TestData/Wwise/Projects/Custom/Wwise Music Mod", "AppTests/TestDebugOutput/Wwise/Custom")]
+        [DeploymentItem("TestData/Comparisons/AppTests/TestDebugOutput.txt", "Comparisons/AppTests")]
         [DeploymentItem("TestData/Comparisons/AppTests/TestDebugOutput.txt", "Comparisons/AppTests")]
         public void TestDebugOutput()
         {
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            var modPath = @"debug_output\mod";
-            var bnksPath = Path.Combine(modPath, @"base\sound\soundbanks");
-            var wwisePath = @"debug_output\wwise\ModsWwise";
-
-            File.Move(
-                Path.Combine(bnksPath, @"pc\soundmetadata_orig.bin"),
-                Path.Combine(bnksPath, @"pc\soundmetadata.bin")
-            );
-            File.Move(
-                Path.Combine(bnksPath, "SoundbanksInfo_orig.xml"),
-                Path.Combine(bnksPath, "SoundbanksInfo.xml")
-            );
+            var modPath = @"AppTests\TestDebugOutput\Mod\Default";
+            var wwisePath = @"AppTests\TestDebugOutput\Wwise\Custom\ModsWwise";
 
             int result = App.Main(new string[] { "-d", modPath, wwisePath });
 
@@ -304,7 +231,7 @@ namespace EternalSoundMetadataPatcher.Test
                 .ReadAllText(@"Comparisons\AppTests\TestDebugOutput.txt")
                 .Replace("{TestDeploymentDir}", TestContext.TestDeploymentDir);
 
-            StringsEqualNormalized(expected, writer.ToString());
+            StringAssertion.AreEqualNormalized(expected, writer.ToString());
         }
     }
 }

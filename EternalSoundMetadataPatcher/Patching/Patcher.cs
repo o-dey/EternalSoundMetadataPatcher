@@ -21,6 +21,19 @@ namespace EternalSoundMetadataPatcher.Patching
             string soundbanksInfoFilePath = Path.Combine(idStudioModDirectory, @"base\sound\soundbanks\SoundbanksInfo.xml");
             string soundMetadataPath = Path.Combine(idStudioModDirectory, @"base\sound\soundbanks\pc\soundmetadata.bin");
 
+            if (!File.Exists(soundbanksInfoFilePath))
+            {
+                throw new FileNotFoundException(
+                    $"Missing mod soundbanks info file `{soundbanksInfoFilePath}`."
+                );
+            }
+            if (!File.Exists(soundMetadataPath))
+            {
+                throw new FileNotFoundException(
+                    $"Missing mod sound metadata file `{soundMetadataPath}`."
+                );
+            }
+
             SoundbanksInfo soundbanksInfo = SoundbanksInfo.FromFile(
                 soundbanksInfoFilePath,
                 x => x != "mods" && x != "music_mods"
@@ -123,6 +136,8 @@ namespace EternalSoundMetadataPatcher.Patching
 
             soundEvents.AddRange(modSoundEvents);
 
+            // events must be ordered ascending by their id value, failing to do so will
+            // results in sounds not playing
             soundMetadata.SoundEvents = soundEvents.OrderBy(x => x.Id).ToList();
 
             if (backupStrategy != null)
