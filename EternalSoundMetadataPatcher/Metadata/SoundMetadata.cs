@@ -10,13 +10,39 @@ namespace EternalSoundMetadataPatcher.Metadata
 {
     public class SoundMetadata
     {
+        public List<SoundContainer> SoundContainers = new List<SoundContainer>();
         public List<string> PathParts = new List<string>();
         public List<SoundEvent> SoundEvents = new List<SoundEvent>();
 
-        private byte[] PrecedingData;
-        private byte[] TrailingData;
+        private byte[] HeaderBuffer;
+        private byte[] PckBuffer;
+        private byte[] BnkBuffer;
+        private byte[] BusBuffer;
+        private byte[] RtpcBuffer;
+        private byte[] SwitchGroupBuffer;
+        private byte[] StateGroupBuffer;
+        private byte[] EventPrefetchBuffer;
 
         private SoundMetadata() { }
+
+        private static long bufferStartPosition;
+
+        private static void BufferMarkStart(Stream stream)
+        {
+            bufferStartPosition = stream.Position;
+        }
+
+        private static byte[] BufferRead(Stream stream)
+        {
+            long bufferEndPosition = stream.Position;
+            long bufferSize = bufferEndPosition - bufferStartPosition;
+            byte[] buffer = new byte[bufferSize];
+
+            stream.Seek(bufferStartPosition, SeekOrigin.Begin);
+            stream.Read(buffer, 0, (int)bufferSize);
+
+            return buffer;
+        }
 
         /// <summary>
         /// Writes the current sound metadata to a file.
@@ -34,9 +60,48 @@ namespace EternalSoundMetadataPatcher.Metadata
 
                 using (var writer = new BinaryWriter(stream, Encoding.Default, true))
                 {
-                    Output.Verbose(string.Format("Writing `{0}` bytes of preceding data", PrecedingData.Length));
+                    Output.Verbose(string.Format("Writing `{0}` bytes of header data", HeaderBuffer.Length));
+                    writer.Write(HeaderBuffer);
 
-                    writer.Write(PrecedingData);
+                    Output.Verbose(string.Format("Writing `{0}` bytes of PCK data", PckBuffer.Length));
+                    writer.Write(PckBuffer);
+
+                    Output.Verbose(string.Format("Writing `{0}` sound containers", SoundContainers.Count));
+
+                    writer.Write((uint)SoundContainers.Count);
+                    foreach (SoundContainer soundContainer in SoundContainers)
+                    {
+                        byte[] containerNameBytes = Encoding.UTF8.GetBytes(soundContainer.Name);
+                        uint containerNameLength = (uint)containerNameBytes.Length;
+                        writer.Write(containerNameLength);
+                        writer.Write(containerNameBytes);
+
+                        writer.Write((uint)soundContainer.Parts.Count);
+                        foreach (SoundContainerPart containerPart in soundContainer.Parts)
+                        {
+                            writer.Write(containerPart.Id);
+                            writer.Write((uint)containerPart.ValidityMask.Count);
+                            foreach (uint validityMask in containerPart.ValidityMask)
+                            {
+                                writer.Write(validityMask);
+                            }
+                        }
+                    }
+
+                    Output.Verbose(string.Format("Writing `{0}` bytes of BNK data", BnkBuffer.Length));
+                    writer.Write(BnkBuffer);
+
+                    Output.Verbose(string.Format("Writing `{0}` bytes of Aux Bus data", BusBuffer.Length));
+                    writer.Write(BusBuffer);
+
+                    Output.Verbose(string.Format("Writing `{0}` bytes of RTPC data", RtpcBuffer.Length));
+                    writer.Write(RtpcBuffer);
+
+                    Output.Verbose(string.Format("Writing `{0}` bytes of switch group data", SwitchGroupBuffer.Length));
+                    writer.Write(SwitchGroupBuffer);
+
+                    Output.Verbose(string.Format("Writing `{0}` bytes of state group data", StateGroupBuffer.Length));
+                    writer.Write(StateGroupBuffer);
 
                     Output.Verbose(string.Format("Writing `{0}` object path parts", PathParts.Count));
 
@@ -87,9 +152,8 @@ namespace EternalSoundMetadataPatcher.Metadata
                         }
                     }
 
-                    Output.Verbose(string.Format("Writing `{0}` bytes of trailing data", TrailingData.Length));
-
-                    writer.Write(TrailingData);
+                    Output.Verbose(string.Format("Writing `{0}` bytes of event prefetch data", EventPrefetchBuffer.Length));
+                    writer.Write(EventPrefetchBuffer);
                 }
 
                 Output.Verbose(string.Format("Wrote `{0}` bytes", stream.Length));
@@ -105,9 +169,16 @@ namespace EternalSoundMetadataPatcher.Metadata
         {
             Output.Information(string.Format("Processing soundmetadata file `{0}`", path));
 
-            byte[] precedingData;
-            byte[] trailingData;
+            byte[] headerBuffer;
+            byte[] pckBuffer;
+            byte[] bnkBuffer;
+            byte[] busBuffer;
+            byte[] rtpcBuffer;
+            byte[] switchGroupBuffer;
+            byte[] stateGroupBuffer;
+            byte[] eventPrefetchBuffer;
 
+            List<SoundContainer> soundContainers = new List<SoundContainer>();
             List<string> pathParts = new List<string>();
             List<SoundEvent> soundEvents = new List<SoundEvent>();
 
@@ -115,14 +186,20 @@ namespace EternalSoundMetadataPatcher.Metadata
             {
                 using (var reader = new BinaryReader(stream, Encoding.Default, true))
                 {
+                    BufferMarkStart(stream);
+
                     int version = reader.ReadInt32();
                     if (version != 24)
                     {
                         throw new UnsupportedMetadataVersionException();
                     }
 
+                    headerBuffer = BufferRead(stream);
+
                     // skip pck section
                     Output.Verbose(string.Format("Skipping PCK section at `{0}`", stream.Position));
+
+                    BufferMarkStart(stream);
 
                     int pckCount = reader.ReadInt32();
                     for (var i = 0; i < pckCount; i++)
@@ -132,26 +209,59 @@ namespace EternalSoundMetadataPatcher.Metadata
                         stream.Seek(4, SeekOrigin.Current); // soundbank id ?
                     }
 
-                    // skip snd section
-                    Output.Verbose(string.Format("Skipping sound container section at `{0}`", stream.Position));
+                    pckBuffer = BufferRead(stream);
+
+                    // sound containers
+                    Output.Verbose(string.Format("Processing sound containers at `{0}`", stream.Position));
 
                     int sndCount = reader.ReadInt32();
                     for (var i = 0; i < sndCount; i++)
                     {
                         uint sndNameLength = reader.ReadUInt32();
-                        stream.Seek(sndNameLength, SeekOrigin.Current);
+                        byte[] nameBytes = new byte[sndNameLength];
+                        reader.Read(nameBytes, 0, (int)sndNameLength);
+                        string containerName = Encoding.UTF8.GetString(nameBytes);
+
+                        SoundContainer container = new SoundContainer
+                        {
+                            Name = containerName,
+                            Parts = new List<SoundContainerPart>(),
+                        };
+
+                        Output.Debug(string.Format("Processing `[SoundContainer Name='{0}']`", containerName));
 
                         uint sndContainerCount = reader.ReadUInt32();
                         for (var j = 0; j < sndContainerCount; j++)
                         {
-                            stream.Seek(4, SeekOrigin.Current); // id
+                            uint partId = reader.ReadUInt32();
                             uint maskLength = reader.ReadUInt32();
-                            stream.Seek(maskLength, SeekOrigin.Current); // file validity mask
+
+                            SoundContainerPart part = new SoundContainerPart
+                            {
+                                Id = partId,
+                                ValidityMask = new List<uint>(),
+                            };
+
+                            Output.Debug(string.Format("Processing `[SoundContainerPart Id='{0}']`", partId));
+
+                            for (var k = 0; k < maskLength; k++)
+                            {
+                                uint mask = reader.ReadUInt32();
+                                part.ValidityMask.Add(mask);
+                            }
+
+                            container.Parts.Add(part);
                         }
+
+                        soundContainers.Add(container);
                     }
+
+                    Output.Verbose(string.Format("Extracted `{0}` sound containers", soundContainers.Count));
 
                     // skip bnk section
                     Output.Verbose(string.Format("Skipping BNK section at `{0}`", stream.Position));
+
+                    BufferMarkStart(stream);
 
                     int bnkCount = reader.ReadInt32();
                     for (var i = 0; i < bnkCount; i++)
@@ -161,8 +271,12 @@ namespace EternalSoundMetadataPatcher.Metadata
                         stream.Seek(4, SeekOrigin.Current); // id
                     }
 
+                    bnkBuffer = BufferRead(stream);
+
                     // skip aux bus section
                     Output.Verbose(string.Format("Skipping Aux Bus section at `{0}`", stream.Position));
+
+                    BufferMarkStart(stream);
 
                     uint busCount = reader.ReadUInt32();
                     for (var i = 0; i < busCount; i++)
@@ -172,8 +286,12 @@ namespace EternalSoundMetadataPatcher.Metadata
                         stream.Seek(busNameLength, SeekOrigin.Current);
                     }
 
+                    busBuffer = BufferRead(stream);
+
                     // skip rtpc section
                     Output.Verbose(string.Format("Skipping RTPC section at `{0}`", stream.Position));
+
+                    BufferMarkStart(stream);
 
                     uint rtpcCount = reader.ReadUInt32();
                     for (var i = 0; i < rtpcCount; i++)
@@ -183,8 +301,12 @@ namespace EternalSoundMetadataPatcher.Metadata
                         stream.Seek(rtpcNameLength, SeekOrigin.Current);
                     }
 
+                    rtpcBuffer = BufferRead(stream);
+
                     // skip switch section
                     Output.Verbose(string.Format("Skipping switch group section at `{0}`", stream.Position));
+
+                    BufferMarkStart(stream);
 
                     uint switchGroupCount = reader.ReadUInt32();
                     for (var i = 0; i < switchGroupCount; i++)
@@ -202,8 +324,12 @@ namespace EternalSoundMetadataPatcher.Metadata
                         }
                     }
 
+                    switchGroupBuffer = BufferRead(stream);
+
                     // skip state section
                     Output.Verbose(string.Format("Skipping state section at `{0}`", stream.Position));
+
+                    BufferMarkStart(stream);
 
                     int stateGroupCount = reader.ReadInt32();
                     for (var i = 0; i < stateGroupCount; i++)
@@ -220,6 +346,8 @@ namespace EternalSoundMetadataPatcher.Metadata
                             stream.Seek(stateNameLength, SeekOrigin.Current);
                         }
                     }
+
+                    stateGroupBuffer = BufferRead(stream);
 
                     // object path parts
                     Output.Verbose(string.Format("Processing object path parts section at `{0}`", stream.Position));
@@ -316,31 +444,36 @@ namespace EternalSoundMetadataPatcher.Metadata
 
                     Output.Verbose(string.Format("Extracted `{0}` events", soundEvents.Count));
 
-                    long eventPrefetchSectionOffset = stream.Position;
-
-                    precedingData = new byte[pathNodeSectionOffset];
-                    stream.Seek(0, SeekOrigin.Begin);
-                    stream.Read(precedingData, 0, (int)pathNodeSectionOffset);
-
-                    stream.Seek(eventPrefetchSectionOffset, SeekOrigin.Begin);
-
                     // skip event prefetch section
                     Output.Verbose(string.Format("Skipping event prefetch section at `{0}`", stream.Position));
 
                     // TODO How is prefetching used in the game anyways? Do we even want/need to support this for custom sounds?
 
-                    var remainingLength = (int)(stream.Length - stream.Position);
-                    trailingData = new byte[remainingLength];
-                    stream.Read(trailingData, 0, remainingLength);
+                    BufferMarkStart(stream);
+
+                    uint eventPrefetchCount = reader.ReadUInt32();
+                    for (var i = 0; i < eventPrefetchCount; i++)
+                    {
+                        stream.Seek(4, SeekOrigin.Current); // id
+                    }
+
+                    eventPrefetchBuffer = BufferRead(stream);
                 }
             }
 
             return new SoundMetadata
             {
+                SoundContainers = soundContainers,
                 PathParts = pathParts,
                 SoundEvents = soundEvents,
-                PrecedingData = precedingData,
-                TrailingData = trailingData,
+                HeaderBuffer = headerBuffer,
+                PckBuffer = pckBuffer,
+                BnkBuffer = bnkBuffer,
+                BusBuffer = busBuffer,
+                RtpcBuffer = rtpcBuffer,
+                SwitchGroupBuffer = switchGroupBuffer,
+                StateGroupBuffer = stateGroupBuffer,
+                EventPrefetchBuffer = eventPrefetchBuffer,
             };
         }
     }

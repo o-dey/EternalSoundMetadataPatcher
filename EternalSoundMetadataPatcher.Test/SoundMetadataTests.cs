@@ -72,8 +72,36 @@ namespace EternalSoundMetadataPatcher.Test
                 PathParts = new List<string> { "Foo", "Bar", "Baz" },
             });
 
+            metadata.SoundContainers.Add(
+                new SoundContainer() {
+                    Name = "Foo.snd",
+                    Parts = new List<SoundContainerPart> {
+                        new SoundContainerPart {
+                            Id = 73243272,
+                            ValidityMask = new List<uint> {
+                                4294967295,
+                                4294967295,
+                                4294967295,
+                                76542,
+                            }
+                        },
+                        new SoundContainerPart {
+                            Id = 896435327,
+                            ValidityMask = new List<uint> {
+                                4294967295,
+                                4294967295,
+                                4294967295,
+                                4294967295,
+                                2562,
+                            }
+                        },
+                    }
+                }
+            );
+
             Assert.AreEqual(461 + 3, metadata.PathParts.Count);
             Assert.AreEqual(5897 + 1, metadata.SoundEvents.Count);
+            Assert.AreEqual(14 + 1, metadata.SoundContainers.Count);
 
             string json = Json.SerializeObject(metadata);
             Assert.AreEqual(File.ReadAllText(@"Comparisons\SoundMetadataTests\TestWriteWithChanges.json"), json);

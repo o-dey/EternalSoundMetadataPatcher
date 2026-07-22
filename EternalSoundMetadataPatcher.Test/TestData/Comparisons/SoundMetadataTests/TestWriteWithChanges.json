@@ -154,6 +154,33 @@
           "ValidityMask": []
         }
       ]
+    },
+    {
+      "$type": "EternalSoundMetadataPatcher.Metadata.SoundContainer, EternalSoundMetadataPatcher",
+      "Name": "Foo.snd",
+      "Parts": [
+        {
+          "$type": "EternalSoundMetadataPatcher.Metadata.SoundContainerPart, EternalSoundMetadataPatcher",
+          "Id": 73243272,
+          "ValidityMask": [
+            4294967295,
+            4294967295,
+            4294967295,
+            76542
+          ]
+        },
+        {
+          "$type": "EternalSoundMetadataPatcher.Metadata.SoundContainerPart, EternalSoundMetadataPatcher",
+          "Id": 896435327,
+          "ValidityMask": [
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            2562
+          ]
+        }
+      ]
     }
   ],
   "PathParts": [
