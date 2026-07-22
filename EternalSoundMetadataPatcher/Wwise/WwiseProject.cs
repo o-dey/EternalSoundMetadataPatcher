@@ -383,10 +383,8 @@ namespace EternalSoundMetadataPatcher.Wwise
                     string trimBeginValue = node.SelectSingleNode("ChildrenList/AudioFileSource/PropertyList/Property[@Name='TrimBegin']")?.Attributes["Value"].Value;
                     string timEndValue = node.SelectSingleNode("ChildrenList/AudioFileSource/PropertyList/Property[@Name='TrimEnd']")?.Attributes["Value"].Value;
 
-                    float trimBegin;
-                    float trimEnd;
-                    float.TryParse(trimBeginValue, NumberStyles.Number, CultureInfo.InvariantCulture, out trimBegin);
-                    float.TryParse(timEndValue, NumberStyles.Number, CultureInfo.InvariantCulture, out trimEnd);
+                    float.TryParse(trimBeginValue, NumberStyles.Number, CultureInfo.InvariantCulture, out float trimBegin);
+                    float.TryParse(timEndValue, NumberStyles.Number, CultureInfo.InvariantCulture, out float trimEnd);
 
                     string language = node.SelectSingleNode("ChildrenList/AudioFileSource/Language").InnerText;
                     string audioFilePath = node.SelectSingleNode("ChildrenList/AudioFileSource/AudioFile").InnerText;
