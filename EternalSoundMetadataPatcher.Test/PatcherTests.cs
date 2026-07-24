@@ -58,16 +58,16 @@ namespace EternalSoundMetadataPatcher.Test
 
         [TestMethod]
         [DeploymentItem("TestData/Mod/Default", "PatcherTests/TestNonExistentWwiseSoundbanksInfoFile/Mod/Default")]
-        [DeploymentItem("TestData/Wwise/Projects/Default/Wwise Music Mod", "PatcherTests/Wwise/Default")]
+        [DeploymentItem("TestData/Wwise/Projects/Default/Wwise Music Mod", "PatcherTests/TestNonExistentWwiseSoundbanksInfoFile/Wwise/Default")]
         public void TestNonExistentWwiseSoundbanksInfoFile()
         {
             var modPath = @"PatcherTests\TestNonExistentWwiseSoundbanksInfoFile\Mod\Default";
-            var wwisePath = @"PatcherTests\Wwise\Default\ModsWwise";
+            var wwisePath = @"PatcherTests\TestNonExistentWwiseSoundbanksInfoFile\Wwise\Default\ModsWwise";
 
             File.Delete(Path.Combine(wwisePath, @"GeneratedSoundBanks\Windows\SoundbanksInfo.xml"));
 
             ExceptionAssertion.ThrowsWithMessage<FileNotFoundException>(
-                @"Missing soundbanks info file `PatcherTests\Wwise\Default\ModsWwise\GeneratedSoundBanks\Windows\SoundbanksInfo.xml`. " +
+                @"Missing soundbanks info file `PatcherTests\TestNonExistentWwiseSoundbanksInfoFile\Wwise\Default\ModsWwise\GeneratedSoundBanks\Windows\SoundbanksInfo.xml`. " +
                 "Make sure that you have packaged your Wwise project!",
                 () => Patcher.Patch(modPath, wwisePath, null)
             );
@@ -75,16 +75,16 @@ namespace EternalSoundMetadataPatcher.Test
 
         [TestMethod]
         [DeploymentItem("TestData/Mod/Default", "PatcherTests/TestNonExistentWwiseAttenuationsFile/Mod/Default")]
-        [DeploymentItem("TestData/Wwise/Projects/Default/Wwise Music Mod", "PatcherTests/Wwise/Default")]
+        [DeploymentItem("TestData/Wwise/Projects/Default/Wwise Music Mod", "PatcherTests/TestNonExistentWwiseAttenuationsFile/Wwise/Default")]
         public void TestNonExistentWwiseAttenuationsFile()
         {
             var modPath = @"PatcherTests\TestNonExistentWwiseAttenuationsFile\Mod\Default";
-            var wwisePath = @"PatcherTests\Wwise\Default\ModsWwise";
+            var wwisePath = @"PatcherTests\TestNonExistentWwiseAttenuationsFile\Wwise\Default\ModsWwise";
 
             File.Delete(Path.Combine(wwisePath, @"Attenuations\Default Work Unit.wwu"));
 
             ExceptionAssertion.ThrowsWithMessage<FileNotFoundException>(
-                @"Missing attenuations file `PatcherTests\Wwise\Default\ModsWwise\Attenuations\Default Work Unit.wwu`.",
+                @"Missing attenuations file `PatcherTests\TestNonExistentWwiseAttenuationsFile\Wwise\Default\ModsWwise\Attenuations\Default Work Unit.wwu`.",
                 () => Patcher.Patch(modPath, wwisePath, null)
             );
         }
