@@ -28,6 +28,7 @@ namespace EternalSoundMetadataPatcher.Test
         {
             var metadata = SoundMetadata.FromFile("soundmetadata_orig.bin");
 
+            Assert.AreEqual(14, metadata.SoundContainers.Count);
             Assert.AreEqual(461, metadata.PathParts.Count);
             Assert.AreEqual(5897, metadata.SoundEvents.Count);
 

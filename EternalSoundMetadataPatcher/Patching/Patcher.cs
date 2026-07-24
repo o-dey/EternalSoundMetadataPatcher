@@ -2,6 +2,7 @@
 using EternalSoundMetadataPatcher.Backups;
 using EternalSoundMetadataPatcher.ConsoleIO;
 using EternalSoundMetadataPatcher.Metadata;
+using EternalSoundMetadataPatcher.Metadata.Fixes;
 using EternalSoundMetadataPatcher.Wwise;
 using EternalSoundMetadataPatcher.Wwise.Generated;
 using EternalSoundMetadataPatcher.Wwise.Structure.Audio;
@@ -16,7 +17,7 @@ namespace EternalSoundMetadataPatcher.Patching
 {
     public class Patcher
     {
-        static public void Patch(string idStudioModDirectory, string wwiseDirectory, IBackupStrategy backupStrategy = null)
+        static public void Patch(string idStudioModDirectory, string wwiseDirectory, IBackupStrategy backupStrategy = null, bool soundContainerFix = false)
         {
             string soundbanksInfoFilePath = Path.Combine(idStudioModDirectory, @"base\sound\soundbanks\SoundbanksInfo.xml");
             string soundMetadataPath = Path.Combine(idStudioModDirectory, @"base\sound\soundbanks\pc\soundmetadata.bin");
@@ -139,6 +140,18 @@ namespace EternalSoundMetadataPatcher.Patching
             // events must be ordered ascending by their id value, failing to do so will
             // results in sounds not playing
             soundMetadata.SoundEvents = soundEvents.OrderBy(x => x.Id).ToList();
+
+            // Fix missing sound container vailidity masks (discovered by FlavorfulGecko5),
+            // this should fix missing music and VO, specifically in TAG and Horde mode.
+            //
+            // Temporarily optionally for testing purposes, but in the end we probably want
+            // to make it a permanent fix.
+            if (soundContainerFix)
+            {
+                Output.Information("Applying sound container fix");
+
+                SoundMetadataFixes.FixSoundContainerValidityMasks(soundMetadata);
+            }
 
             if (backupStrategy != null)
             {

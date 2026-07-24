@@ -1,6 +1,7 @@
 ﻿Running EternalSoundMetadataPatcher v0.1.0.0 on
 	idStudio mod directory: {TestDeploymentDir}\AppTests\TestDebugOutput\Mod\Default
-	Wwise project directory: {TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise
+	Wwise project directory: {TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise
+	Apply sound container fix: yes
 Processing soundbanks info file `{TestDeploymentDir}\AppTests\TestDebugOutput\Mod\Default\base\sound\soundbanks\SoundbanksInfo.xml`
 Processing `<SoundBank Name='sfx_base' Id='1152880790'>`
 Processing `<Event Name='Play_1st_chair_pull_back' Id='696464212'>`
@@ -44459,61 +44460,675 @@ Processing `[Event Name='Play_hell_deep_pulse' Id='4293432006']`
 Processing `[Event Name='Play_zombie_pain_t3_glory_kill' Id='4294799558']`
 Extracted `5897` events
 Skipping event prefetch section at `620616`
-Processing Wwise project at `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise`
-Processing soundbanks info file `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\GeneratedSoundBanks\Windows\SoundbanksInfo.xml`
+Processing Wwise project at `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise`
+Processing soundbanks info file `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\GeneratedSoundBanks\Windows\SoundbanksInfo.xml`
 Discarding `<SoundBank Name='Init' Id='1355168291'>`
 Discarding `<SoundBank Name='music_mods' Id='1496058806'>`
 Processing `<SoundBank Name='mods' Id='3313201758'>`
+Processing `<Event Name='Play_ambience1' Id='1117071627'>`
+Processing `<Event Name='Play_ambience10' Id='3687816289'>`
+Processing `<Event Name='Play_ambience11' Id='3687816288'>`
+Processing `<Event Name='Play_ambience12' Id='3687816291'>`
+Processing `<Event Name='Play_ambience13' Id='3687816290'>`
+Processing `<Event Name='Play_ambience14' Id='3687816293'>`
+Processing `<Event Name='Play_ambience15' Id='3687816292'>`
+Processing `<Event Name='Play_ambience16' Id='3687816295'>`
+Processing `<Event Name='Play_ambience17' Id='3687816294'>`
+Processing `<Event Name='Play_ambience18' Id='3687816297'>`
+Processing `<Event Name='Play_ambience19' Id='3687816296'>`
+Processing `<Event Name='Play_ambience2' Id='1117071624'>`
+Processing `<Event Name='Play_ambience20' Id='3637483432'>`
+Processing `<Event Name='Play_ambience3' Id='1117071625'>`
+Processing `<Event Name='Play_ambience4' Id='1117071630'>`
+Processing `<Event Name='Play_ambience5' Id='1117071631'>`
+Processing `<Event Name='Play_ambience6' Id='1117071628'>`
+Processing `<Event Name='Play_ambience7' Id='1117071629'>`
+Processing `<Event Name='Play_ambience8' Id='1117071618'>`
+Processing `<Event Name='Play_ambience9' Id='1117071619'>`
+Processing `<Event Name='Play_fodder2mod1' Id='2349622233'>`
+Processing `<Event Name='Play_fodder2mod2' Id='2349622234'>`
+Processing `<Event Name='Play_fodder2mod3' Id='2349622235'>`
+Processing `<Event Name='Play_fodder3mod1' Id='145648052'>`
+Processing `<Event Name='Play_fodder3mod2' Id='145648055'>`
+Processing `<Event Name='Play_fodder3mod3' Id='145648054'>`
+Processing `<Event Name='Play_foddermod1' Id='4240430819'>`
+Processing `<Event Name='Play_foddermod2' Id='4240430816'>`
+Processing `<Event Name='Play_foddermod3' Id='4240430817'>`
 Processing `<Event Name='Play_generic1' Id='3332801302'>`
+Processing `<Event Name='Play_generic10' Id='3458227090'>`
+Processing `<Event Name='Play_generic11' Id='3458227091'>`
+Processing `<Event Name='Play_generic12' Id='3458227088'>`
+Processing `<Event Name='Play_generic13' Id='3458227089'>`
+Processing `<Event Name='Play_generic14' Id='3458227094'>`
+Processing `<Event Name='Play_generic15' Id='3458227095'>`
+Processing `<Event Name='Play_generic16' Id='3458227092'>`
+Processing `<Event Name='Play_generic17' Id='3458227093'>`
+Processing `<Event Name='Play_generic18' Id='3458227098'>`
+Processing `<Event Name='Play_generic19' Id='3458227099'>`
 Processing `<Event Name='Play_generic2' Id='3332801301'>`
+Processing `<Event Name='Play_generic20' Id='3441449535'>`
+Processing `<Event Name='Play_generic21' Id='3441449534'>`
+Processing `<Event Name='Play_generic22' Id='3441449533'>`
+Processing `<Event Name='Play_generic23' Id='3441449532'>`
+Processing `<Event Name='Play_generic24' Id='3441449531'>`
+Processing `<Event Name='Play_generic25' Id='3441449530'>`
+Processing `<Event Name='Play_generic26' Id='3441449529'>`
+Processing `<Event Name='Play_generic27' Id='3441449528'>`
+Processing `<Event Name='Play_generic28' Id='3441449527'>`
+Processing `<Event Name='Play_generic29' Id='3441449526'>`
 Processing `<Event Name='Play_generic3' Id='3332801300'>`
-Processing `<Event Name='Play_vo_4TH_PRIEST__Here_to_lecture_us' Id='2891876526'>`
-Processing `<File Id='1006448442' Name='vo_4TH_PRIEST__Here_to_lecture_us.wav'>`
-Processing `<Event Name='Play_vo_4TH_PRIEST__Look_who_it_is' Id='2344951565'>`
-Processing `<File Id='1045640917' Name='vo_4TH_PRIEST__Look_who_it_is.wav'>`
-Processing `<Event Name='Stop_vo_4TH_PRIEST__Look_who_it_is' Id='484130019'>`
+Processing `<Event Name='Play_generic30' Id='3424671820'>`
+Processing `<Event Name='Play_generic4' Id='3332801299'>`
+Processing `<Event Name='Play_generic5' Id='3332801298'>`
+Processing `<Event Name='Play_generic6' Id='3332801297'>`
+Processing `<Event Name='Play_generic7' Id='3332801296'>`
+Processing `<Event Name='Play_generic8' Id='3332801311'>`
+Processing `<Event Name='Play_generic9' Id='3332801310'>`
+Processing `<Event Name='Play_mod2_fire1' Id='3137662008'>`
+Processing `<Event Name='Play_mod2_fire2' Id='3137662011'>`
+Processing `<Event Name='Play_mod2_fire3' Id='3137662010'>`
+Processing `<Event Name='Play_mod2_fire4' Id='3137662013'>`
+Processing `<Event Name='Play_mod3_fire1' Id='1038962001'>`
+Processing `<Event Name='Play_mod3_fire2' Id='1038962002'>`
+Processing `<Event Name='Play_mod3_fire3' Id='1038962003'>`
+Processing `<Event Name='Play_mod3_fire4' Id='1038962004'>`
+Processing `<Event Name='Play_mod_fire1' Id='3692003658'>`
+Processing `<Event Name='Play_mod_fire2' Id='3692003657'>`
+Processing `<Event Name='Play_mod_fire3' Id='3692003656'>`
+Processing `<Event Name='Play_mod_fire4' Id='3692003663'>`
+Processing `<Source Name='ambience1' Id='1017660554'>`
+Processing `<Source Name='ambience10' Id='115598606'>`
+Processing `<Source Name='ambience11' Id='115598607'>`
+Processing `<Source Name='ambience12' Id='115598604'>`
+Processing `<Source Name='ambience13' Id='115598605'>`
+Processing `<Source Name='ambience14' Id='115598602'>`
+Processing `<Source Name='ambience15' Id='115598603'>`
+Processing `<Source Name='ambience16' Id='115598600'>`
+Processing `<Source Name='ambience17' Id='115598601'>`
+Processing `<Source Name='ambience18' Id='115598598'>`
+Processing `<Source Name='ambience19' Id='115598599'>`
+Processing `<Source Name='ambience2' Id='1017660553'>`
+Processing `<Source Name='ambience20' Id='98821019'>`
+Processing `<Source Name='ambience3' Id='1017660552'>`
+Processing `<Source Name='ambience4' Id='1017660559'>`
+Processing `<Source Name='ambience5' Id='1017660558'>`
+Processing `<Source Name='ambience6' Id='1017660557'>`
+Processing `<Source Name='ambience7' Id='1017660556'>`
+Processing `<Source Name='ambience8' Id='1017660547'>`
+Processing `<Source Name='ambience9' Id='1017660546'>`
+Processing `<Source Name='fodder2m1' Id='155289867'>`
+Processing `<Source Name='fodder2m2' Id='155289864'>`
+Processing `<Source Name='fodder2m3' Id='155289865'>`
+Processing `<Source Name='fodder2m4' Id='155289870'>`
+Processing `<Source Name='fodder2m5' Id='155289871'>`
+Processing `<Source Name='fodder2m6' Id='155289868'>`
+Processing `<Source Name='fodder2m7' Id='155289869'>`
+Processing `<Source Name='fodder2m8' Id='155289858'>`
+Processing `<Source Name='fodder2m9' Id='155289859'>`
+Processing `<Source Name='fodder3m1' Id='3846115782'>`
+Processing `<Source Name='fodder3m2' Id='3846115781'>`
+Processing `<Source Name='fodder3m3' Id='3846115780'>`
+Processing `<Source Name='fodder3m4' Id='3846115779'>`
+Processing `<Source Name='fodder3m5' Id='3846115778'>`
+Processing `<Source Name='fodder3m6' Id='3846115777'>`
+Processing `<Source Name='fodder3m7' Id='3846115776'>`
+Processing `<Source Name='fodder3m8' Id='3846115791'>`
+Processing `<Source Name='fodder3m9' Id='3846115790'>`
+Processing `<Source Name='fodderm1' Id='24776939'>`
+Processing `<Source Name='fodderm2' Id='24776936'>`
+Processing `<Source Name='fodderm3' Id='24776937'>`
+Processing `<Source Name='fodderm4' Id='24776942'>`
+Processing `<Source Name='fodderm5' Id='24776943'>`
+Processing `<Source Name='fodderm6' Id='24776940'>`
+Processing `<Source Name='fodderm7' Id='24776941'>`
+Processing `<Source Name='fodderm8' Id='24776930'>`
+Processing `<Source Name='fodderm9' Id='24776931'>`
 Processing `<Source Name='generic1' Id='1377388561'>`
+Processing `<Source Name='generic10' Id='1322021619'>`
+Processing `<Source Name='generic11' Id='1322021618'>`
+Processing `<Source Name='generic12' Id='1322021617'>`
+Processing `<Source Name='generic13' Id='1322021616'>`
+Processing `<Source Name='generic14' Id='1322021623'>`
+Processing `<Source Name='generic15' Id='1322021622'>`
+Processing `<Source Name='generic16' Id='1322021621'>`
+Processing `<Source Name='generic17' Id='1322021620'>`
+Processing `<Source Name='generic18' Id='1322021627'>`
+Processing `<Source Name='generic19' Id='1322021626'>`
 Processing `<Source Name='generic2' Id='1377388562'>`
+Processing `<Source Name='generic20' Id='1338799206'>`
+Processing `<Source Name='generic21' Id='1338799207'>`
+Processing `<Source Name='generic22' Id='1338799204'>`
+Processing `<Source Name='generic23' Id='1338799205'>`
+Processing `<Source Name='generic24' Id='1338799202'>`
+Processing `<Source Name='generic25' Id='1338799203'>`
+Processing `<Source Name='generic26' Id='1338799200'>`
+Processing `<Source Name='generic27' Id='1338799201'>`
+Processing `<Source Name='generic28' Id='1338799214'>`
+Processing `<Source Name='generic29' Id='1338799215'>`
 Processing `<Source Name='generic3' Id='1377388563'>`
+Processing `<Source Name='generic30' Id='1355576793'>`
+Processing `<Source Name='generic4' Id='1377388564'>`
+Processing `<Source Name='generic5' Id='1377388565'>`
+Processing `<Source Name='generic6' Id='1377388566'>`
+Processing `<Source Name='generic7' Id='1377388567'>`
+Processing `<Source Name='generic8' Id='1377388568'>`
+Processing `<Source Name='generic9' Id='1377388569'>`
+Processing `<Source Name='mod2p1' Id='1111653302'>`
+Processing `<Source Name='mod2p10' Id='78167986'>`
+Processing `<Source Name='mod2p11' Id='78167987'>`
+Processing `<Source Name='mod2p12' Id='78167984'>`
+Processing `<Source Name='mod2p2' Id='1111653301'>`
+Processing `<Source Name='mod2p3' Id='1111653300'>`
+Processing `<Source Name='mod2p4' Id='1111653299'>`
+Processing `<Source Name='mod2p5' Id='1111653298'>`
+Processing `<Source Name='mod2p6' Id='1111653297'>`
+Processing `<Source Name='mod2p7' Id='1111653296'>`
+Processing `<Source Name='mod2p8' Id='1111653311'>`
+Processing `<Source Name='mod2p9' Id='1111653310'>`
+Processing `<Source Name='mod3p1' Id='1010840399'>`
+Processing `<Source Name='mod3p10' Id='672187757'>`
+Processing `<Source Name='mod3p11' Id='672187756'>`
+Processing `<Source Name='mod3p12' Id='672187759'>`
+Processing `<Source Name='mod3p2' Id='1010840396'>`
+Processing `<Source Name='mod3p3' Id='1010840397'>`
+Processing `<Source Name='mod3p4' Id='1010840394'>`
+Processing `<Source Name='mod3p5' Id='1010840395'>`
+Processing `<Source Name='mod3p6' Id='1010840392'>`
+Processing `<Source Name='mod3p7' Id='1010840393'>`
+Processing `<Source Name='mod3p8' Id='1010840390'>`
+Processing `<Source Name='mod3p9' Id='1010840391'>`
+Processing `<Source Name='modp1' Id='1045760086'>`
+Processing `<Source Name='modp10' Id='1977360210'>`
+Processing `<Source Name='modp11' Id='1977360211'>`
+Processing `<Source Name='modp12' Id='1977360208'>`
+Processing `<Source Name='modp2' Id='1045760085'>`
+Processing `<Source Name='modp3' Id='1045760084'>`
+Processing `<Source Name='modp4' Id='1045760083'>`
+Processing `<Source Name='modp5' Id='1045760082'>`
+Processing `<Source Name='modp6' Id='1045760081'>`
+Processing `<Source Name='modp7' Id='1045760080'>`
+Processing `<Source Name='modp8' Id='1045760095'>`
+Processing `<Source Name='modp9' Id='1045760094'>`
 Extracted `1` soundbank IDs
-Extracted `6` event IDs
-Extracted `3` external sources
-Extracted `2` media files
-Extracted `4` object path parts
-Extracting external sources from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\..\ModWavs\test.wsources`
+Extracted `71` event IDs
+Extracted `113` external sources
+Extracted `0` media files
+Extracted `6` object path parts
+Extracting external sources from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\test.wsources`
+Processing `<Source Path='..\ModWavs\weapons\modp1.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp2.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp3.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp4.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp5.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp6.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp7.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp8.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp9.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp10.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp11.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\modp12.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p1.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p2.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p3.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p4.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p5.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p6.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p7.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p8.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p9.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p10.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p11.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod2p12.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p1.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p2.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p3.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p4.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p5.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p6.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p7.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p8.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p9.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p10.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p11.wav'>`
+Processing `<Source Path='..\ModWavs\weapons\mod3p12.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm1.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm2.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm3.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm4.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm5.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm6.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm7.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm8.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodderm9.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m1.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m2.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m3.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m4.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m5.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m6.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m7.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m8.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder2m9.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m1.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m2.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m3.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m4.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m5.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m6.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m7.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m8.wav'>`
+Processing `<Source Path='..\ModWavs\fodder\fodder3m9.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience1.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience2.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience3.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience4.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience5.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience6.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience7.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience8.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience9.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience10.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience11.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience12.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience13.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience14.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience15.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience16.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience17.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience18.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience19.wav'>`
+Processing `<Source Path='..\ModWavs\ambience\ambience20.wav'>`
 Processing `<Source Path='..\ModWavs\generic\generic1.wav'>`
 Processing `<Source Path='..\ModWavs\generic\generic2.wav'>`
 Processing `<Source Path='..\ModWavs\generic\generic3.wav'>`
-Extracted `3` external sources
-Gathering media files from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\originals\SFX`
-Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\originals\SFX\ambient_01.wav']`
-Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\originals\SFX\ambient_02.wav']`
-Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\originals\SFX\vo_4TH_PRIEST__Here_to_lecture_us.wav']`
-Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\originals\SFX\vo_4TH_PRIEST__Look_who_it_is.wav']`
-Found `4` media files
-Extracting audio objects from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\Actor-Mixer Hierarchy\ghost_mod.wwu`
+Processing `<Source Path='..\ModWavs\generic\generic4.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic5.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic6.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic7.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic8.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic9.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic10.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic11.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic12.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic13.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic14.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic15.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic16.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic17.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic18.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic19.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic20.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic21.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic22.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic23.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic24.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic25.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic26.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic27.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic28.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic29.wav'>`
+Processing `<Source Path='..\ModWavs\generic\generic30.wav'>`
+Extracted `113` external sources
+Gathering media files from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_ambient_general_01.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_ambient_general_02.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_ambient_general_03.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_heavy_general_01.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_heavy_general_02.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_heavy_general_03.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_light_general_01.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_light_general_02.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_light_general_03.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod1_special_general_01.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_ambient_general_01.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_ambient_general_02.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_ambient_general_03.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_heavy_general_01.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_heavy_general_02.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_heavy_general_03.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_light_general_01.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_light_general_02.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_light_general_03.wav']`
+Processing `[Media Path='{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\originals\SFX\mod2_special_general_01.wav']`
+Found `20` media files
+Extracting audio objects from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\Actor-Mixer Hierarchy\ghost_mod.wwu`
+Processing `<ActorMixer Name='weapons_mods' ID='{97E15AA8-66DF-4B1A-9359-1D58B96A2267}'>`
+Processing `<ActorMixer Name='mod_weapon1' ID='{B8F9C4CB-32FF-4AE3-A867-98DDFFAFCFAF}'>`
+Processing `<RandomSequenceContainer Name='fire3' ID='{61AEC246-C738-4A18-9F07-5A3A9A2AEB6C}'>`
+Processing `<Sound Name='modp7' ID='{457EA191-A1C7-4CAD-8BB3-47F27BD4E80E}'>`
+Processing `<Sound Name='modp8' ID='{9E072746-8B6A-430E-A428-FEF661316FBB}'>`
+Processing `<Sound Name='modp9' ID='{04DB3BB9-0C5E-40F8-8E34-CF48DD1E5B12}'>`
+Processing `<RandomSequenceContainer Name='fire1' ID='{782E1B4B-671A-4B1B-9920-D1AF59610BC1}'>`
+Processing `<Sound Name='modp1' ID='{5C98D865-9526-4F6A-BBC1-021EEDCB395D}'>`
+Processing `<Sound Name='modp2' ID='{A982639D-CA21-42BA-8886-0B450BA77C87}'>`
+Processing `<Sound Name='modp3' ID='{28B7AFA6-F8F5-43DE-998A-D26054C56202}'>`
+Processing `<RandomSequenceContainer Name='fire2' ID='{06F6E323-8328-44AE-9F95-93E22D31364A}'>`
+Processing `<Sound Name='modp4' ID='{8C578746-BA37-4623-8CA0-D3EA00E40491}'>`
+Processing `<Sound Name='modp5' ID='{F73ED479-63A3-4062-AB0F-9CC372AAB42B}'>`
+Processing `<Sound Name='modp6' ID='{CB0B4F3D-4B4D-465F-AC6D-FA02C858A19C}'>`
+Processing `<RandomSequenceContainer Name='fire4' ID='{6C11DB9B-5328-457F-8F08-2C5062AB76F8}'>`
+Processing `<Sound Name='modp10' ID='{2DDE4B41-BC56-4C21-874C-3A7BC1E97C3E}'>`
+Processing `<Sound Name='modp11' ID='{20428892-DC8E-44FF-93E6-03B3F920708C}'>`
+Processing `<Sound Name='modp12' ID='{4522D7E1-550D-40EB-9B35-6ED254F52DC9}'>`
+Processing `<ActorMixer Name='mod_weapon2' ID='{5ECFA927-90D2-4856-B787-FD6DAF9D423F}'>`
+Processing `<RandomSequenceContainer Name='fire3' ID='{0D96DC52-2C5D-486B-9466-E9767B270BDC}'>`
+Processing `<Sound Name='mod2p7' ID='{A89041BC-2A27-4319-AEA2-0C7CE209D96E}'>`
+Processing `<Sound Name='mod2p8' ID='{AA0C65A7-FDE7-4E5E-ABDE-CE323AD60BF6}'>`
+Processing `<Sound Name='mod2p9' ID='{B59F6BBF-7A22-476D-8320-76223360C464}'>`
+Processing `<RandomSequenceContainer Name='fire1' ID='{FEA62007-CD2E-4FA0-AAAE-51A23B521AE1}'>`
+Processing `<Sound Name='mod2p1' ID='{99A5A5B8-F9C8-4493-B3B6-987714EFFE03}'>`
+Processing `<Sound Name='mod2p2' ID='{7DCF168B-0FD8-496E-9A62-F1D252B8F34E}'>`
+Processing `<Sound Name='mod2p3' ID='{5E5A296E-90EB-49E1-88A8-E198C3833538}'>`
+Processing `<RandomSequenceContainer Name='fire2' ID='{6052D026-C4E4-4CC6-9826-A3A1BCAEA58A}'>`
+Processing `<Sound Name='mod2p4' ID='{8B45451A-DE91-4119-AF3C-101C845596B5}'>`
+Processing `<Sound Name='mod2p5' ID='{431174B8-D8B7-4976-B5C6-393DD9DF5C6F}'>`
+Processing `<Sound Name='mod2p6' ID='{FD2F3A86-15BD-4A14-BA8E-9E5BD274B32C}'>`
+Processing `<RandomSequenceContainer Name='fire4' ID='{A96B711D-C1EB-47AD-B165-0DA81D73B796}'>`
+Processing `<Sound Name='mod2p10' ID='{7F7F7263-B23C-4969-AAED-C63D635574F6}'>`
+Processing `<Sound Name='mod2p11' ID='{26613C7B-1E7F-4CC6-B28D-1EC8FBBAFB96}'>`
+Processing `<Sound Name='mod2p12' ID='{9C6453CA-591B-4EC0-B287-4153C001B928}'>`
+Processing `<ActorMixer Name='mod_weapon3' ID='{B2602399-8361-43B6-AC6B-D068C7A57D94}'>`
+Processing `<RandomSequenceContainer Name='fire3' ID='{96F7111C-E3CC-456D-81AB-1938A6E2D4D1}'>`
+Processing `<Sound Name='mod3p7' ID='{26893877-6D12-4B1A-A827-4F42742A3BE1}'>`
+Processing `<Sound Name='mod3p8' ID='{4335E1B2-03C2-4FCB-9271-13048D085B73}'>`
+Processing `<Sound Name='mod3p9' ID='{86D77636-DF82-41D3-843B-7A45AD1B8147}'>`
+Processing `<RandomSequenceContainer Name='fire1' ID='{E2EAE69D-8D3D-4B11-B84B-C001AD78C27B}'>`
+Processing `<Sound Name='mod3p1' ID='{3F7C654C-BE19-4BB2-8331-FD7239019682}'>`
+Processing `<Sound Name='mod3p2' ID='{949F5ACA-1D7D-46B2-9D81-E945AE8DE228}'>`
+Processing `<Sound Name='mod3p3' ID='{BF5CCA4D-2F4D-4A81-BFC6-5534BCC5B97F}'>`
+Processing `<RandomSequenceContainer Name='fire2' ID='{075ADF81-446C-46EA-AEA1-7B1B97C27F44}'>`
+Processing `<Sound Name='mod3p4' ID='{5E030880-9AC3-408D-B2B6-5673257F9529}'>`
+Processing `<Sound Name='mod3p5' ID='{7094B0A8-7D9C-4ED9-8409-830F484A0C90}'>`
+Processing `<Sound Name='mod3p6' ID='{5AA9A2D3-00ED-4317-B4D7-BDA6A52E9AEC}'>`
+Processing `<RandomSequenceContainer Name='fire4' ID='{F457EDD0-57AA-42E0-801C-A74E2244B078}'>`
+Processing `<Sound Name='mod3p10' ID='{1FD80AB9-E6F6-4E71-B295-69779AC510DA}'>`
+Processing `<Sound Name='mod3p11' ID='{79A7C1AE-00AF-4D04-A07E-E2AD7225B4A3}'>`
+Processing `<Sound Name='mod3p12' ID='{6D71EE73-290F-4186-92D8-6ACB7F831E34}'>`
+Processing `<ActorMixer Name='fodder' ID='{8CEA72FA-3BDF-4252-9278-7187BD9F815A}'>`
+Processing `<ActorMixer Name='mod_fodder1' ID='{471E50D5-3A58-4813-9509-CC04AD88E682}'>`
+Processing `<RandomSequenceContainer Name='foddermod1' ID='{055AEAFC-5F08-433E-A91F-C8A75690171D}'>`
+Processing `<Sound Name='fodderm1' ID='{1F8CBEB8-7799-4414-8916-289E3AB0C1E2}'>`
+Processing `<Sound Name='fodderm2' ID='{FE4B59DA-624D-4034-A6E1-EA7C6099D2B8}'>`
+Processing `<Sound Name='fodderm3' ID='{400C069F-FAFF-499E-916B-EA56C356F05B}'>`
+Processing `<RandomSequenceContainer Name='foddermod2' ID='{F37066BE-2C32-4D61-B9F4-72F19C872642}'>`
+Processing `<Sound Name='fodderm4' ID='{E01FEA2D-AB02-4F62-B5BC-21B21E3A4AC8}'>`
+Processing `<Sound Name='fodderm5' ID='{83BC9AC7-3740-443E-B6B0-545B98B8C92D}'>`
+Processing `<Sound Name='fodderm6' ID='{53D24961-8361-4C4B-8158-69DD240D7C75}'>`
+Processing `<RandomSequenceContainer Name='foddermod3' ID='{F945305F-A316-4B73-BB7C-D09D5C008641}'>`
+Processing `<Sound Name='fodderm7' ID='{CBF65AA7-6574-4B92-BDB4-8B0C50A7BB27}'>`
+Processing `<Sound Name='fodderm8' ID='{810C3696-0771-45B0-8BFA-1F6219093FFC}'>`
+Processing `<Sound Name='fodderm9' ID='{E7154083-801B-4D7B-A88C-3E1C15A1BA4D}'>`
+Processing `<ActorMixer Name='mod_fodder2' ID='{EE9B8D58-0E6F-44A1-8F6B-D6D01024E779}'>`
+Processing `<RandomSequenceContainer Name='foddermod1' ID='{01DE5343-5CC4-44AD-9135-91D6E45E9F42}'>`
+Processing `<Sound Name='fodder2m1' ID='{ABACBADC-DDED-4A00-A114-0345D5AEBBBF}'>`
+Processing `<Sound Name='fodder2m2' ID='{B7A2431E-738C-4634-86A5-2837C7E63849}'>`
+Processing `<Sound Name='fodder2m3' ID='{A9F67DC4-44D1-4753-A10B-C4FF50A9536B}'>`
+Processing `<RandomSequenceContainer Name='foddermod3' ID='{5323B1A3-6798-4FC7-B035-EA197EFBA8E3}'>`
+Processing `<Sound Name='fodder2m7' ID='{713D7254-D1A9-4032-931B-3B9417352FAD}'>`
+Processing `<Sound Name='fodder2m8' ID='{7C78A248-CB7A-4297-B34B-7EB12ED890AC}'>`
+Processing `<Sound Name='fodder2m9' ID='{3C3A65EF-43BE-4280-8A32-4F55317BF5F3}'>`
+Processing `<RandomSequenceContainer Name='foddermod2' ID='{C819AEEF-7F48-4B64-BB71-E9987049E4E9}'>`
+Processing `<Sound Name='fodder2m4' ID='{4EED57E2-9EFE-44BF-B6AA-095C55DE21D1}'>`
+Processing `<Sound Name='fodder2m5' ID='{984FD6F9-89EB-4B1E-8E8D-2DB55C77EAFA}'>`
+Processing `<Sound Name='fodder2m6' ID='{90BCAF15-F17B-419D-9390-4DBBD2954267}'>`
+Processing `<ActorMixer Name='mod_fodder3' ID='{2F2E3037-CD00-40DB-A0C0-6F9DCB2DE944}'>`
+Processing `<RandomSequenceContainer Name='foddermod1' ID='{685FEF7C-B766-4E79-8FF1-6F611477E8E3}'>`
+Processing `<Sound Name='fodder3m1' ID='{D6B8244C-293C-4877-96A0-59EB86DEC82E}'>`
+Processing `<Sound Name='fodder3m2' ID='{D930EDA7-CEAD-4AFE-8ACB-C40A60B19AA3}'>`
+Processing `<Sound Name='fodder3m3' ID='{EDFEAF63-61CA-44E6-AE9C-A162DA482875}'>`
+Processing `<RandomSequenceContainer Name='foddermod3' ID='{557D522D-A017-4E16-8452-0CE7E64D2879}'>`
+Processing `<Sound Name='fodder3m7' ID='{BCBE2039-9F8C-4559-84CA-B8492B00EEF4}'>`
+Processing `<Sound Name='fodder3m8' ID='{9D70DE7D-1883-4C14-A9C8-0B88357B81E8}'>`
+Processing `<Sound Name='fodder3m9' ID='{D82A0418-4913-4380-A5E2-FD5694B70E6B}'>`
+Processing `<RandomSequenceContainer Name='foddermod2' ID='{B0FE20C5-6A56-4B06-B263-66DEA559620E}'>`
+Processing `<Sound Name='fodder3m4' ID='{999E81F6-61A0-4A2D-AB9A-27EC6F09F8A4}'>`
+Processing `<Sound Name='fodder3m5' ID='{CF80B8DC-A457-46C0-B9BE-7EAC1719EA07}'>`
+Processing `<Sound Name='fodder3m6' ID='{561DD5CB-F963-41D2-8C49-53E4575395B9}'>`
+Processing `<ActorMixer Name='mod_ambience' ID='{5F91663E-4722-4A58-8F6F-CB8C68284AEF}'>`
+Processing `<Sound Name='ambience1' ID='{809A4F2E-D0F6-4372-A361-A1AC943C5377}'>`
+Processing `<Sound Name='ambience2' ID='{872EF768-F10F-40A5-A5E0-2463591A2C55}'>`
+Processing `<Sound Name='ambience3' ID='{47813330-76BA-48FA-9653-4D8A05D3FA9F}'>`
+Processing `<Sound Name='ambience4' ID='{4FD006AD-C456-46C7-BAD9-61A0C27A2BF4}'>`
+Processing `<Sound Name='ambience5' ID='{25F8E3B8-74EB-4507-8EDA-3C87547BFF9C}'>`
+Processing `<Sound Name='ambience6' ID='{246C8992-C9AA-4474-9537-F4FA7A168F2E}'>`
+Processing `<Sound Name='ambience7' ID='{65AE4802-218F-4577-B30A-322EA173CD6F}'>`
+Processing `<Sound Name='ambience8' ID='{EC9CC857-D149-42F7-A094-C79457EE3115}'>`
+Processing `<Sound Name='ambience9' ID='{D36102A0-F2FF-4D49-8D4E-C77C4C7FF310}'>`
+Processing `<Sound Name='ambience10' ID='{4AC66483-186E-48B1-86F2-9BCCF69538F0}'>`
+Processing `<Sound Name='ambience11' ID='{989EBC2A-BEE7-43EC-AAFA-79B671092A04}'>`
+Processing `<Sound Name='ambience12' ID='{10C4C2C3-2E29-47DE-A617-9C7CE1956058}'>`
+Processing `<Sound Name='ambience13' ID='{6FD54439-EB70-4703-9722-39BFD3DBDAB9}'>`
+Processing `<Sound Name='ambience14' ID='{520D7745-E295-4128-A2AE-074C7D10D8CD}'>`
+Processing `<Sound Name='ambience15' ID='{539CF1CF-2434-4992-9C0B-6E01F85D8EB0}'>`
+Processing `<Sound Name='ambience16' ID='{2029ECD4-39E2-4204-81AB-94F48894540A}'>`
+Processing `<Sound Name='ambience17' ID='{9690234F-09A3-46DB-A4F6-D48E1EC0C672}'>`
+Processing `<Sound Name='ambience18' ID='{8AEBA098-DC0F-4117-9A50-F23B2304010E}'>`
+Processing `<Sound Name='ambience19' ID='{BA251F81-95B9-4505-83D1-9B7D938EE1AC}'>`
+Processing `<Sound Name='ambience20' ID='{D86087A2-9776-4654-8575-FE55D69E2A06}'>`
 Processing `<ActorMixer Name='mod_generic' ID='{074234A4-0367-471E-89CF-D199FD5477F1}'>`
 Processing `<Sound Name='generic1' ID='{43BA1D2D-5DBD-4B73-B506-03C416E7F0CF}'>`
 Processing `<Sound Name='generic2' ID='{F75B1E9A-7E0F-40B1-A6D3-901BF025B869}'>`
 Processing `<Sound Name='generic3' ID='{35396071-50DA-45AE-9A2C-ACF5D36C2298}'>`
-Processing `<ActorMixer Name='vo' ID='{86ECA2AC-F9B1-45B7-A477-31F97C07A044}'>`
-Processing `<Sound Name='vo_4TH_PRIEST__Here_to_lecture_us' ID='{4C5071DC-8262-4EE1-A9EA-BC99AA5FD19A}'>`
-Processing `<Sound Name='vo_4TH_PRIEST__Look_who_it_is' ID='{697CE0E6-4909-4E10-BD92-0F59E4C83D5C}'>`
-Extracted `7` audio objects
-Extracting event objects from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\Events\mod_events.wwu`
+Processing `<Sound Name='generic4' ID='{2F936967-4BE4-45AC-BD21-CEDDD8B9A1DB}'>`
+Processing `<Sound Name='generic5' ID='{25787E95-426B-4BBE-B8A7-F03D6BD87F81}'>`
+Processing `<Sound Name='generic6' ID='{84A6A5AC-116E-47E7-BD05-4E5C453DB251}'>`
+Processing `<Sound Name='generic7' ID='{64C081C4-9257-4E93-B456-063FBAE73B7D}'>`
+Processing `<Sound Name='generic8' ID='{5155D2BB-A5EF-4366-BCB2-F958C9359DC0}'>`
+Processing `<Sound Name='generic9' ID='{2217FF74-EA64-474A-8610-6BA278B7E70D}'>`
+Processing `<Sound Name='generic10' ID='{C99730CB-878B-4F8A-8D01-0BD3952D1167}'>`
+Processing `<Sound Name='generic11' ID='{59D02055-83A6-43C3-AB3C-EDD088DEBD86}'>`
+Processing `<Sound Name='generic12' ID='{53EB6F3D-E445-43DB-B794-5DDE3A661258}'>`
+Processing `<Sound Name='generic13' ID='{361674C8-1C93-4862-A4A4-27005DB9B545}'>`
+Processing `<Sound Name='generic14' ID='{71B06A39-5CEA-4CC2-9CFB-23C9C538612A}'>`
+Processing `<Sound Name='generic15' ID='{63FBDFAD-9528-4C34-80F5-F84C8803C613}'>`
+Processing `<Sound Name='generic16' ID='{07AF6859-4B17-492C-A4FB-18E2140D2601}'>`
+Processing `<Sound Name='generic17' ID='{DF74647D-EF19-4E4A-827C-B4C64E0553E9}'>`
+Processing `<Sound Name='generic18' ID='{34926957-BB62-49F1-BB12-FE9B886E9D51}'>`
+Processing `<Sound Name='generic19' ID='{44782C37-A84E-41EB-AE92-1D9FC8E6F23F}'>`
+Processing `<Sound Name='generic20' ID='{3C08EF29-C3C2-44E7-AC75-B5615DE3419B}'>`
+Processing `<Sound Name='generic21' ID='{3AB57BE4-7FAA-4A1F-B844-D7DC795BF886}'>`
+Processing `<Sound Name='generic22' ID='{1F2AB9B3-157B-45B0-90AD-3440B52DB922}'>`
+Processing `<Sound Name='generic23' ID='{DC2387B6-D591-43A6-81D6-A047FED46253}'>`
+Processing `<Sound Name='generic24' ID='{8241262B-701B-4D97-AE12-3D0599EFEF3D}'>`
+Processing `<Sound Name='generic25' ID='{E80D4F56-59B9-4D21-8846-2D17D46AE6C7}'>`
+Processing `<Sound Name='generic26' ID='{C5CFA512-EE8A-4F25-9C9F-75FECD173415}'>`
+Processing `<Sound Name='generic27' ID='{A467B54C-54BD-4513-9A66-8F92D4DC5961}'>`
+Processing `<Sound Name='generic28' ID='{F3D9165B-14B2-47DC-A6FE-44B370BD9CC0}'>`
+Processing `<Sound Name='generic29' ID='{6E2EC0CC-61E7-4AC0-863D-4E9C541C4EED}'>`
+Processing `<Sound Name='generic30' ID='{6F71D827-10E7-49A0-BBF5-393A2C39D9E4}'>`
+Extracted `144` audio objects
+Extracting event objects from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\Events\mod_events.wwu`
+Processing `<WorkUnit Name='ghost_weapon_mod' ID='{D865C73F-3B7C-48FA-BDCE-699EEE73B026}'>`
+Processing `<Event Name='Play_mod_fire1' ID='{0D0F0AC9-0C95-484D-A1DE-9EC82DF98202}'>`
+Processing `<Event Name='Play_mod_fire2' ID='{08EA2798-EAF7-4A63-BD28-248FCE9FEEEC}'>`
+Processing `<Event Name='Play_mod_fire4' ID='{101EDACF-5453-462F-AFE6-DCEF098B3253}'>`
+Processing `<Event Name='Play_mod_fire3' ID='{A52A21CF-52C9-4786-B246-00A86EF3E180}'>`
+Processing `<Event Name='Play_mod2_fire2' ID='{4B810491-5F11-4E8F-BD89-CF3E5287A997}'>`
+Processing `<Event Name='Play_mod2_fire1' ID='{26B591E7-76C3-4A77-872F-030688D91D2B}'>`
+Processing `<Event Name='Play_mod2_fire4' ID='{0FA52108-4A12-4303-B90D-EDAA5B265374}'>`
+Processing `<Event Name='Play_mod2_fire3' ID='{B47A5E7F-8349-45A5-B2C0-90F3BBBE68A5}'>`
+Processing `<Event Name='Play_mod3_fire4' ID='{0E3C40E0-724B-4D9A-97D1-231F7532F88A}'>`
+Processing `<Event Name='Play_mod3_fire1' ID='{DFB4FE84-7A79-45A8-AAC7-08FB76A43384}'>`
+Processing `<Event Name='Play_mod3_fire2' ID='{71AD01EA-9132-43EA-A55F-6249B46E942C}'>`
+Processing `<Event Name='Play_mod3_fire3' ID='{26221271-3AA1-4377-845E-8D569722B2CB}'>`
+Processing `<WorkUnit Name='ghost_fodder_mod' ID='{B097B8DE-4C1D-44B5-908A-4CB698CD00DF}'>`
+Processing `<Event Name='Play_foddermod2' ID='{69E3BBD0-8CB5-4271-9D2C-4535F734FD80}'>`
+Processing `<Event Name='Play_foddermod3' ID='{64ECD5B7-9F81-4567-B820-7673195764EA}'>`
+Processing `<Event Name='Play_foddermod1' ID='{6BF56033-A559-4E40-AA4B-5D9C005B8B24}'>`
+Processing `<Event Name='Play_fodder2mod3' ID='{5AC80B69-61D9-40D9-9FFE-D199B5F57F78}'>`
+Processing `<Event Name='Play_fodder3mod1' ID='{955ED284-6AAB-4065-8D0B-0FA912BEDFA3}'>`
+Processing `<Event Name='Play_fodder2mod1' ID='{59014F0B-DE15-4D0B-9320-490B5554E249}'>`
+Processing `<Event Name='Play_fodder3mod3' ID='{9B8587B6-C701-4C23-A8D8-5D981C595A2A}'>`
+Processing `<Event Name='Play_fodder3mod2' ID='{351CC730-4D5A-4179-965E-3DCA474CC0A4}'>`
+Processing `<Event Name='Play_fodder2mod2' ID='{85070F0D-9AEC-4B6F-9348-A48ACCA37D42}'>`
+Processing `<WorkUnit Name='ghost_ambience_mod' ID='{B1313A0C-24A0-482A-8AD3-0EFEE18564DF}'>`
+Processing `<Event Name='Play_ambience2' ID='{961B8549-AF60-4DE7-BD26-FBD8B7E52314}'>`
+Processing `<Event Name='Play_ambience3' ID='{5B6A40F9-646D-4E65-B2CE-CC65E3B56AA4}'>`
+Processing `<Event Name='Play_ambience4' ID='{D6D79373-D057-4A04-9E72-85DFF2E92DDD}'>`
+Processing `<Event Name='Play_ambience1' ID='{68DB4304-C42F-4C81-8856-020F1F838D0E}'>`
+Processing `<Event Name='Play_ambience16' ID='{3EE722B3-958A-445D-9013-040E29B11FDC}'>`
+Processing `<Event Name='Play_ambience20' ID='{C7109D2C-D40F-406F-99A4-EC92885432A0}'>`
+Processing `<Event Name='Play_ambience18' ID='{3574CCFF-1124-4BB2-B905-8428C3EFF3AE}'>`
+Processing `<Event Name='Play_ambience19' ID='{C752A342-A20C-4663-8DD1-B897AB2BC2A1}'>`
+Processing `<Event Name='Play_ambience15' ID='{FD96436D-A1FD-4655-A8B5-33BEF2A47D53}'>`
+Processing `<Event Name='Play_ambience17' ID='{0F22144B-1B91-4DD6-A1A6-A89836A7908F}'>`
+Processing `<Event Name='Play_ambience11' ID='{C6E3CF7E-DCD0-48A0-8580-8CF9D06B4DDE}'>`
+Processing `<Event Name='Play_ambience8' ID='{D9F393B2-B2F8-4A1A-AD2F-5939032DFD0F}'>`
+Processing `<Event Name='Play_ambience12' ID='{10323D31-A4B9-4E9D-B9DB-76FE7BD9E93A}'>`
+Processing `<Event Name='Play_ambience6' ID='{CAB9B369-6B57-4E1A-99A8-29064D4AE09D}'>`
+Processing `<Event Name='Play_ambience5' ID='{3EBDB3D3-E235-4008-A08D-4F2F89E74A68}'>`
+Processing `<Event Name='Play_ambience9' ID='{9F84B1CF-2332-4447-9B84-50A3950FBBB6}'>`
+Processing `<Event Name='Play_ambience13' ID='{0AAD0950-52CE-4055-9084-AD6BB03F2DCC}'>`
+Processing `<Event Name='Play_ambience7' ID='{53ADCAF1-54A4-4A7D-B54B-B1727CEE6614}'>`
+Processing `<Event Name='Play_ambience10' ID='{CC2E8203-7E0A-48BB-BA8D-F4163E25ED31}'>`
+Processing `<Event Name='Play_ambience14' ID='{B9BAC674-4B6A-4870-A19D-E1378BB3B910}'>`
 Processing `<WorkUnit Name='ghost_generic_mod' ID='{FA8E32C8-1B66-42CE-ADFD-EC21871D8E02}'>`
+Processing `<Event Name='Play_generic23' ID='{9A4574AD-C895-47E3-844E-B69B679137E7}'>`
+Processing `<Event Name='Play_generic22' ID='{BDD8A199-9CC1-420B-AC42-6BAD4BD9EFBA}'>`
+Processing `<Event Name='Play_generic21' ID='{722777B2-A4A3-447B-8EB7-345EA9A5DE3C}'>`
+Processing `<Event Name='Play_generic25' ID='{52927450-E53C-4128-AC74-04B3D2385AF2}'>`
+Processing `<Event Name='Play_generic26' ID='{FB88B8AF-72F7-471F-A9AF-765AE83E5DBA}'>`
+Processing `<Event Name='Play_generic28' ID='{49AB1FF0-019C-4CD6-BD89-4B730BD294B3}'>`
+Processing `<Event Name='Play_generic29' ID='{67FE6E6A-DA9C-4E06-84D2-999C63CAA5E2}'>`
+Processing `<Event Name='Play_generic30' ID='{85F0947C-C9DA-4093-A841-DF290DD229D0}'>`
+Processing `<Event Name='Play_generic24' ID='{28D5335C-0148-4CE4-BB35-F2D6AE7F6499}'>`
+Processing `<Event Name='Play_generic27' ID='{04D7175D-A142-4011-A19F-B1D52863F8D8}'>`
+Processing `<Event Name='Play_generic15' ID='{D5B961BB-50F5-4ED5-8685-E639D42FBAD6}'>`
+Processing `<Event Name='Play_generic12' ID='{9F288D22-973B-410D-8388-F424B9D246B8}'>`
+Processing `<Event Name='Play_generic13' ID='{D179D006-3D03-42A1-B82B-A7F1CC9AFA71}'>`
+Processing `<Event Name='Play_generic14' ID='{910924ED-0942-43CC-921D-FBA3B27350CC}'>`
+Processing `<Event Name='Play_generic19' ID='{9FFFF9F5-1246-45C2-9272-575CC57BC252}'>`
+Processing `<Event Name='Play_generic11' ID='{806F6346-4E43-49BB-AA26-BE0503D69015}'>`
+Processing `<Event Name='Play_generic16' ID='{9843DA77-E6AC-4BF0-B8F2-6D28F1809621}'>`
+Processing `<Event Name='Play_generic17' ID='{C288B28D-C08E-4420-8615-5424D7E7096C}'>`
+Processing `<Event Name='Play_generic18' ID='{92AE0785-17DD-4F89-9A44-C934AB8F930B}'>`
+Processing `<Event Name='Play_generic20' ID='{35159566-390F-40C1-BE2D-C57B8B2BFB7B}'>`
 Processing `<Event Name='Play_generic3' ID='{CF839B38-A76D-4554-924E-F3B3F6812075}'>`
+Processing `<Event Name='Play_generic5' ID='{B850E189-2113-4594-85C2-904F9D0CB03C}'>`
 Processing `<Event Name='Play_generic1' ID='{2B494D31-3D02-4C39-BEF6-CB9889E9EE32}'>`
+Processing `<Event Name='Play_generic7' ID='{7AF05991-C5CB-4B98-881F-E8A7C1807E0E}'>`
+Processing `<Event Name='Play_generic8' ID='{B4793DA5-1DA2-4797-B74A-12D10F17D104}'>`
+Processing `<Event Name='Play_generic4' ID='{1D5C19A6-AFAD-484F-A909-5DC09F3202F1}'>`
 Processing `<Event Name='Play_generic2' ID='{7DD32D72-1E1C-426C-9B6D-6E1BC2B3F52F}'>`
-Processing `<WorkUnit Name='ghost_vo_mod' ID='{22E6D92B-69F1-42E6-958B-9BA899648253}'>`
-Processing `<Event Name='Play_vo_4TH_PRIEST__Look_who_it_is' ID='{0B3B1632-67B9-4D14-844C-FE9496F2F1A1}'>`
-Processing `<Event Name='Stop_vo_4TH_PRIEST__Look_who_it_is' ID='{937547C3-3AEC-44F1-BA63-E5C5296E0F7F}'>`
-Processing `<Event Name='Play_vo_4TH_PRIEST__Here_to_lecture_us' ID='{50056285-754A-437B-BC59-E30A874BE564}'>`
-Extracted `6` event objects
+Processing `<Event Name='Play_generic6' ID='{3B33FCD8-372B-40B2-BA4B-19736E19A3BD}'>`
+Processing `<Event Name='Play_generic9' ID='{D530E669-D243-449E-93CA-E9B1DFBFBB67}'>`
+Processing `<Event Name='Play_generic10' ID='{3F1095B9-05AA-4496-865C-94228E5BBBF7}'>`
+Extracted `71` event objects
 Patching sound metadata
-Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\..\ModWavs\generic\generic3.wav`
-Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\..\ModWavs\generic\generic1.wav`
-Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Custom\ModsWwise\..\ModWavs\generic\generic2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp1.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp3.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp4.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp5.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp6.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp10.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp11.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp12.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp7.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp8.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\modp9.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p4.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p5.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p6.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p1.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p3.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p10.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p11.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p12.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p7.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p8.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod2p9.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p10.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p11.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p12.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p1.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p3.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p4.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p5.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p6.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p7.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p8.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\weapons\mod3p9.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm4.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm5.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm6.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm7.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm8.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm9.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm1.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodderm3.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m7.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m8.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m9.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m1.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m3.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m1.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m3.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m7.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m8.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m9.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m4.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m5.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder3m6.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m4.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m5.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\fodder\fodder2m6.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience3.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience4.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience1.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience16.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience20.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience18.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience19.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience15.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience17.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience11.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience8.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience12.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience6.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience5.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience9.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience13.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience7.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience10.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\ambience\ambience14.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic23.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic22.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic21.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic25.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic26.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic28.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic29.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic30.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic24.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic27.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic15.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic12.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic13.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic14.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic19.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic11.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic16.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic17.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic18.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic20.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic3.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic5.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic1.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic7.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic8.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic4.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic2.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic6.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic9.wav`
+Reading WAV meta information from `{TestDeploymentDir}\AppTests\TestDebugOutput\Wwise\Default\ModsWwise\..\ModWavs\generic\generic10.wav`
+Applying sound container fix
 Creating backup `{TestDeploymentDir}\AppTests\TestDebugOutput\Mod\Default\base\sound\soundbanks\pc\soundmetadata.bin.bak1`
 Writing soundmetadata file `{TestDeploymentDir}\AppTests\TestDebugOutput\Mod\Default\base\sound\soundbanks\pc\soundmetadata.bin`
 Writing `4` bytes of header data
@@ -44524,8 +45139,8 @@ Writing `938` bytes of Aux Bus data
 Writing `1669` bytes of RTPC data
 Writing `888` bytes of switch group data
 Writing `3082` bytes of state group data
-Writing `459` object path parts
-Writing `5832` sound events
+Writing `461` object path parts
+Writing `5897` sound events
 Writing `2920` bytes of event prefetch data
-Wrote `618879` bytes
+Wrote `626460` bytes
 Patching complete

@@ -1,11 +1,13 @@
 ﻿Running EternalSoundMetadataPatcher v0.1.0.0 on
 	idStudio mod directory: {TestDeploymentDir}\AppTests\TestDefaultOutput\Mod\Default
-	Wwise project directory: {TestDeploymentDir}\AppTests\TestDefaultOutput\Wwise\Custom\ModsWwise
+	Wwise project directory: {TestDeploymentDir}\AppTests\TestDefaultOutput\Wwise\Default\ModsWwise
+	Apply sound container fix: yes
 Processing soundbanks info file `{TestDeploymentDir}\AppTests\TestDefaultOutput\Mod\Default\base\sound\soundbanks\SoundbanksInfo.xml`
 Processing soundmetadata file `{TestDeploymentDir}\AppTests\TestDefaultOutput\Mod\Default\base\sound\soundbanks\pc\soundmetadata.bin`
-Processing Wwise project at `{TestDeploymentDir}\AppTests\TestDefaultOutput\Wwise\Custom\ModsWwise`
-Processing soundbanks info file `{TestDeploymentDir}\AppTests\TestDefaultOutput\Wwise\Custom\ModsWwise\GeneratedSoundBanks\Windows\SoundbanksInfo.xml`
+Processing Wwise project at `{TestDeploymentDir}\AppTests\TestDefaultOutput\Wwise\Default\ModsWwise`
+Processing soundbanks info file `{TestDeploymentDir}\AppTests\TestDefaultOutput\Wwise\Default\ModsWwise\GeneratedSoundBanks\Windows\SoundbanksInfo.xml`
 Patching sound metadata
+Applying sound container fix
 Creating backup `{TestDeploymentDir}\AppTests\TestDefaultOutput\Mod\Default\base\sound\soundbanks\pc\soundmetadata.bin.bak1`
 Writing soundmetadata file `{TestDeploymentDir}\AppTests\TestDefaultOutput\Mod\Default\base\sound\soundbanks\pc\soundmetadata.bin`
 Patching complete

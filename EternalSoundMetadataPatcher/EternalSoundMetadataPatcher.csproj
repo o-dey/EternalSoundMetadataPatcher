@@ -52,6 +52,7 @@
     <Compile Include="App.cs" />
     <Compile Include="ConsoleIO\Output.cs" />
     <Compile Include="Metadata\Exceptions.cs" />
+    <Compile Include="Metadata\Fixes\SoundMetadataFixes.cs" />
     <Compile Include="Metadata\SoundContainer.cs" />
     <Compile Include="Metadata\SoundContainerPart.cs" />
     <Compile Include="Metadata\SoundEvent.cs" />

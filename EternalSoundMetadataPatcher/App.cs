@@ -19,6 +19,7 @@ namespace EternalSoundMetadataPatcher
 
             bool showHelp = false;
             int backupsValue = 10;
+            bool applySoundContainerFix = true;
 
             Output.Level = OutputLevel.Normal;
 
@@ -58,6 +59,10 @@ namespace EternalSoundMetadataPatcher
                         Output.Level = OutputLevel.Debug;
                         break;
 
+                    case "-no-snd-fix":
+                        applySoundContainerFix = false;
+                        break;
+
                     default:
                         positionalArgs.Add(args[i]);
                         break;
@@ -67,7 +72,7 @@ namespace EternalSoundMetadataPatcher
             if (positionalArgs.Count < 2 || showHelp)
             {
                 Output.Information(
-                    $"Usage: {assemblyName.Name} [-h] [-b] [-v] [-d] " +
+                    $"Usage: {assemblyName.Name} [-h] [-b] [-v] [-d] [-no-snd-fix] " +
                     "<path to idstudio mod directory> <path to Wwise project directory>",
                     2
                 );
@@ -79,6 +84,7 @@ namespace EternalSoundMetadataPatcher
                 );
                 Output.Information("\t-v\tShow verbose output.");
                 Output.Information("\t-d\tShow debug level output.");
+                Output.Information("\t-no-snd-fix\tDisable sound container fix.");
 
                 return 0;
             }
@@ -103,8 +109,9 @@ namespace EternalSoundMetadataPatcher
             Output.Information($"Running {assemblyName.Name} v{assemblyName.Version} on");
             Output.Information($"\tidStudio mod directory: {idStudioModDirectory}");
             Output.Information($"\tWwise project directory: {wwiseDirectory}");
+            Output.Information($"\tApply sound container fix: {(applySoundContainerFix ? "yes" : "no")}");
 
-            Patcher.Patch(idStudioModDirectory, wwiseDirectory, strategy);
+            Patcher.Patch(idStudioModDirectory, wwiseDirectory, strategy, applySoundContainerFix);
 
             return 0;
         }

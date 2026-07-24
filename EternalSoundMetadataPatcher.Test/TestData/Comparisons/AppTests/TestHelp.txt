@@ -1,4 +1,4 @@
-﻿Usage: EternalSoundMetadataPatcher [-h] [-b] [-v] [-d] <path to idstudio mod directory> <path to Wwise project directory>
+﻿Usage: EternalSoundMetadataPatcher [-h] [-b] [-v] [-d] [-no-snd-fix] <path to idstudio mod directory> <path to Wwise project directory>
 
 Options:
 	-h	Display this help.
@@ -6,3 +6,4 @@ Options:
 		>= 1 to define the maximum number of backups (when the limit is reached, backup names will rotate).
 	-v	Show verbose output.
 	-d	Show debug level output.
+	-no-snd-fix	Disable sound container fix.

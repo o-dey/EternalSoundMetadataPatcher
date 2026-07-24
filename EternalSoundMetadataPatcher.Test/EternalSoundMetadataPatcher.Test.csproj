@@ -80,6 +80,12 @@
     <Content Include="TestData\Comparisons\AppTests\TestVerboseOutput.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestWithoutSoundContainerFixOutput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestWithSoundContainerFixOutput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="TestData\Mod\Default\base\sound\soundbanks\SoundbanksInfo.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -172,6 +178,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="TestData\Mod\Default\base\sound\soundbanks\pc\soundmetadata.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestWithSoundContainerFixOriginalMetadata.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestWithSoundContainerFixWrittenMetadata.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestWithoutSoundContainerFixOriginalMetadata.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Comparisons\AppTests\TestWithoutSoundContainerFixWrittenMetadata.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
