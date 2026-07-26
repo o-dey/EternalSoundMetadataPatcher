@@ -1,4 +1,4 @@
-﻿Running EternalSoundMetadataPatcher v0.1.0.0 on
+﻿Running EternalSoundMetadataPatcher v{AssemblyVersion} on
 	idStudio mod directory: {TestDeploymentDir}\AppTests\TestDefaultOutput\Mod\Default
 	Wwise project directory: {TestDeploymentDir}\AppTests\TestDefaultOutput\Wwise\Default\ModsWwise
 	Apply sound container fix: yes

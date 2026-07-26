@@ -5,6 +5,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Threading;
 
 namespace EternalSoundMetadataPatcher.Test
 {
@@ -182,6 +184,7 @@ namespace EternalSoundMetadataPatcher.Test
             var expected =
                 File
                 .ReadAllText(@"Comparisons\AppTests\TestDefaultOutput.txt")
+                .Replace("{AssemblyVersion}", typeof(App).Assembly.GetName().Version.ToString())
                 .Replace("{TestDeploymentDir}", TestContext.TestDeploymentDir);
 
             StringAssertion.AreEqualNormalized(expected, writer.ToString());
@@ -206,6 +209,7 @@ namespace EternalSoundMetadataPatcher.Test
             var expected =
                 File
                 .ReadAllText(@"Comparisons\AppTests\TestVerboseOutput.txt")
+                .Replace("{AssemblyVersion}", typeof(App).Assembly.GetName().Version.ToString())
                 .Replace("{TestDeploymentDir}", TestContext.TestDeploymentDir);
 
             StringAssertion.AreEqualNormalized(expected, writer.ToString());
@@ -230,6 +234,7 @@ namespace EternalSoundMetadataPatcher.Test
             var expected =
                 File
                 .ReadAllText(@"Comparisons\AppTests\TestDebugOutput.txt")
+                .Replace("{AssemblyVersion}", typeof(App).Assembly.GetName().Version.ToString())
                 .Replace("{TestDeploymentDir}", TestContext.TestDeploymentDir);
 
             StringAssertion.AreEqualNormalized(expected, writer.ToString());
@@ -256,6 +261,7 @@ namespace EternalSoundMetadataPatcher.Test
             var expected =
                 File
                 .ReadAllText(@"Comparisons\AppTests\TestWithSoundContainerFixOutput.txt")
+                .Replace("{AssemblyVersion}", typeof(App).Assembly.GetName().Version.ToString())
                 .Replace("{TestDeploymentDir}", TestContext.TestDeploymentDir);
 
             StringAssertion.AreEqualNormalized(expected, writer.ToString());
@@ -321,6 +327,7 @@ namespace EternalSoundMetadataPatcher.Test
             var expected =
                 File
                 .ReadAllText(@"Comparisons\AppTests\TestWithoutSoundContainerFixOutput.txt")
+                .Replace("{AssemblyVersion}", typeof(App).Assembly.GetName().Version.ToString())
                 .Replace("{TestDeploymentDir}", TestContext.TestDeploymentDir);
 
             StringAssertion.AreEqualNormalized(expected, writer.ToString());
